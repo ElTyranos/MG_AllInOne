@@ -32,7 +32,7 @@ class haxey_MSV_EMR_Infantry_CompCom: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -61,7 +61,7 @@ class haxey_MSV_EMR_Infantry_1stSerg: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -78,7 +78,7 @@ class haxey_MSV_EMR_Infantry_1stSerg: O_Soldier_SL_F
 class haxey_MSV_EMR_Infantry_PL: haxey_MSV_EMR_Infantry_1stSerg
 {
 	_generalMacro = "haxey_MSV_EMR_Infantry_PL";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	magazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
@@ -105,7 +105,7 @@ class haxey_MSV_EMR_Infantry_TL: O_Soldier_TL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -129,7 +129,7 @@ class haxey_MSV_EMR_Infantry_heli: O_helicrew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -153,7 +153,7 @@ class haxey_MSV_EMR_Infantry_crew: O_crew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Crew";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -177,7 +177,7 @@ class haxey_MSV_EMR_Infantry_AR: O_soldier_AR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -201,7 +201,7 @@ class haxey_MSV_EMR_Infantry_exp: O_soldier_exp_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -225,7 +225,7 @@ class haxey_MSV_EMR_Infantry_medic: O_medic_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -249,7 +249,7 @@ class haxey_MSV_EMR_Infantry_GL: O_Soldier_GL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -273,7 +273,7 @@ class haxey_MSV_EMR_Infantry_AT: O_soldier_LAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -297,7 +297,7 @@ class haxey_MSV_EMR_Infantry_M: O_soldier_M_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -321,7 +321,7 @@ class haxey_MSV_EMR_Infantry_SAT: O_soldier_AT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-tank specialist";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -345,7 +345,7 @@ class haxey_MSV_EMR_Infantry_ASAT: O_soldier_AAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Assistant anti-tank specialist";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -369,7 +369,7 @@ class haxey_MSV_EMR_Infantry_Spotter: O_spotter_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -393,7 +393,7 @@ class haxey_MSV_EMR_Infantry_Sniper: O_sniper_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Sniper";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -417,7 +417,7 @@ class haxey_MSV_EMR_Infantry_HG: O_HeavyGunner_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -441,7 +441,7 @@ class haxey_MSV_EMR_Infantry_AHG: O_soldier_AAR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner assistant";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -465,7 +465,7 @@ class haxey_MSV_EMR_Infantry_AB: O_Soldier_A_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Ammo Bearer";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -489,7 +489,7 @@ class haxey_MSV_EMR_Infantry_SAA: O_soldier_AA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -513,7 +513,7 @@ class haxey_MSV_EMR_Infantry_ASAA: O_soldier_AAA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -537,7 +537,7 @@ class haxey_MSV_EMR_Infantry_rflm: O_soldier_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -561,7 +561,7 @@ class haxey_MSV_EMR_Infantry_lite_rflm: O_Soldier_lite_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -585,7 +585,7 @@ class haxey_MSV_EMR_Infantry_Mort: O_support_Mort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -609,7 +609,7 @@ class haxey_MSV_EMR_Infantry_AMort: O_support_AMort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	uniformClass = "rhs_uniform_msv_emr";
 	faceType = "Man_A3";
@@ -826,7 +826,7 @@ class haxey_MSV_EMR_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ MSV";
 	crew = "";
 	class TransportItems
@@ -923,7 +923,7 @@ class haxey_MSV_EMR_RHS_tigr_msv: rhs_tigr_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ Tigr MSV";
 	crew = "";
 	class TransportItems
@@ -1020,7 +1020,7 @@ class haxey_MSV_EMR_RHS_gaz66_msv: rhs_gaz66_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ-66 MSV";
 	crew = "";
 	class TransportItems
@@ -1117,7 +1117,7 @@ class haxey_MSV_EMR_RHS_uaz_open_MSV_01: rhs_uaz_open_MSV_01
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ MSV (open)";
 	crew = "";
 	class TransportItems
@@ -1194,7 +1194,7 @@ class haxey_MSV_EMR_RHS_btr80_msv: rhs_btr80_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80 MSV";
 	crew = "";
 	class TransportItems
@@ -1291,7 +1291,7 @@ class haxey_MSV_EMR_RHS_btr80a_msv: rhs_btr80a_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80A MSV";
 	crew = "";
 	class TransportItems
@@ -1399,7 +1399,7 @@ class haxey_MSV_EMR_RHS_bmp1k_msv: rhs_bmp1k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1K";
 	crew = "";
 	class TransportItems
@@ -1496,7 +1496,7 @@ class haxey_MSV_EMR_RHS_bmp2k_msv: rhs_bmp2k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2K";
 	crew = "";
 	class TransportItems
@@ -1593,7 +1593,7 @@ class haxey_MSV_EMR_RHS_brm1k_msv: rhs_brm1k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BRM-1K";
 	crew = "";
 	class TransportItems
@@ -1690,7 +1690,7 @@ class haxey_MSV_EMR_RHS_prp3_msv: rhs_prp3_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "PRP-3";
 	crew = "";
 	class TransportItems
@@ -1787,7 +1787,7 @@ class haxey_MSV_EMR_RHS_bmp1d_msv: rhs_bmp1d_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1D";
 	crew = "";
 	class TransportItems
@@ -1884,7 +1884,7 @@ class haxey_MSV_EMR_RHS_bmp1p_msv: rhs_bmp1p_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1P";
 	crew = "";
 	class TransportItems
@@ -1981,7 +1981,7 @@ class haxey_MSV_EMR_RHS_bmp2_msv: rhs_bmp2_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2";
 	crew = "";
 	class TransportItems
@@ -2078,7 +2078,7 @@ class haxey_MSV_EMR_RHS_bmp2d_msv: rhs_bmp2d_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2D";
 	crew = "";
 	class TransportItems
@@ -2175,7 +2175,7 @@ class haxey_MSV_EMR_RHS_bmp3_late_msv: rhs_bmp3_late_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3";
 	crew = "";
 	class TransportItems
@@ -2272,7 +2272,7 @@ class haxey_MSV_EMR_RHS_bmp3m_msv: rhs_bmp3m_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3M";
 	crew = "";
 	class TransportItems
@@ -2369,7 +2369,7 @@ class haxey_MSV_EMR_RHS_bmp3mera_msv: rhs_bmp3mera_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3M (Kaktus ERA)";
 	crew = "";
 	class TransportItems
@@ -2475,7 +2475,7 @@ class haxey_MSV_EMR_RHS_zsu234_aa: rhs_zsu234_aa
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "ZSU-23-4V";
 	crew = "";
 	class TransportItems
@@ -2542,7 +2542,7 @@ class haxey_MSV_EMR_RHS_t72bc_tv: rhs_t72bc_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-73B";
 	crew = "";
 	class TransportItems
@@ -2609,7 +2609,7 @@ class haxey_MSV_EMR_RHS_t72bd_tv: rhs_t72bd_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-72B3";
 	crew = "";
 	class TransportItems
@@ -2676,7 +2676,7 @@ class haxey_MSV_EMR_RHS_t80a: rhs_t80a
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80A";
 	crew = "";
 	class TransportItems
@@ -2743,7 +2743,7 @@ class haxey_MSV_EMR_RHS_t80bv: rhs_t80bv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80BV";
 	crew = "";
 	class TransportItems
@@ -2810,7 +2810,7 @@ class haxey_MSV_EMR_RHS_t80bvk: rhs_t80bvk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80BVK";
 	crew = "";
 	class TransportItems
@@ -2877,7 +2877,7 @@ class haxey_MSV_EMR_RHS_t80u: rhs_t80u
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80U";
 	crew = "";
 	class TransportItems
@@ -2944,7 +2944,7 @@ class haxey_MSV_EMR_RHS_t80uk: rhs_t80uk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80UK";
 	crew = "";
 	class TransportItems
@@ -3011,7 +3011,7 @@ class haxey_MSV_EMR_RHS_t90a_tv: rhs_t90a_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-90A";
 	crew = "";
 	class TransportItems
@@ -3086,7 +3086,7 @@ class haxey_MSV_EMR_RHS_Mi8mt_vvsc: RHS_Mi8mt_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MT";
 	crew = "";
 	class TransportItems
@@ -3178,7 +3178,7 @@ class haxey_MSV_EMR_RHS_ka60_grey: rhs_ka60_grey
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-60";
 	crew = "";
 	class TransportItems
@@ -3277,7 +3277,7 @@ class haxey_MSV_EMR_RHS_Mi8MTV3_UPK23_vvsc: RHS_Mi8MTV3_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MTV3 (UPK)";
 	crew = "";
 	class TransportItems
@@ -3376,7 +3376,7 @@ class haxey_MSV_EMR_RHS_Mi24Vt_vvs: RHS_Mi24Vt_vvs
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24VT";
 	crew = "";
 	class TransportItems
@@ -3443,7 +3443,7 @@ class haxey_MSV_EMR_RHS_Mi24P_AT_vvsc: RHS_Mi24P_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24P (AT)";
 	crew = "";
 	class TransportItems
@@ -3542,7 +3542,7 @@ class haxey_MSV_EMR_RHS_Mi24V_UPK23_vvsc: RHS_Mi24V_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (UPK))";
 	crew = "";
 	class TransportItems
@@ -3641,7 +3641,7 @@ class haxey_MSV_EMR_RHS_Mi24V_AT_vvsc: RHS_Mi24V_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (AT)";
 	crew = "";
 	class TransportItems
@@ -3708,7 +3708,7 @@ class haxey_MSV_EMR_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_EMR";
-	vehicleClass = "haxey_MSV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-52 (UPK)";
 	crew = "";
 	class TransportItems
@@ -3778,7 +3778,7 @@ class haxey_MSV_Flora_Infantry_CompCom: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3802,7 +3802,7 @@ class haxey_MSV_Flora_Infantry_DeputyOff: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Deputy officer";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3826,7 +3826,7 @@ class haxey_MSV_Flora_Infantry_1stSerg: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3850,7 +3850,7 @@ class haxey_MSV_Flora_Infantry_PL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3874,7 +3874,7 @@ class haxey_MSV_Flora_Infantry_APL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Assistant Platoon Leader";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3898,7 +3898,7 @@ class haxey_MSV_Flora_Infantry_SL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3922,7 +3922,7 @@ class haxey_MSV_Flora_Infantry_TL: O_Soldier_TL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3946,7 +3946,7 @@ class haxey_MSV_Flora_Infantry_heli: O_helicrew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3970,7 +3970,7 @@ class haxey_MSV_Flora_Infantry_crew: O_crew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Crew";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -3994,7 +3994,7 @@ class haxey_MSV_Flora_Infantry_AR: O_soldier_AR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4018,7 +4018,7 @@ class haxey_MSV_Flora_Infantry_exp: O_soldier_exp_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4042,7 +4042,7 @@ class haxey_MSV_Flora_Infantry_medic: O_medic_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4066,7 +4066,7 @@ class haxey_MSV_Flora_Infantry_GL: O_Soldier_GL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4090,7 +4090,7 @@ class haxey_MSV_Flora_Infantry_AT: O_soldier_LAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4114,7 +4114,7 @@ class haxey_MSV_Flora_Infantry_M: O_soldier_M_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4138,7 +4138,7 @@ class haxey_MSV_Flora_Infantry_SAT: O_soldier_AT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-tank specialist";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4162,7 +4162,7 @@ class haxey_MSV_Flora_Infantry_ASAT: O_soldier_AAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Assistant anti-tank specialist";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4186,7 +4186,7 @@ class haxey_MSV_Flora_Infantry_Spotter: O_spotter_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4210,7 +4210,7 @@ class haxey_MSV_Flora_Infantry_Sniper: O_sniper_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Sniper";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4234,7 +4234,7 @@ class haxey_MSV_Flora_Infantry_HG: O_HeavyGunner_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4258,7 +4258,7 @@ class haxey_MSV_Flora_Infantry_AHG: O_soldier_AAR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner assistant";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4282,7 +4282,7 @@ class haxey_MSV_Flora_Infantry_AB: O_Soldier_A_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Ammo Bearer";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4306,7 +4306,7 @@ class haxey_MSV_Flora_Infantry_SAA: O_soldier_AA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4330,7 +4330,7 @@ class haxey_MSV_Flora_Infantry_ASAA: O_soldier_AAA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4354,7 +4354,7 @@ class haxey_MSV_Flora_Infantry_rflm: O_soldier_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4378,7 +4378,7 @@ class haxey_MSV_Flora_Infantry_lite_rflm: O_Soldier_lite_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4402,7 +4402,7 @@ class haxey_MSV_Flora_Infantry_Mort: O_support_Mort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4426,7 +4426,7 @@ class haxey_MSV_Flora_Infantry_AMort: O_support_AMort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	uniformClass = "rhs_uniform_flora";
 	faceType = "Man_A3";
@@ -4633,7 +4633,7 @@ class haxey_MSV_Flora_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ MSV";
 	crew = "";
 	class TransportItems
@@ -4730,7 +4730,7 @@ class haxey_MSV_Flora_RHS_tigr_msv: rhs_tigr_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ Tigr MSV";
 	crew = "";
 	class TransportItems
@@ -4827,7 +4827,7 @@ class haxey_MSV_Flora_RHS_gaz66_msv: rhs_gaz66_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ-66 MSV";
 	crew = "";
 	class TransportItems
@@ -4924,7 +4924,7 @@ class haxey_MSV_Flora_RHS_uaz_open_MSV_01: rhs_uaz_open_MSV_01
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ MSV (open)";
 	crew = "";
 	class TransportItems
@@ -5001,7 +5001,7 @@ class haxey_MSV_Flora_RHS_btr80_msv: rhs_btr80_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80 MSV";
 	crew = "";
 	class TransportItems
@@ -5098,7 +5098,7 @@ class haxey_MSV_Flora_RHS_btr80a_msv: rhs_btr80a_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80A MSV";
 	crew = "";
 	class TransportItems
@@ -5195,7 +5195,7 @@ class haxey_MSV_Flora_RHS_bmp1k_msv: rhs_bmp1k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1K";
 	crew = "";
 	class TransportItems
@@ -5292,7 +5292,7 @@ class haxey_MSV_Flora_RHS_bmp2k_msv: rhs_bmp2k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2K";
 	crew = "";
 	class TransportItems
@@ -5389,7 +5389,7 @@ class haxey_MSV_Flora_RHS_brm1k_msv: rhs_brm1k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BRM-1K";
 	crew = "";
 	class TransportItems
@@ -5486,7 +5486,7 @@ class haxey_MSV_Flora_RHS_prp3_msv: rhs_prp3_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "PRP-3";
 	crew = "";
 	class TransportItems
@@ -5583,7 +5583,7 @@ class haxey_MSV_Flora_RHS_bmp1d_msv: rhs_bmp1d_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1D";
 	crew = "";
 	class TransportItems
@@ -5680,7 +5680,7 @@ class haxey_MSV_Flora_RHS_bmp1p_msv: rhs_bmp1p_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1P";
 	crew = "";
 	class TransportItems
@@ -5777,7 +5777,7 @@ class haxey_MSV_Flora_RHS_bmp2_msv: rhs_bmp2_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2";
 	crew = "";
 	class TransportItems
@@ -5874,7 +5874,7 @@ class haxey_MSV_Flora_RHS_bmp2d_msv: rhs_bmp2d_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2D";
 	crew = "";
 	class TransportItems
@@ -5971,7 +5971,7 @@ class haxey_MSV_Flora_RHS_bmp3_late_msv: rhs_bmp3_late_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3";
 	crew = "";
 	class TransportItems
@@ -6068,7 +6068,7 @@ class haxey_MSV_Flora_RHS_bmp3m_msv: rhs_bmp3m_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3M";
 	crew = "";
 	class TransportItems
@@ -6165,7 +6165,7 @@ class haxey_MSV_Flora_RHS_bmp3mera_msv: rhs_bmp3mera_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3M (Kaktus ERA)";
 	crew = "";
 	class TransportItems
@@ -6262,7 +6262,7 @@ class haxey_MSV_Flora_RHS_zsu234_aa: rhs_zsu234_aa
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "ZSU-23-4V";
 	crew = "";
 	class TransportItems
@@ -6329,7 +6329,7 @@ class haxey_MSV_Flora_RHS_t72bc_tv: rhs_t72bc_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-73B";
 	crew = "";
 	class TransportItems
@@ -6396,7 +6396,7 @@ class haxey_MSV_Flora_RHS_t72bd_tv: rhs_t72bd_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-72B3";
 	crew = "";
 	class TransportItems
@@ -6463,7 +6463,7 @@ class haxey_MSV_Flora_RHS_t80a: rhs_t80a
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80A";
 	crew = "";
 	class TransportItems
@@ -6530,7 +6530,7 @@ class haxey_MSV_Flora_RHS_t80bv: rhs_t80bv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80BV";
 	crew = "";
 	class TransportItems
@@ -6597,7 +6597,7 @@ class haxey_MSV_Flora_RHS_t80bvk: rhs_t80bvk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80BVK";
 	crew = "";
 	class TransportItems
@@ -6664,7 +6664,7 @@ class haxey_MSV_Flora_RHS_t80u: rhs_t80u
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80U";
 	crew = "";
 	class TransportItems
@@ -6731,7 +6731,7 @@ class haxey_MSV_Flora_RHS_t80uk: rhs_t80uk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80UK";
 	crew = "";
 	class TransportItems
@@ -6798,7 +6798,7 @@ class haxey_MSV_Flora_RHS_t90a_tv: rhs_t90a_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-90A";
 	crew = "";
 	class TransportItems
@@ -6865,7 +6865,7 @@ class haxey_MSV_Flora_RHS_Mi8mt_vvsc: RHS_Mi8mt_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MT";
 	crew = "";
 	class TransportItems
@@ -6957,7 +6957,7 @@ class haxey_MSV_Flora_RHS_ka60_grey: rhs_ka60_grey
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-60";
 	crew = "";
 	class TransportItems
@@ -7056,7 +7056,7 @@ class haxey_MSV_Flora_RHS_Mi8MTV3_UPK23_vvsc: RHS_Mi8MTV3_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MTV3 (UPK)";
 	crew = "";
 	class TransportItems
@@ -7155,7 +7155,7 @@ class haxey_MSV_Flora_RHS_Mi24Vt_vvs: RHS_Mi24Vt_vvs
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24VT";
 	crew = "";
 	class TransportItems
@@ -7222,7 +7222,7 @@ class haxey_MSV_Flora_RHS_Mi24P_AT_vvsc: RHS_Mi24P_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24P (AT)";
 	crew = "";
 	class TransportItems
@@ -7321,7 +7321,7 @@ class haxey_MSV_Flora_RHS_Mi24V_UPK23_vvsc: RHS_Mi24V_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (UPK))";
 	crew = "";
 	class TransportItems
@@ -7420,7 +7420,7 @@ class haxey_MSV_Flora_RHS_Mi24V_AT_vvsc: RHS_Mi24V_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (AT)";
 	crew = "";
 	class TransportItems
@@ -7487,7 +7487,7 @@ class haxey_MSV_Flora_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_Flora";
-	vehicleClass = "haxey_MSV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-52 (UPK)";
 	crew = "";
 	class TransportItems
@@ -7557,7 +7557,7 @@ class haxey_MSV_M88_Infantry_CompCom: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7581,7 +7581,7 @@ class haxey_MSV_M88_Infantry_DeputyOff: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Deputy officer";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7605,7 +7605,7 @@ class haxey_MSV_M88_Infantry_1stSerg: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7629,7 +7629,7 @@ class haxey_MSV_M88_Infantry_PL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7653,7 +7653,7 @@ class haxey_MSV_M88_Infantry_APL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Assistant Platoon Leader";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7677,7 +7677,7 @@ class haxey_MSV_M88_Infantry_SL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7701,7 +7701,7 @@ class haxey_MSV_M88_Infantry_TL: O_Soldier_TL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7725,7 +7725,7 @@ class haxey_MSV_M88_Infantry_heli: O_helicrew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7749,7 +7749,7 @@ class haxey_MSV_M88_Infantry_crew: O_crew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Crew";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7773,7 +7773,7 @@ class haxey_MSV_M88_Infantry_AR: O_soldier_AR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7797,7 +7797,7 @@ class haxey_MSV_M88_Infantry_exp: O_soldier_exp_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7821,7 +7821,7 @@ class haxey_MSV_M88_Infantry_medic: O_medic_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7845,7 +7845,7 @@ class haxey_MSV_M88_Infantry_GL: O_Soldier_GL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7869,7 +7869,7 @@ class haxey_MSV_M88_Infantry_AT: O_soldier_LAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7893,7 +7893,7 @@ class haxey_MSV_M88_Infantry_M: O_soldier_M_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7917,7 +7917,7 @@ class haxey_MSV_M88_Infantry_SAT: O_soldier_AT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-tank specialist";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7941,7 +7941,7 @@ class haxey_MSV_M88_Infantry_ASAT: O_soldier_AAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Assistant anti-tank specialist";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7965,7 +7965,7 @@ class haxey_MSV_M88_Infantry_Spotter: O_spotter_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -7989,7 +7989,7 @@ class haxey_MSV_M88_Infantry_Sniper: O_sniper_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Sniper";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8013,7 +8013,7 @@ class haxey_MSV_M88_Infantry_HG: O_HeavyGunner_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8037,7 +8037,7 @@ class haxey_MSV_M88_Infantry_AHG: O_soldier_AAR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner assistant";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8061,7 +8061,7 @@ class haxey_MSV_M88_Infantry_AB: O_Soldier_A_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Ammo Bearer";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8085,7 +8085,7 @@ class haxey_MSV_M88_Infantry_SAA: O_soldier_AA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8109,7 +8109,7 @@ class haxey_MSV_M88_Infantry_ASAA: O_soldier_AAA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8133,7 +8133,7 @@ class haxey_MSV_M88_Infantry_rflm: O_soldier_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8157,7 +8157,7 @@ class haxey_MSV_M88_Infantry_lite_rflm: O_Soldier_lite_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8181,7 +8181,7 @@ class haxey_MSV_M88_Infantry_Mort: O_support_Mort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8205,7 +8205,7 @@ class haxey_MSV_M88_Infantry_AMort: O_support_AMort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	uniformClass = "rhs_uniform_m88_patchless";
 	faceType = "Man_A3";
@@ -8412,7 +8412,7 @@ class haxey_MSV_M88_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ MSV";
 	crew = "";
 	class TransportItems
@@ -8509,7 +8509,7 @@ class haxey_MSV_M88_RHS_tigr_msv: rhs_tigr_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ Tigr MSV";
 	crew = "";
 	class TransportItems
@@ -8606,7 +8606,7 @@ class haxey_MSV_M88_RHS_gaz66_msv: rhs_gaz66_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ-66 MSV";
 	crew = "";
 	class TransportItems
@@ -8703,7 +8703,7 @@ class haxey_MSV_M88_RHS_uaz_open_MSV_01: rhs_uaz_open_MSV_01
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ MSV (open)";
 	crew = "";
 	class TransportItems
@@ -8780,7 +8780,7 @@ class haxey_MSV_M88_RHS_btr80_msv: rhs_btr80_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80 MSV";
 	crew = "";
 	class TransportItems
@@ -8877,7 +8877,7 @@ class haxey_MSV_M88_RHS_btr80a_msv: rhs_btr80a_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80A MSV";
 	crew = "";
 	class TransportItems
@@ -8974,7 +8974,7 @@ class haxey_MSV_M88_RHS_bmp1k_msv: rhs_bmp1k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1K";
 	crew = "";
 	class TransportItems
@@ -9071,7 +9071,7 @@ class haxey_MSV_M88_RHS_bmp2k_msv: rhs_bmp2k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2K";
 	crew = "";
 	class TransportItems
@@ -9168,7 +9168,7 @@ class haxey_MSV_M88_RHS_brm1k_msv: rhs_brm1k_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BRM-1K";
 	crew = "";
 	class TransportItems
@@ -9265,7 +9265,7 @@ class haxey_MSV_M88_RHS_prp3_msv: rhs_prp3_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "PRP-3";
 	crew = "";
 	class TransportItems
@@ -9362,7 +9362,7 @@ class haxey_MSV_M88_RHS_bmp1d_msv: rhs_bmp1d_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1D";
 	crew = "";
 	class TransportItems
@@ -9459,7 +9459,7 @@ class haxey_MSV_M88_RHS_bmp1p_msv: rhs_bmp1p_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-1P";
 	crew = "";
 	class TransportItems
@@ -9556,7 +9556,7 @@ class haxey_MSV_M88_RHS_bmp2_msv: rhs_bmp2_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2";
 	crew = "";
 	class TransportItems
@@ -9653,7 +9653,7 @@ class haxey_MSV_M88_RHS_bmp2d_msv: rhs_bmp2d_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-2D";
 	crew = "";
 	class TransportItems
@@ -9750,7 +9750,7 @@ class haxey_MSV_M88_RHS_bmp3_late_msv: rhs_bmp3_late_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3";
 	crew = "";
 	class TransportItems
@@ -9847,7 +9847,7 @@ class haxey_MSV_M88_RHS_bmp3m_msv: rhs_bmp3m_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3M";
 	crew = "";
 	class TransportItems
@@ -9944,7 +9944,7 @@ class haxey_MSV_M88_RHS_bmp3mera_msv: rhs_bmp3mera_msv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMP-3M (Kaktus ERA)";
 	crew = "";
 	class TransportItems
@@ -10041,7 +10041,7 @@ class haxey_MSV_M88_RHS_zsu234_aa: rhs_zsu234_aa
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "ZSU-23-4V";
 	crew = "";
 	class TransportItems
@@ -10108,7 +10108,7 @@ class haxey_MSV_M88_RHS_t72bc_tv: rhs_t72bc_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-73B";
 	crew = "";
 	class TransportItems
@@ -10175,7 +10175,7 @@ class haxey_MSV_M88_RHS_t72bd_tv: rhs_t72bd_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-72B3";
 	crew = "";
 	class TransportItems
@@ -10242,7 +10242,7 @@ class haxey_MSV_M88_RHS_t80a: rhs_t80a
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80A";
 	crew = "";
 	class TransportItems
@@ -10309,7 +10309,7 @@ class haxey_MSV_M88_RHS_t80bv: rhs_t80bv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80BV";
 	crew = "";
 	class TransportItems
@@ -10376,7 +10376,7 @@ class haxey_MSV_M88_RHS_t80bvk: rhs_t80bvk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80BVK";
 	crew = "";
 	class TransportItems
@@ -10443,7 +10443,7 @@ class haxey_MSV_M88_RHS_t80u: rhs_t80u
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80U";
 	crew = "";
 	class TransportItems
@@ -10510,7 +10510,7 @@ class haxey_MSV_M88_RHS_t80uk: rhs_t80uk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-80UK";
 	crew = "";
 	class TransportItems
@@ -10577,7 +10577,7 @@ class haxey_MSV_M88_RHS_t90a_tv: rhs_t90a_tv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "T-90A";
 	crew = "";
 	class TransportItems
@@ -10644,7 +10644,7 @@ class haxey_MSV_M88_RHS_Mi8mt_vvsc: RHS_Mi8mt_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MT";
 	crew = "";
 	class TransportItems
@@ -10736,7 +10736,7 @@ class haxey_MSV_M88_RHS_ka60_grey: rhs_ka60_grey
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-60";
 	crew = "";
 	class TransportItems
@@ -10835,7 +10835,7 @@ class haxey_MSV_M88_RHS_Mi8MTV3_UPK23_vvsc: RHS_Mi8MTV3_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MTV3 (UPK)";
 	crew = "";
 	class TransportItems
@@ -10934,7 +10934,7 @@ class haxey_MSV_M88_RHS_Mi24Vt_vvs: RHS_Mi24Vt_vvs
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24VT";
 	crew = "";
 	class TransportItems
@@ -11001,7 +11001,7 @@ class haxey_MSV_M88_RHS_Mi24P_AT_vvsc: RHS_Mi24P_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24P (AT)";
 	crew = "";
 	class TransportItems
@@ -11100,7 +11100,7 @@ class haxey_MSV_M88_RHS_Mi24V_UPK23_vvsc: RHS_Mi24V_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (UPK))";
 	crew = "";
 	class TransportItems
@@ -11199,7 +11199,7 @@ class haxey_MSV_M88_RHS_Mi24V_AT_vvsc: RHS_Mi24V_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (AT)";
 	crew = "";
 	class TransportItems
@@ -11266,7 +11266,7 @@ class haxey_MSV_M88_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_MSV_M88";
-	vehicleClass = "haxey_MSV_M88_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-52 (UPK)";
 	crew = "";
 	class TransportItems
@@ -11351,7 +11351,7 @@ class haxey_VDV_EMR_Infantry_CompCom: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11375,7 +11375,7 @@ class haxey_VDV_EMR_Infantry_DeputyOff: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Deputy officer";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11399,7 +11399,7 @@ class haxey_VDV_EMR_Infantry_1stSerg: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11423,7 +11423,7 @@ class haxey_VDV_EMR_Infantry_PL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11447,7 +11447,7 @@ class haxey_VDV_EMR_Infantry_APL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Assistant Platoon Leader";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11471,7 +11471,7 @@ class haxey_VDV_EMR_Infantry_SL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11495,7 +11495,7 @@ class haxey_VDV_EMR_Infantry_TL: O_Soldier_TL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11519,7 +11519,7 @@ class haxey_VDV_EMR_Infantry_heli: O_helicrew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11543,7 +11543,7 @@ class haxey_VDV_EMR_Infantry_crew: O_crew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Crew";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11567,7 +11567,7 @@ class haxey_VDV_EMR_Infantry_AR: O_soldier_AR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11591,7 +11591,7 @@ class haxey_VDV_EMR_Infantry_exp: O_soldier_exp_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11615,7 +11615,7 @@ class haxey_VDV_EMR_Infantry_medic: O_medic_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11639,7 +11639,7 @@ class haxey_VDV_EMR_Infantry_GL: O_Soldier_GL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11663,7 +11663,7 @@ class haxey_VDV_EMR_Infantry_AT: O_soldier_LAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11687,7 +11687,7 @@ class haxey_VDV_EMR_Infantry_M: O_soldier_M_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11711,7 +11711,7 @@ class haxey_VDV_EMR_Infantry_SAT: O_soldier_AT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Anti-tank specialist";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11735,7 +11735,7 @@ class haxey_VDV_EMR_Infantry_ASAT: O_soldier_AAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Assistant anti-tank specialist";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11759,7 +11759,7 @@ class haxey_VDV_EMR_Infantry_Spotter: O_spotter_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Spotter";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11783,7 +11783,7 @@ class haxey_VDV_EMR_Infantry_Sniper: O_sniper_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Sniper";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11807,7 +11807,7 @@ class haxey_VDV_EMR_Infantry_HG: O_HeavyGunner_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Gunner";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11831,7 +11831,7 @@ class haxey_VDV_EMR_Infantry_AHG: O_soldier_AAR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Gunner assistant";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11855,7 +11855,7 @@ class haxey_VDV_EMR_Infantry_AB: O_Soldier_A_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Ammo Bearer";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11879,7 +11879,7 @@ class haxey_VDV_EMR_Infantry_SAA: O_soldier_AA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11903,7 +11903,7 @@ class haxey_VDV_EMR_Infantry_ASAA: O_soldier_AAA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_SuppMen";
+	vehicleClass = "H_Motorized";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11927,7 +11927,7 @@ class haxey_VDV_EMR_Infantry_rflm: O_soldier_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11951,7 +11951,7 @@ class haxey_VDV_EMR_Infantry_lite_rflm: O_Soldier_lite_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11975,7 +11975,7 @@ class haxey_VDV_EMR_Infantry_Mort: O_support_Mort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -11999,7 +11999,7 @@ class haxey_VDV_EMR_Infantry_AMort: O_support_AMort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	uniformClass = "rhs_uniform_vdv_emr";
 	faceType = "Man_A3";
@@ -12213,7 +12213,7 @@ class haxey_VDV_EMR_RHS_UAZ_VDV: rhs_uaz_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Motorized";
+	vehicleClass = "H_Men";
 	displayName = "UAZ VDV";
 	crew = "";
 	class TransportItems
@@ -12310,7 +12310,7 @@ class haxey_VDV_EMR_RHS_tigr_vdv: rhs_tigr_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Motorized";
+	vehicleClass = "H_Men";
 	displayName = "GAZ Tigr VDV";
 	crew = "";
 	class TransportItems
@@ -12407,7 +12407,7 @@ class haxey_VDV_EMR_RHS_gaz66_vdv: rhs_gaz66_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Motorized";
+	vehicleClass = "H_Men";
 	displayName = "GAZ-66 VDV";
 	crew = "";
 	class TransportItems
@@ -12504,7 +12504,7 @@ class haxey_VDV_EMR_RHS_uaz_open_VDV: rhs_uaz_open_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Motorized";
+	vehicleClass = "H_Men";
 	displayName = "UAZ VDV (open)";
 	crew = "";
 	class TransportItems
@@ -12581,7 +12581,7 @@ class haxey_VDV_EMR_RHS_btr80_vdv: rhs_btr80_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Motorized";
+	vehicleClass = "H_Men";
 	displayName = "BTR-80 VDV";
 	crew = "";
 	class TransportItems
@@ -12678,7 +12678,7 @@ class haxey_VDV_EMR_RHS_btr80a_vdv: rhs_btr80a_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Motorized";
+	vehicleClass = "H_Men";
 	displayName = "BTR-80A VDV";
 	crew = "";
 	class TransportItems
@@ -12785,7 +12785,7 @@ class haxey_VDV_EMR_rhs_bmd1: rhs_bmd1
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1";
 	crew = "";
 	class TransportItems
@@ -12882,7 +12882,7 @@ class haxey_VDV_EMR_rhs_bmd1k: rhs_bmd1k
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1K";
 	crew = "";
 	class TransportItems
@@ -12979,7 +12979,7 @@ class haxey_VDV_EMR_rhs_bmd1p: rhs_bmd1p
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1P";
 	crew = "";
 	class TransportItems
@@ -13076,7 +13076,7 @@ class haxey_VDV_EMR_rhs_bmd1pk: rhs_bmd1pk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1PK";
 	crew = "";
 	class TransportItems
@@ -13173,7 +13173,7 @@ class haxey_VDV_EMR_rhs_bmd2: rhs_bmd2
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2";
 	crew = "";
 	class TransportItems
@@ -13270,7 +13270,7 @@ class haxey_VDV_EMR_rhs_bmd2k: rhs_bmd2k
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2K";
 	crew = "";
 	class TransportItems
@@ -13367,7 +13367,7 @@ class haxey_VDV_EMR_rhs_bmd2m: rhs_bmd2m
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2M";
 	crew = "";
 	class TransportItems
@@ -13464,7 +13464,7 @@ class haxey_VDV_EMR_rhs_bmd4_vdv: rhs_bmd4_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4";
 	crew = "";
 	class TransportItems
@@ -13561,7 +13561,7 @@ class haxey_VDV_EMR_rhs_bmd4m_vdv: rhs_bmd4m_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4M";
 	crew = "";
 	class TransportItems
@@ -13658,7 +13658,7 @@ class haxey_VDV_EMR_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4M (A)";
 	crew = "";
 	class TransportItems
@@ -13756,7 +13756,7 @@ class haxey_VDV_EMR_rhs_sprut_vdv: rhs_sprut_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "2S25";
 	crew = "";
 	class TransportItems
@@ -13823,7 +13823,7 @@ class haxey_VDV_EMR_RHS_Mi8mt_vvsc: RHS_Mi8mt_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MT";
 	crew = "";
 	class TransportItems
@@ -13915,7 +13915,7 @@ class haxey_VDV_EMR_RHS_ka60_grey: rhs_ka60_grey
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-60";
 	crew = "";
 	class TransportItems
@@ -14014,7 +14014,7 @@ class haxey_VDV_EMR_RHS_Mi8MTV3_UPK23_vvsc: RHS_Mi8MTV3_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MTV3 (UPK)";
 	crew = "";
 	class TransportItems
@@ -14113,7 +14113,7 @@ class haxey_VDV_EMR_RHS_Mi24Vt_vvs: RHS_Mi24Vt_vvs
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24VT";
 	crew = "";
 	class TransportItems
@@ -14180,7 +14180,7 @@ class haxey_VDV_EMR_RHS_Mi24P_AT_vvsc: RHS_Mi24P_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24P (AT)";
 	crew = "";
 	class TransportItems
@@ -14279,7 +14279,7 @@ class haxey_VDV_EMR_RHS_Mi24V_UPK23_vvsc: RHS_Mi24V_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (UPK))";
 	crew = "";
 	class TransportItems
@@ -14378,7 +14378,7 @@ class haxey_VDV_EMR_RHS_Mi24V_AT_vvsc: RHS_Mi24V_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (AT)";
 	crew = "";
 	class TransportItems
@@ -14445,7 +14445,7 @@ class haxey_VDV_EMR_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_EMR";
-	vehicleClass = "haxey_VDV_EMR_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-52 (UPK)";
 	crew = "";
 	class TransportItems
@@ -14515,7 +14515,7 @@ class haxey_VDV_Flora_Infantry_CompCom: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14539,7 +14539,7 @@ class haxey_VDV_Flora_Infantry_DeputyOff: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Deputy officer";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14563,7 +14563,7 @@ class haxey_VDV_Flora_Infantry_1stSerg: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14587,7 +14587,7 @@ class haxey_VDV_Flora_Infantry_PL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14611,7 +14611,7 @@ class haxey_VDV_Flora_Infantry_APL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Assistant Platoon Leader";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14635,7 +14635,7 @@ class haxey_VDV_Flora_Infantry_SL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14659,7 +14659,7 @@ class haxey_VDV_Flora_Infantry_TL: O_Soldier_TL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14683,7 +14683,7 @@ class haxey_VDV_Flora_Infantry_heli: O_helicrew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14707,7 +14707,7 @@ class haxey_VDV_Flora_Infantry_crew: O_crew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Crew";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14731,7 +14731,7 @@ class haxey_VDV_Flora_Infantry_AR: O_soldier_AR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14755,7 +14755,7 @@ class haxey_VDV_Flora_Infantry_exp: O_soldier_exp_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14779,7 +14779,7 @@ class haxey_VDV_Flora_Infantry_medic: O_medic_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14803,7 +14803,7 @@ class haxey_VDV_Flora_Infantry_GL: O_Soldier_GL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14827,7 +14827,7 @@ class haxey_VDV_Flora_Infantry_AT: O_soldier_LAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14851,7 +14851,7 @@ class haxey_VDV_Flora_Infantry_M: O_soldier_M_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14875,7 +14875,7 @@ class haxey_VDV_Flora_Infantry_SAT: O_soldier_AT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-tank specialist";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14899,7 +14899,7 @@ class haxey_VDV_Flora_Infantry_ASAT: O_soldier_AAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Assistant anti-tank specialist";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14923,7 +14923,7 @@ class haxey_VDV_Flora_Infantry_Spotter: O_spotter_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14947,7 +14947,7 @@ class haxey_VDV_Flora_Infantry_Sniper: O_sniper_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Sniper";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14971,7 +14971,7 @@ class haxey_VDV_Flora_Infantry_HG: O_HeavyGunner_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -14995,7 +14995,7 @@ class haxey_VDV_Flora_Infantry_AHG: O_soldier_AAR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner assistant";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15019,7 +15019,7 @@ class haxey_VDV_Flora_Infantry_AB: O_Soldier_A_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Ammo Bearer";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15043,7 +15043,7 @@ class haxey_VDV_Flora_Infantry_SAA: O_soldier_AA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15067,7 +15067,7 @@ class haxey_VDV_Flora_Infantry_ASAA: O_soldier_AAA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15091,7 +15091,7 @@ class haxey_VDV_Flora_Infantry_rflm: O_soldier_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15115,7 +15115,7 @@ class haxey_VDV_Flora_Infantry_lite_rflm: O_Soldier_lite_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15139,7 +15139,7 @@ class haxey_VDV_Flora_Infantry_Mort: O_support_Mort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15163,7 +15163,7 @@ class haxey_VDV_Flora_Infantry_AMort: O_support_AMort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	uniformClass = "rhs_uniform_vdv_flora";
 	faceType = "Man_A3";
@@ -15370,7 +15370,7 @@ class haxey_VDV_Flora_RHS_UAZ_VDV: rhs_uaz_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ VDV";
 	crew = "";
 	class TransportItems
@@ -15467,7 +15467,7 @@ class haxey_VDV_Flora_RHS_tigr_vdv: rhs_tigr_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ Tigr VDV";
 	crew = "";
 	class TransportItems
@@ -15564,7 +15564,7 @@ class haxey_VDV_Flora_RHS_gaz66_vdv: rhs_gaz66_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ-66 VDV";
 	crew = "";
 	class TransportItems
@@ -15661,7 +15661,7 @@ class haxey_VDV_Flora_RHS_uaz_open_VDV: rhs_uaz_open_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ VDV (open)";
 	crew = "";
 	class TransportItems
@@ -15738,7 +15738,7 @@ class haxey_VDV_Flora_RHS_btr80_vdv: rhs_btr80_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80 VDV";
 	crew = "";
 	class TransportItems
@@ -15835,7 +15835,7 @@ class haxey_VDV_Flora_RHS_btr80a_vdv: rhs_btr80a_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80A VDV";
 	crew = "";
 	class TransportItems
@@ -15932,7 +15932,7 @@ class haxey_VDV_Flora_rhs_bmd1: rhs_bmd1
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1";
 	crew = "";
 	class TransportItems
@@ -16029,7 +16029,7 @@ class haxey_VDV_Flora_rhs_bmd1k: rhs_bmd1k
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1K";
 	crew = "";
 	class TransportItems
@@ -16126,7 +16126,7 @@ class haxey_VDV_Flora_rhs_bmd1p: rhs_bmd1p
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1P";
 	crew = "";
 	class TransportItems
@@ -16223,7 +16223,7 @@ class haxey_VDV_Flora_rhs_bmd1pk: rhs_bmd1pk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1PK";
 	crew = "";
 	class TransportItems
@@ -16320,7 +16320,7 @@ class haxey_VDV_Flora_rhs_bmd2: rhs_bmd2
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2";
 	crew = "";
 	class TransportItems
@@ -16417,7 +16417,7 @@ class haxey_VDV_Flora_rhs_bmd2k: rhs_bmd2k
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2K";
 	crew = "";
 	class TransportItems
@@ -16514,7 +16514,7 @@ class haxey_VDV_Flora_rhs_bmd2m: rhs_bmd2m
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2M";
 	crew = "";
 	class TransportItems
@@ -16611,7 +16611,7 @@ class haxey_VDV_Flora_rhs_bmd4_vdv: rhs_bmd4_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4";
 	crew = "";
 	class TransportItems
@@ -16708,7 +16708,7 @@ class haxey_VDV_Flora_rhs_bmd4m_vdv: rhs_bmd4m_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4M";
 	crew = "";
 	class TransportItems
@@ -16805,7 +16805,7 @@ class haxey_VDV_Flora_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4M (A)";
 	crew = "";
 	class TransportItems
@@ -16902,7 +16902,7 @@ class haxey_VDV_Flora_rhs_sprut_vdv: rhs_sprut_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "2S25";
 	crew = "";
 	class TransportItems
@@ -16969,7 +16969,7 @@ class haxey_VDV_Flora_RHS_Mi8mt_vvsc: RHS_Mi8mt_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MT";
 	crew = "";
 	class TransportItems
@@ -17061,7 +17061,7 @@ class haxey_VDV_Flora_RHS_ka60_grey: rhs_ka60_grey
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-60";
 	crew = "";
 	class TransportItems
@@ -17160,7 +17160,7 @@ class haxey_VDV_Flora_RHS_Mi8MTV3_UPK23_vvsc: RHS_Mi8MTV3_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MTV3 (UPK)";
 	crew = "";
 	class TransportItems
@@ -17259,7 +17259,7 @@ class haxey_VDV_Flora_RHS_Mi24Vt_vvs: RHS_Mi24Vt_vvs
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24VT";
 	crew = "";
 	class TransportItems
@@ -17326,7 +17326,7 @@ class haxey_VDV_Flora_RHS_Mi24P_AT_vvsc: RHS_Mi24P_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24P (AT)";
 	crew = "";
 	class TransportItems
@@ -17425,7 +17425,7 @@ class haxey_VDV_Flora_RHS_Mi24V_UPK23_vvsc: RHS_Mi24V_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (UPK))";
 	crew = "";
 	class TransportItems
@@ -17524,7 +17524,7 @@ class haxey_VDV_Flora_RHS_Mi24V_AT_vvsc: RHS_Mi24V_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (AT)";
 	crew = "";
 	class TransportItems
@@ -17591,7 +17591,7 @@ class haxey_VDV_Flora_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_Flora";
-	vehicleClass = "haxey_VDV_Flora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-52 (UPK)";
 	crew = "";
 	class TransportItems
@@ -17661,7 +17661,7 @@ class haxey_VDV_MountainFlora_Infantry_CompCom: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17685,7 +17685,7 @@ class haxey_VDV_MountainFlora_Infantry_DeputyOff: O_officer_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "Deputy officer";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17709,7 +17709,7 @@ class haxey_VDV_MountainFlora_Infantry_1stSerg: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_HQMen";
+	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17733,7 +17733,7 @@ class haxey_VDV_MountainFlora_Infantry_PL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17757,7 +17757,7 @@ class haxey_VDV_MountainFlora_Infantry_APL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Assistant Platoon Leader";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17781,7 +17781,7 @@ class haxey_VDV_MountainFlora_Infantry_SL: O_Soldier_SL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17805,7 +17805,7 @@ class haxey_VDV_MountainFlora_Infantry_TL: O_Soldier_TL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17829,7 +17829,7 @@ class haxey_VDV_MountainFlora_Infantry_heli: O_helicrew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17853,7 +17853,7 @@ class haxey_VDV_MountainFlora_Infantry_crew: O_crew_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Crew";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17877,7 +17877,7 @@ class haxey_VDV_MountainFlora_Infantry_AR: O_soldier_AR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17901,7 +17901,7 @@ class haxey_VDV_MountainFlora_Infantry_exp: O_soldier_exp_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17925,7 +17925,7 @@ class haxey_VDV_MountainFlora_Infantry_medic: O_medic_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17949,7 +17949,7 @@ class haxey_VDV_MountainFlora_Infantry_GL: O_Soldier_GL_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17973,7 +17973,7 @@ class haxey_VDV_MountainFlora_Infantry_AT: O_soldier_LAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -17997,7 +17997,7 @@ class haxey_VDV_MountainFlora_Infantry_M: O_soldier_M_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18021,7 +18021,7 @@ class haxey_VDV_MountainFlora_Infantry_SAT: O_soldier_AT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-tank specialist";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18045,7 +18045,7 @@ class haxey_VDV_MountainFlora_Infantry_ASAT: O_soldier_AAT_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Assistant anti-tank specialist";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18069,7 +18069,7 @@ class haxey_VDV_MountainFlora_Infantry_Spotter: O_spotter_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18093,7 +18093,7 @@ class haxey_VDV_MountainFlora_Infantry_Sniper: O_sniper_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Sniper";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18117,7 +18117,7 @@ class haxey_VDV_MountainFlora_Infantry_HG: O_HeavyGunner_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18141,7 +18141,7 @@ class haxey_VDV_MountainFlora_Infantry_AHG: O_soldier_AAR_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Gunner assistant";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18165,7 +18165,7 @@ class haxey_VDV_MountainFlora_Infantry_AB: O_Soldier_A_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Ammo Bearer";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18189,7 +18189,7 @@ class haxey_VDV_MountainFlora_Infantry_SAA: O_soldier_AA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18213,7 +18213,7 @@ class haxey_VDV_MountainFlora_Infantry_ASAA: O_soldier_AAA_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_SuppMen";
+	vehicleClass = "H_SuppMen";
 	displayName = "Anti-Air specialist";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18237,7 +18237,7 @@ class haxey_VDV_MountainFlora_Infantry_rflm: O_soldier_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18261,7 +18261,7 @@ class haxey_VDV_MountainFlora_Infantry_lite_rflm: O_Soldier_lite_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18285,7 +18285,7 @@ class haxey_VDV_MountainFlora_Infantry_Mort: O_support_Mort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18309,7 +18309,7 @@ class haxey_VDV_MountainFlora_Infantry_AMort: O_support_AMort_F
 	canDeactivateMines = true;
 	engineer = true;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Men";
+	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	uniformClass = "rhs_uniform_vdv_mflora";
 	faceType = "Man_A3";
@@ -18516,7 +18516,7 @@ class haxey_VDV_MountainFlora_RHS_UAZ_VDV: rhs_uaz_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ VDV";
 	crew = "";
 	class TransportItems
@@ -18613,7 +18613,7 @@ class haxey_VDV_MountainFlora_RHS_tigr_vdv: rhs_tigr_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ Tigr VDV";
 	crew = "";
 	class TransportItems
@@ -18710,7 +18710,7 @@ class haxey_VDV_MountainFlora_RHS_gaz66_vdv: rhs_gaz66_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "GAZ-66 VDV";
 	crew = "";
 	class TransportItems
@@ -18807,7 +18807,7 @@ class haxey_VDV_MountainFlora_RHS_uaz_open_VDV: rhs_uaz_open_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "UAZ VDV (open)";
 	crew = "";
 	class TransportItems
@@ -18884,7 +18884,7 @@ class haxey_VDV_MountainFlora_RHS_btr80_vdv: rhs_btr80_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80 VDV";
 	crew = "";
 	class TransportItems
@@ -18981,7 +18981,7 @@ class haxey_VDV_MountainFlora_RHS_btr80a_vdv: rhs_btr80a_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Motorized";
+	vehicleClass = "H_Motorized";
 	displayName = "BTR-80A VDV";
 	crew = "";
 	class TransportItems
@@ -19078,7 +19078,7 @@ class haxey_VDV_MountainFlora_rhs_bmd1: rhs_bmd1
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1";
 	crew = "";
 	class TransportItems
@@ -19175,7 +19175,7 @@ class haxey_VDV_MountainFlora_rhs_bmd1k: rhs_bmd1k
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1K";
 	crew = "";
 	class TransportItems
@@ -19272,7 +19272,7 @@ class haxey_VDV_MountainFlora_rhs_bmd1p: rhs_bmd1p
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1P";
 	crew = "";
 	class TransportItems
@@ -19369,7 +19369,7 @@ class haxey_VDV_MountainFlora_rhs_bmd1pk: rhs_bmd1pk
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-1PK";
 	crew = "";
 	class TransportItems
@@ -19466,7 +19466,7 @@ class haxey_VDV_MountainFlora_rhs_bmd2: rhs_bmd2
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2";
 	crew = "";
 	class TransportItems
@@ -19563,7 +19563,7 @@ class haxey_VDV_MountainFlora_rhs_bmd2k: rhs_bmd2k
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2K";
 	crew = "";
 	class TransportItems
@@ -19660,7 +19660,7 @@ class haxey_VDV_MountainFlora_rhs_bmd2m: rhs_bmd2m
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-2M";
 	crew = "";
 	class TransportItems
@@ -19757,7 +19757,7 @@ class haxey_VDV_MountainFlora_rhs_bmd4_vdv: rhs_bmd4_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4";
 	crew = "";
 	class TransportItems
@@ -19854,7 +19854,7 @@ class haxey_VDV_MountainFlora_rhs_bmd4m_vdv: rhs_bmd4m_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4M";
 	crew = "";
 	class TransportItems
@@ -19951,7 +19951,7 @@ class haxey_VDV_MountainFlora_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Mecanized";
+	vehicleClass = "H_Mecanized";
 	displayName = "BMD-4M (A)";
 	crew = "";
 	class TransportItems
@@ -20048,7 +20048,7 @@ class haxey_VDV_MountainFlora_rhs_sprut_vdv: rhs_sprut_vdv
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Armored";
+	vehicleClass = "H_Armored";
 	displayName = "2S25";
 	crew = "";
 	class TransportItems
@@ -20115,7 +20115,7 @@ class haxey_VDV_MountainFlora_RHS_Mi8mt_vvsc: RHS_Mi8mt_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MT";
 	crew = "";
 	class TransportItems
@@ -20207,7 +20207,7 @@ class haxey_VDV_MountainFlora_RHS_ka60_grey: rhs_ka60_grey
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-60";
 	crew = "";
 	class TransportItems
@@ -20306,7 +20306,7 @@ class haxey_VDV_MountainFlora_RHS_Mi8MTV3_UPK23_vvsc: RHS_Mi8MTV3_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-8MTV3 (UPK)";
 	crew = "";
 	class TransportItems
@@ -20405,7 +20405,7 @@ class haxey_VDV_MountainFlora_RHS_Mi24Vt_vvs: RHS_Mi24Vt_vvs
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24VT";
 	crew = "";
 	class TransportItems
@@ -20472,7 +20472,7 @@ class haxey_VDV_MountainFlora_RHS_Mi24P_AT_vvsc: RHS_Mi24P_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24P (AT)";
 	crew = "";
 	class TransportItems
@@ -20571,7 +20571,7 @@ class haxey_VDV_MountainFlora_RHS_Mi24V_UPK23_vvsc: RHS_Mi24V_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (UPK))";
 	crew = "";
 	class TransportItems
@@ -20670,7 +20670,7 @@ class haxey_VDV_MountainFlora_RHS_Mi24V_AT_vvsc: RHS_Mi24V_AT_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Mi-24V (AT)";
 	crew = "";
 	class TransportItems
@@ -20737,7 +20737,7 @@ class haxey_VDV_MountainFlora_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	scope = 2;
 	side = 0;
 	faction = "haxey_faction_VDV_MountainFlora";
-	vehicleClass = "haxey_VDV_MountainFlora_Air";
+	vehicleClass = "H_Air";
 	displayName = "Ka-52 (UPK)";
 	crew = "";
 	class TransportItems
