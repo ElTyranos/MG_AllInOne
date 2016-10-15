@@ -623,196 +623,6 @@ class haxey_MSV_EMR_Infantry_AMort: O_support_AMort_F
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	backpack = "O_Mortar_01_support_F";
 };
-class rhs_sidor;
-class B_Carryall_oli;
-class rhs_assault_umbts;
-class rhs_rpg_empty;
-class haxey_MSV_EMR_Carryall_SAT: B_Carryall_oli
-{
-	_generalMacro = "haxey_MSV_EMR_Carryall_SAT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_CUP_AT13_M
-		{
-			count = 1;
-			name = "CUP_AT13_M";
-		};
-	};
-};
-class haxey_MSV_EMR_umbts_SAA: rhs_assault_umbts
-{
-	_generalMacro = "haxey_MSV_EMR_umbts_SAA";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_mag_9k38_rocket
-		{
-			count = 1;
-			name = "rhs_mag_9k38_rocket";
-		};
-	};
-};
-class haxey_MSV_EMR_rhs_rpg_AT: rhs_rpg_empty
-{
-	_generalMacro = "haxey_MSV_EMR_rhs_rpg_AT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_rpg7_PG7VL_mag
-		{
-			count = 3;
-			name = "rhs_rpg7_PG7VL_mag";
-		};
-		class _xx_tf47_m3maaws_HEDP
-		{
-			count = 1;
-			name = "rhs_rpg7_OG7V_mag";
-		};
-	};
-};
-class haxey_MSV_EMR_sidor_exp: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_EMR_sidor_exp";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_DemoCharge_Remote_Mag
-		{
-			count = 2;
-			name = "DemoCharge_Remote_Mag";
-		};
-		class _xx_SatchelCharge_Remote_Mag
-		{
-			count = 1;
-			name = "SatchelCharge_Remote_Mag";
-		};
-		class _xx_ACE_Clacker
-		{
-			count = 1;
-			name = "ACE_Clacker";
-		};
-		class _xx_ACE_DefusalKit
-		{
-			count = 1;
-			name = "ACE_DefusalKit";
-		};
-	};
-};
-class haxey_MSV_EMR_sidor_Rflm: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_EMR_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 5;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 4;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_MSV_EMR_sidor_AR: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_EMR_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 7;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-	};
-};
-class haxey_MSV_EMR_sidor_HG: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_EMR_sidor_HG";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_100Rnd_762x54mmR
-		{
-			count = 3;
-			name = "rhs_100Rnd_762x54mmR";
-		};
-	};
-};
-class haxey_MSV_EMR_sidor_GL: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_EMR_sidor_GL";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_VOG25
-		{
-			count = 2;
-			name = "rhs_VOG25";
-		};
-		class _xx_rhs_VOG25P
-		{
-			count = 1;
-			name = "rhs_VOG25P";
-		};
-		class _xx_rhs_GRD40_White
-		{
-			count = 5;
-			name = "rhs_GRD40_White";
-		};
-		class _xx_rhs_rhs_GRD40_Red
-		{
-			count = 5;
-			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_MSV_EMR_umbts_Med: rhs_assault_umbts
-{
-	_generalMacro = "haxey_MSV_EMR_umbts_Med";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_ACE_fieldDressing
-		{
-			count = 30;
-			name = "ACE_fieldDressing";
-		};
-		class _xx_ACE_morphine
-		{
-			count = 15;
-			name = "ACE_morphine";
-		};
-		class _xx_ACE_epinephrine
-		{
-			count = 15;
-			name = "ACE_epinephrine";
-		};
-		class _xx_ACE_bloodIV
-		{
-			count = 5;
-			name = "ACE_bloodIV";
-		};
-	};
-};
 class RHS_UAZ_MSV_01;
 class rhs_tigr_msv;
 class rhs_gaz66_msv;
@@ -3934,7 +3744,7 @@ class haxey_MSV_Flora_Infantry_TL: O_Soldier_TL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_vog_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_vog_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_MSV_Flora_Infantry_heli: O_helicrew_F
 {
@@ -4006,7 +3816,7 @@ class haxey_MSV_Flora_Infantry_AR: O_soldier_AR_F
 	respawnMagazines[] = {"rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_MSV_Flora_Infantry_exp: O_soldier_exp_F
 {
@@ -4030,7 +3840,7 @@ class haxey_MSV_Flora_Infantry_exp: O_soldier_exp_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_engineer","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_engineer","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_exp";
+	backpack = "haxey_O_sidor_exp";
 };
 class haxey_MSV_Flora_Infantry_medic: O_medic_F
 {
@@ -4054,7 +3864,7 @@ class haxey_MSV_Flora_Infantry_medic: O_medic_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_medic","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_medic","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_umbts_Med";
+	backpack = "haxey_O_umbts_Med";
 };
 class haxey_MSV_Flora_Infantry_GL: O_Soldier_GL_F
 {
@@ -4078,7 +3888,7 @@ class haxey_MSV_Flora_Infantry_GL: O_Soldier_GL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_vog","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_vog","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_MSV_Flora_Infantry_AT: O_soldier_LAT_F
 {
@@ -4102,7 +3912,7 @@ class haxey_MSV_Flora_Infantry_AT: O_soldier_LAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_rhs_rpg_AT";
+	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_MSV_Flora_Infantry_M: O_soldier_M_F
 {
@@ -4150,7 +3960,7 @@ class haxey_MSV_Flora_Infantry_SAT: O_soldier_AT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_MSV_Flora_Infantry_ASAT: O_soldier_AAT_F
 {
@@ -4174,7 +3984,7 @@ class haxey_MSV_Flora_Infantry_ASAT: O_soldier_AAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_MSV_Flora_Infantry_Spotter: O_spotter_F
 {
@@ -4246,7 +4056,7 @@ class haxey_MSV_Flora_Infantry_HG: O_HeavyGunner_F
 	respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_MSV_Flora_Infantry_AHG: O_soldier_AAR_F
 {
@@ -4270,7 +4080,7 @@ class haxey_MSV_Flora_Infantry_AHG: O_soldier_AAR_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_MSV_Flora_Infantry_AB: O_Soldier_A_F
 {
@@ -4294,7 +4104,7 @@ class haxey_MSV_Flora_Infantry_AB: O_Soldier_A_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_MSV_Flora_Infantry_SAA: O_soldier_AA_F
 {
@@ -4318,7 +4128,7 @@ class haxey_MSV_Flora_Infantry_SAA: O_soldier_AA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_MSV_Flora_Infantry_ASAA: O_soldier_AAA_F
 {
@@ -4342,7 +4152,7 @@ class haxey_MSV_Flora_Infantry_ASAA: O_soldier_AAA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_MSV_Flora_Infantry_rflm: O_soldier_F
 {
@@ -4366,7 +4176,7 @@ class haxey_MSV_Flora_Infantry_rflm: O_soldier_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_Flora_sidor_Rflm";
+	backpack = "haxey_O_sidor_Rflm";
 };
 class haxey_MSV_Flora_Infantry_lite_rflm: O_Soldier_lite_F
 {
@@ -4439,192 +4249,6 @@ class haxey_MSV_Flora_Infantry_AMort: O_support_AMort_F
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	backpack = "O_Mortar_01_support_F";
-};
-class haxey_MSV_Flora_Carryall_SAT: B_Carryall_oli
-{
-	_generalMacro = "haxey_MSV_Flora_Carryall_SAT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_CUP_AT13_M
-		{
-			count = 1;
-			name = "CUP_AT13_M";
-		};
-	};
-};
-class haxey_MSV_Flora_umbts_SAA: rhs_assault_umbts
-{
-	_generalMacro = "haxey_MSV_Flora_umbts_SAA";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_mag_9k38_rocket
-		{
-			count = 1;
-			name = "rhs_mag_9k38_rocket";
-		};
-	};
-};
-class haxey_MSV_Flora_rhs_rpg_AT: rhs_rpg_empty
-{
-	_generalMacro = "haxey_MSV_Flora_rhs_rpg_AT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_rpg7_PG7VL_mag
-		{
-			count = 3;
-			name = "rhs_rpg7_PG7VL_mag";
-		};
-		class _xx_tf47_m3maaws_HEDP
-		{
-			count = 1;
-			name = "rhs_rpg7_OG7V_mag";
-		};
-	};
-};
-class haxey_MSV_Flora_sidor_exp: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_Flora_sidor_exp";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_DemoCharge_Remote_Mag
-		{
-			count = 2;
-			name = "DemoCharge_Remote_Mag";
-		};
-		class _xx_SatchelCharge_Remote_Mag
-		{
-			count = 1;
-			name = "SatchelCharge_Remote_Mag";
-		};
-		class _xx_ACE_Clacker
-		{
-			count = 1;
-			name = "ACE_Clacker";
-		};
-		class _xx_ACE_DefusalKit
-		{
-			count = 1;
-			name = "ACE_DefusalKit";
-		};
-	};
-};
-class haxey_MSV_Flora_sidor_Rflm: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_Flora_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 5;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 4;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_MSV_Flora_sidor_AR: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_Flora_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 7;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-	};
-};
-class haxey_MSV_Flora_sidor_HG: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_Flora_sidor_HG";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_100Rnd_762x54mmR
-		{
-			count = 3;
-			name = "rhs_100Rnd_762x54mmR";
-		};
-	};
-};
-class haxey_MSV_Flora_sidor_GL: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_Flora_sidor_GL";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_VOG25
-		{
-			count = 2;
-			name = "rhs_VOG25";
-		};
-		class _xx_rhs_VOG25P
-		{
-			count = 1;
-			name = "rhs_VOG25P";
-		};
-		class _xx_rhs_GRD40_White
-		{
-			count = 5;
-			name = "rhs_GRD40_White";
-		};
-		class _xx_rhs_rhs_GRD40_Red
-		{
-			count = 5;
-			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_MSV_Flora_umbts_Med: rhs_assault_umbts
-{
-	_generalMacro = "haxey_MSV_Flora_umbts_Med";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_ACE_fieldDressing
-		{
-			count = 30;
-			name = "ACE_fieldDressing";
-		};
-		class _xx_ACE_morphine
-		{
-			count = 15;
-			name = "ACE_morphine";
-		};
-		class _xx_ACE_epinephrine
-		{
-			count = 15;
-			name = "ACE_epinephrine";
-		};
-		class _xx_ACE_bloodIV
-		{
-			count = 5;
-			name = "ACE_bloodIV";
-		};
-	};
 };
 class haxey_MSV_Flora_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
 {
@@ -7713,7 +7337,7 @@ class haxey_MSV_M88_Infantry_TL: O_Soldier_TL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_vog_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_vog_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_MSV_M88_Infantry_heli: O_helicrew_F
 {
@@ -7785,7 +7409,7 @@ class haxey_MSV_M88_Infantry_AR: O_soldier_AR_F
 	respawnMagazines[] = {"rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_MSV_M88_Infantry_exp: O_soldier_exp_F
 {
@@ -7809,7 +7433,7 @@ class haxey_MSV_M88_Infantry_exp: O_soldier_exp_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_engineer","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_engineer","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_exp";
+	backpack = "haxey_O_sidor_exp";
 };
 class haxey_MSV_M88_Infantry_medic: O_medic_F
 {
@@ -7833,7 +7457,7 @@ class haxey_MSV_M88_Infantry_medic: O_medic_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_medic","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_medic","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_umbts_Med";
+	backpack = "haxey_O_umbts_Med";
 };
 class haxey_MSV_M88_Infantry_GL: O_Soldier_GL_F
 {
@@ -7857,7 +7481,7 @@ class haxey_MSV_M88_Infantry_GL: O_Soldier_GL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_vog","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_vog","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_MSV_M88_Infantry_AT: O_soldier_LAT_F
 {
@@ -7881,7 +7505,7 @@ class haxey_MSV_M88_Infantry_AT: O_soldier_LAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_rhs_rpg_AT";
+	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_MSV_M88_Infantry_M: O_soldier_M_F
 {
@@ -7929,7 +7553,7 @@ class haxey_MSV_M88_Infantry_SAT: O_soldier_AT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_MSV_M88_Infantry_ASAT: O_soldier_AAT_F
 {
@@ -7953,7 +7577,7 @@ class haxey_MSV_M88_Infantry_ASAT: O_soldier_AAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_MSV_M88_Infantry_Spotter: O_spotter_F
 {
@@ -8025,7 +7649,7 @@ class haxey_MSV_M88_Infantry_HG: O_HeavyGunner_F
 	respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_MSV_M88_Infantry_AHG: O_soldier_AAR_F
 {
@@ -8049,7 +7673,7 @@ class haxey_MSV_M88_Infantry_AHG: O_soldier_AAR_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_MSV_M88_Infantry_AB: O_Soldier_A_F
 {
@@ -8073,7 +7697,7 @@ class haxey_MSV_M88_Infantry_AB: O_Soldier_A_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_MSV_M88_Infantry_SAA: O_soldier_AA_F
 {
@@ -8097,7 +7721,7 @@ class haxey_MSV_M88_Infantry_SAA: O_soldier_AA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_MSV_M88_Infantry_ASAA: O_soldier_AAA_F
 {
@@ -8121,7 +7745,7 @@ class haxey_MSV_M88_Infantry_ASAA: O_soldier_AAA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_MSV_M88_Infantry_rflm: O_soldier_F
 {
@@ -8145,7 +7769,7 @@ class haxey_MSV_M88_Infantry_rflm: O_soldier_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_MSV_M88_sidor_Rflm";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_MSV_M88_Infantry_lite_rflm: O_Soldier_lite_F
 {
@@ -8218,192 +7842,6 @@ class haxey_MSV_M88_Infantry_AMort: O_support_AMort_F
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	backpack = "O_Mortar_01_support_F";
-};
-class haxey_MSV_M88_Carryall_SAT: B_Carryall_oli
-{
-	_generalMacro = "haxey_MSV_M88_Carryall_SAT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_CUP_AT13_M
-		{
-			count = 1;
-			name = "CUP_AT13_M";
-		};
-	};
-};
-class haxey_MSV_M88_umbts_SAA: rhs_assault_umbts
-{
-	_generalMacro = "haxey_MSV_M88_umbts_SAA";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_mag_9k38_rocket
-		{
-			count = 1;
-			name = "rhs_mag_9k38_rocket";
-		};
-	};
-};
-class haxey_MSV_M88_rhs_rpg_AT: rhs_rpg_empty
-{
-	_generalMacro = "haxey_MSV_M88_rhs_rpg_AT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_rpg7_PG7VL_mag
-		{
-			count = 3;
-			name = "rhs_rpg7_PG7VL_mag";
-		};
-		class _xx_tf47_m3maaws_HEDP
-		{
-			count = 1;
-			name = "rhs_rpg7_OG7V_mag";
-		};
-	};
-};
-class haxey_MSV_M88_sidor_exp: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_M88_sidor_exp";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_DemoCharge_Remote_Mag
-		{
-			count = 2;
-			name = "DemoCharge_Remote_Mag";
-		};
-		class _xx_SatchelCharge_Remote_Mag
-		{
-			count = 1;
-			name = "SatchelCharge_Remote_Mag";
-		};
-		class _xx_ACE_Clacker
-		{
-			count = 1;
-			name = "ACE_Clacker";
-		};
-		class _xx_ACE_DefusalKit
-		{
-			count = 1;
-			name = "ACE_DefusalKit";
-		};
-	};
-};
-class haxey_MSV_M88_sidor_Rflm: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_M88_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 5;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 4;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_MSV_M88_sidor_AR: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_M88_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 7;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-	};
-};
-class haxey_MSV_M88_sidor_HG: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_M88_sidor_HG";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_100Rnd_762x54mmR
-		{
-			count = 3;
-			name = "rhs_100Rnd_762x54mmR";
-		};
-	};
-};
-class haxey_MSV_M88_sidor_GL: rhs_sidor
-{
-	_generalMacro = "haxey_MSV_M88_sidor_GL";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_VOG25
-		{
-			count = 2;
-			name = "rhs_VOG25";
-		};
-		class _xx_rhs_VOG25P
-		{
-			count = 1;
-			name = "rhs_VOG25P";
-		};
-		class _xx_rhs_GRD40_White
-		{
-			count = 5;
-			name = "rhs_GRD40_White";
-		};
-		class _xx_rhs_rhs_GRD40_Red
-		{
-			count = 5;
-			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_MSV_M88_umbts_Med: rhs_assault_umbts
-{
-	_generalMacro = "haxey_MSV_M88_umbts_Med";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_ACE_fieldDressing
-		{
-			count = 30;
-			name = "ACE_fieldDressing";
-		};
-		class _xx_ACE_morphine
-		{
-			count = 15;
-			name = "ACE_morphine";
-		};
-		class _xx_ACE_epinephrine
-		{
-			count = 15;
-			name = "ACE_epinephrine";
-		};
-		class _xx_ACE_bloodIV
-		{
-			count = 5;
-			name = "ACE_bloodIV";
-		};
-	};
 };
 class haxey_MSV_M88_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
 {
@@ -11507,7 +10945,7 @@ class haxey_VDV_EMR_Infantry_TL: O_Soldier_TL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_EMR_Infantry_heli: O_helicrew_F
 {
@@ -11579,7 +11017,7 @@ class haxey_VDV_EMR_Infantry_AR: O_soldier_AR_F
 	respawnMagazines[] = {"rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_EMR_Infantry_exp: O_soldier_exp_F
 {
@@ -11603,7 +11041,7 @@ class haxey_VDV_EMR_Infantry_exp: O_soldier_exp_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_engineer","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_engineer","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_exp";
+	backpack = "haxey_O_sidor_exp";
 };
 class haxey_VDV_EMR_Infantry_medic: O_medic_F
 {
@@ -11627,7 +11065,7 @@ class haxey_VDV_EMR_Infantry_medic: O_medic_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_medic","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_medic","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_umbts_Med";
+	backpack = "haxey_O_umbts_Med";
 };
 class haxey_VDV_EMR_Infantry_GL: O_Soldier_GL_F
 {
@@ -11651,7 +11089,7 @@ class haxey_VDV_EMR_Infantry_GL: O_Soldier_GL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_vog","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_vog","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_EMR_Infantry_AT: O_soldier_LAT_F
 {
@@ -11675,7 +11113,7 @@ class haxey_VDV_EMR_Infantry_AT: O_soldier_LAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_rhs_rpg_AT";
+	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_VDV_EMR_Infantry_M: O_soldier_M_F
 {
@@ -11723,7 +11161,7 @@ class haxey_VDV_EMR_Infantry_SAT: O_soldier_AT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_EMR_Infantry_ASAT: O_soldier_AAT_F
 {
@@ -11747,7 +11185,7 @@ class haxey_VDV_EMR_Infantry_ASAT: O_soldier_AAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_EMR_Infantry_Spotter: O_spotter_F
 {
@@ -11819,7 +11257,7 @@ class haxey_VDV_EMR_Infantry_HG: O_HeavyGunner_F
 	respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_EMR_Infantry_AHG: O_soldier_AAR_F
 {
@@ -11843,7 +11281,7 @@ class haxey_VDV_EMR_Infantry_AHG: O_soldier_AAR_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_EMR_Infantry_AB: O_Soldier_A_F
 {
@@ -11867,7 +11305,7 @@ class haxey_VDV_EMR_Infantry_AB: O_Soldier_A_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_EMR_Infantry_SAA: O_soldier_AA_F
 {
@@ -11891,7 +11329,7 @@ class haxey_VDV_EMR_Infantry_SAA: O_soldier_AA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_EMR_Infantry_ASAA: O_soldier_AAA_F
 {
@@ -11915,7 +11353,7 @@ class haxey_VDV_EMR_Infantry_ASAA: O_soldier_AAA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_EMR_Infantry_rflm: O_soldier_F
 {
@@ -11939,7 +11377,7 @@ class haxey_VDV_EMR_Infantry_rflm: O_soldier_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_EMR_sidor_Rflm";
+	backpack = "haxey_O_sidor_Rflm";
 };
 class haxey_VDV_EMR_Infantry_lite_rflm: O_Soldier_lite_F
 {
@@ -12014,192 +11452,6 @@ class haxey_VDV_EMR_Infantry_AMort: O_support_AMort_F
 	backpack = "O_Mortar_01_support_F";
 };
 
-class haxey_VDV_EMR_Carryall_SAT: B_Carryall_oli
-{
-	_generalMacro = "haxey_VDV_EMR_Carryall_SAT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_CUP_AT13_M
-		{
-			count = 1;
-			name = "CUP_AT13_M";
-		};
-	};
-};
-class haxey_VDV_EMR_umbts_SAA: rhs_assault_umbts
-{
-	_generalMacro = "haxey_VDV_EMR_umbts_SAA";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_mag_9k38_rocket
-		{
-			count = 1;
-			name = "rhs_mag_9k38_rocket";
-		};
-	};
-};
-class haxey_VDV_EMR_rhs_rpg_AT: rhs_rpg_empty
-{
-	_generalMacro = "haxey_VDV_EMR_rhs_rpg_AT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_rpg7_PG7VL_mag
-		{
-			count = 3;
-			name = "rhs_rpg7_PG7VL_mag";
-		};
-		class _xx_tf47_m3maaws_HEDP
-		{
-			count = 1;
-			name = "rhs_rpg7_OG7V_mag";
-		};
-	};
-};
-class haxey_VDV_EMR_sidor_exp: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_EMR_sidor_exp";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_DemoCharge_Remote_Mag
-		{
-			count = 2;
-			name = "DemoCharge_Remote_Mag";
-		};
-		class _xx_SatchelCharge_Remote_Mag
-		{
-			count = 1;
-			name = "SatchelCharge_Remote_Mag";
-		};
-		class _xx_ACE_Clacker
-		{
-			count = 1;
-			name = "ACE_Clacker";
-		};
-		class _xx_ACE_DefusalKit
-		{
-			count = 1;
-			name = "ACE_DefusalKit";
-		};
-	};
-};
-class haxey_VDV_EMR_sidor_Rflm: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_EMR_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 5;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 4;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_VDV_EMR_sidor_AR: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_EMR_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 7;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-	};
-};
-class haxey_VDV_EMR_sidor_HG: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_EMR_sidor_HG";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_100Rnd_762x54mmR
-		{
-			count = 3;
-			name = "rhs_100Rnd_762x54mmR";
-		};
-	};
-};
-class haxey_VDV_EMR_sidor_GL: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_EMR_sidor_GL";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_VOG25
-		{
-			count = 2;
-			name = "rhs_VOG25";
-		};
-		class _xx_rhs_VOG25P
-		{
-			count = 1;
-			name = "rhs_VOG25P";
-		};
-		class _xx_rhs_GRD40_White
-		{
-			count = 5;
-			name = "rhs_GRD40_White";
-		};
-		class _xx_rhs_rhs_GRD40_Red
-		{
-			count = 5;
-			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_VDV_EMR_umbts_Med: rhs_assault_umbts
-{
-	_generalMacro = "haxey_VDV_EMR_umbts_Med";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_ACE_fieldDressing
-		{
-			count = 30;
-			name = "ACE_fieldDressing";
-		};
-		class _xx_ACE_morphine
-		{
-			count = 15;
-			name = "ACE_morphine";
-		};
-		class _xx_ACE_epinephrine
-		{
-			count = 15;
-			name = "ACE_epinephrine";
-		};
-		class _xx_ACE_bloodIV
-		{
-			count = 5;
-			name = "ACE_bloodIV";
-		};
-	};
-};
 class rhs_uaz_vdv;
 class rhs_tigr_vdv;
 class rhs_gaz66_vdv;
@@ -14671,7 +13923,7 @@ class haxey_VDV_Flora_Infantry_TL: O_Soldier_TL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_vog_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_vog_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_Flora_Infantry_heli: O_helicrew_F
 {
@@ -14743,7 +13995,7 @@ class haxey_VDV_Flora_Infantry_AR: O_soldier_AR_F
 	respawnMagazines[] = {"rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_Flora_Infantry_exp: O_soldier_exp_F
 {
@@ -14767,7 +14019,7 @@ class haxey_VDV_Flora_Infantry_exp: O_soldier_exp_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_engineer","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_engineer","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_exp";
+	backpack = "haxey_O_sidor_exp";
 };
 class haxey_VDV_Flora_Infantry_medic: O_medic_F
 {
@@ -14791,7 +14043,7 @@ class haxey_VDV_Flora_Infantry_medic: O_medic_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_medic","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_medic","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_umbts_Med";
+	backpack = "haxey_O_umbts_Med";
 };
 class haxey_VDV_Flora_Infantry_GL: O_Soldier_GL_F
 {
@@ -14815,7 +14067,7 @@ class haxey_VDV_Flora_Infantry_GL: O_Soldier_GL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_vog","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_vog","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_Flora_Infantry_AT: O_soldier_LAT_F
 {
@@ -14839,7 +14091,7 @@ class haxey_VDV_Flora_Infantry_AT: O_soldier_LAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_rhs_rpg_AT";
+	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_VDV_Flora_Infantry_M: O_soldier_M_F
 {
@@ -14887,7 +14139,7 @@ class haxey_VDV_Flora_Infantry_SAT: O_soldier_AT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_Flora_Infantry_ASAT: O_soldier_AAT_F
 {
@@ -14911,7 +14163,7 @@ class haxey_VDV_Flora_Infantry_ASAT: O_soldier_AAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_Flora_Infantry_Spotter: O_spotter_F
 {
@@ -14983,7 +14235,7 @@ class haxey_VDV_Flora_Infantry_HG: O_HeavyGunner_F
 	respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_Flora_Infantry_AHG: O_soldier_AAR_F
 {
@@ -15007,7 +14259,7 @@ class haxey_VDV_Flora_Infantry_AHG: O_soldier_AAR_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_Flora_Infantry_AB: O_Soldier_A_F
 {
@@ -15031,7 +14283,7 @@ class haxey_VDV_Flora_Infantry_AB: O_Soldier_A_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_Flora_Infantry_SAA: O_soldier_AA_F
 {
@@ -15055,7 +14307,7 @@ class haxey_VDV_Flora_Infantry_SAA: O_soldier_AA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_Flora_Infantry_ASAA: O_soldier_AAA_F
 {
@@ -15079,7 +14331,7 @@ class haxey_VDV_Flora_Infantry_ASAA: O_soldier_AAA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_Flora_Infantry_rflm: O_soldier_F
 {
@@ -15103,7 +14355,7 @@ class haxey_VDV_Flora_Infantry_rflm: O_soldier_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_Flora_sidor_Rflm";
+	backpack = "haxey_O_sidor_Rflm";
 };
 class haxey_VDV_Flora_Infantry_lite_rflm: O_Soldier_lite_F
 {
@@ -15176,192 +14428,6 @@ class haxey_VDV_Flora_Infantry_AMort: O_support_AMort_F
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	backpack = "O_Mortar_01_support_F";
-};
-class haxey_VDV_Flora_Carryall_SAT: B_Carryall_oli
-{
-	_generalMacro = "haxey_VDV_Flora_Carryall_SAT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_CUP_AT13_M
-		{
-			count = 1;
-			name = "CUP_AT13_M";
-		};
-	};
-};
-class haxey_VDV_Flora_umbts_SAA: rhs_assault_umbts
-{
-	_generalMacro = "haxey_VDV_Flora_umbts_SAA";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_mag_9k38_rocket
-		{
-			count = 1;
-			name = "rhs_mag_9k38_rocket";
-		};
-	};
-};
-class haxey_VDV_Flora_rhs_rpg_AT: rhs_rpg_empty
-{
-	_generalMacro = "haxey_VDV_Flora_rhs_rpg_AT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_rpg7_PG7VL_mag
-		{
-			count = 3;
-			name = "rhs_rpg7_PG7VL_mag";
-		};
-		class _xx_tf47_m3maaws_HEDP
-		{
-			count = 1;
-			name = "rhs_rpg7_OG7V_mag";
-		};
-	};
-};
-class haxey_VDV_Flora_sidor_exp: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_Flora_sidor_exp";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_DemoCharge_Remote_Mag
-		{
-			count = 2;
-			name = "DemoCharge_Remote_Mag";
-		};
-		class _xx_SatchelCharge_Remote_Mag
-		{
-			count = 1;
-			name = "SatchelCharge_Remote_Mag";
-		};
-		class _xx_ACE_Clacker
-		{
-			count = 1;
-			name = "ACE_Clacker";
-		};
-		class _xx_ACE_DefusalKit
-		{
-			count = 1;
-			name = "ACE_DefusalKit";
-		};
-	};
-};
-class haxey_VDV_Flora_sidor_Rflm: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_Flora_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 5;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 4;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_VDV_Flora_sidor_AR: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_Flora_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 7;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-	};
-};
-class haxey_VDV_Flora_sidor_HG: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_Flora_sidor_HG";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_100Rnd_762x54mmR
-		{
-			count = 3;
-			name = "rhs_100Rnd_762x54mmR";
-		};
-	};
-};
-class haxey_VDV_Flora_sidor_GL: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_Flora_sidor_GL";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_VOG25
-		{
-			count = 2;
-			name = "rhs_VOG25";
-		};
-		class _xx_rhs_VOG25P
-		{
-			count = 1;
-			name = "rhs_VOG25P";
-		};
-		class _xx_rhs_GRD40_White
-		{
-			count = 5;
-			name = "rhs_GRD40_White";
-		};
-		class _xx_rhs_rhs_GRD40_Red
-		{
-			count = 5;
-			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_VDV_Flora_umbts_Med: rhs_assault_umbts
-{
-	_generalMacro = "haxey_VDV_Flora_umbts_Med";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_ACE_fieldDressing
-		{
-			count = 30;
-			name = "ACE_fieldDressing";
-		};
-		class _xx_ACE_morphine
-		{
-			count = 15;
-			name = "ACE_morphine";
-		};
-		class _xx_ACE_epinephrine
-		{
-			count = 15;
-			name = "ACE_epinephrine";
-		};
-		class _xx_ACE_bloodIV
-		{
-			count = 5;
-			name = "ACE_bloodIV";
-		};
-	};
 };
 class haxey_VDV_Flora_RHS_UAZ_VDV: rhs_uaz_vdv
 {
@@ -17817,7 +16883,7 @@ class haxey_VDV_MountainFlora_Infantry_TL: O_Soldier_TL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_vog_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_vog_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_MountainFlora_Infantry_heli: O_helicrew_F
 {
@@ -17889,7 +16955,7 @@ class haxey_VDV_MountainFlora_Infantry_AR: O_soldier_AR_F
 	respawnMagazines[] = {"rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_45Rnd_545X39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_MountainFlora_Infantry_exp: O_soldier_exp_F
 {
@@ -17913,7 +16979,7 @@ class haxey_VDV_MountainFlora_Infantry_exp: O_soldier_exp_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_engineer","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_engineer","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_exp";
+	backpack = "haxey_O_sidor_exp";
 };
 class haxey_VDV_MountainFlora_Infantry_medic: O_medic_F
 {
@@ -17937,7 +17003,7 @@ class haxey_VDV_MountainFlora_Infantry_medic: O_medic_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_medic","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_medic","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_umbts_Med";
+	backpack = "haxey_O_umbts_Med";
 };
 class haxey_VDV_MountainFlora_Infantry_GL: O_Soldier_GL_F
 {
@@ -17961,7 +17027,7 @@ class haxey_VDV_MountainFlora_Infantry_GL: O_Soldier_GL_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_vog","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_vog","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_GL";
+	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_MountainFlora_Infantry_AT: O_soldier_LAT_F
 {
@@ -17985,7 +17051,7 @@ class haxey_VDV_MountainFlora_Infantry_AT: O_soldier_LAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_rhs_rpg_AT";
+	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_VDV_MountainFlora_Infantry_M: O_soldier_M_F
 {
@@ -18033,7 +17099,7 @@ class haxey_VDV_MountainFlora_Infantry_SAT: O_soldier_AT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_MountainFlora_Infantry_ASAT: O_soldier_AAT_F
 {
@@ -18057,7 +17123,7 @@ class haxey_VDV_MountainFlora_Infantry_ASAT: O_soldier_AAT_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_Carryall_SAT";
+	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_MountainFlora_Infantry_Spotter: O_spotter_F
 {
@@ -18129,7 +17195,7 @@ class haxey_VDV_MountainFlora_Infantry_HG: O_HeavyGunner_F
 	respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_MountainFlora_Infantry_AHG: O_soldier_AAR_F
 {
@@ -18153,7 +17219,7 @@ class haxey_VDV_MountainFlora_Infantry_AHG: O_soldier_AAR_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_HG";
+	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_MountainFlora_Infantry_AB: O_Soldier_A_F
 {
@@ -18177,7 +17243,7 @@ class haxey_VDV_MountainFlora_Infantry_AB: O_Soldier_A_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_AR";
+	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_MountainFlora_Infantry_SAA: O_soldier_AA_F
 {
@@ -18201,7 +17267,7 @@ class haxey_VDV_MountainFlora_Infantry_SAA: O_soldier_AA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_MountainFlora_Infantry_ASAA: O_soldier_AAA_F
 {
@@ -18225,7 +17291,7 @@ class haxey_VDV_MountainFlora_Infantry_ASAA: O_soldier_AAA_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_umbts_SAA";
+	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_MountainFlora_Infantry_rflm: O_soldier_F
 {
@@ -18249,7 +17315,7 @@ class haxey_VDV_MountainFlora_Infantry_rflm: O_soldier_F
 	respawnmagazines[] = {"rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"};
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
-	backpack = "haxey_VDV_MountainFlora_sidor_Rflm";
+	backpack = "haxey_O_sidor_Rflm";
 };
 class haxey_VDV_MountainFlora_Infantry_lite_rflm: O_Soldier_lite_F
 {
@@ -18322,192 +17388,6 @@ class haxey_VDV_MountainFlora_Infantry_AMort: O_support_AMort_F
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess","ItemRadio","ItemMap","ItemCompass","tf_microdagr"};
 	backpack = "O_Mortar_01_support_F";
-};
-class haxey_VDV_MountainFlora_Carryall_SAT: B_Carryall_oli
-{
-	_generalMacro = "haxey_VDV_MountainFlora_Carryall_SAT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_CUP_AT13_M
-		{
-			count = 1;
-			name = "CUP_AT13_M";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_umbts_SAA: rhs_assault_umbts
-{
-	_generalMacro = "haxey_VDV_MountainFlora_umbts_SAA";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_mag_9k38_rocket
-		{
-			count = 1;
-			name = "rhs_mag_9k38_rocket";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_rhs_rpg_AT: rhs_rpg_empty
-{
-	_generalMacro = "haxey_VDV_MountainFlora_rhs_rpg_AT";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_rpg7_PG7VL_mag
-		{
-			count = 3;
-			name = "rhs_rpg7_PG7VL_mag";
-		};
-		class _xx_tf47_m3maaws_HEDP
-		{
-			count = 1;
-			name = "rhs_rpg7_OG7V_mag";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_sidor_exp: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_MountainFlora_sidor_exp";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_DemoCharge_Remote_Mag
-		{
-			count = 2;
-			name = "DemoCharge_Remote_Mag";
-		};
-		class _xx_SatchelCharge_Remote_Mag
-		{
-			count = 1;
-			name = "SatchelCharge_Remote_Mag";
-		};
-		class _xx_ACE_Clacker
-		{
-			count = 1;
-			name = "ACE_Clacker";
-		};
-		class _xx_ACE_DefusalKit
-		{
-			count = 1;
-			name = "ACE_DefusalKit";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_sidor_Rflm: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_MountainFlora_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 5;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 4;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_sidor_AR: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_MountainFlora_sidor_AR";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_45Rnd_545X39_AK
-		{
-			count = 7;
-			name = "rhs_45Rnd_545X39_AK";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_sidor_HG: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_MountainFlora_sidor_HG";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_100Rnd_762x54mmR
-		{
-			count = 3;
-			name = "rhs_100Rnd_762x54mmR";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_sidor_GL: rhs_sidor
-{
-	_generalMacro = "haxey_VDV_MountainFlora_sidor_GL";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_rhs_VOG25
-		{
-			count = 2;
-			name = "rhs_VOG25";
-		};
-		class _xx_rhs_VOG25P
-		{
-			count = 1;
-			name = "rhs_VOG25P";
-		};
-		class _xx_rhs_GRD40_White
-		{
-			count = 5;
-			name = "rhs_GRD40_White";
-		};
-		class _xx_rhs_rhs_GRD40_Red
-		{
-			count = 5;
-			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
-		};
-	};
-};
-class haxey_VDV_MountainFlora_umbts_Med: rhs_assault_umbts
-{
-	_generalMacro = "haxey_VDV_MountainFlora_umbts_Med";
-	author = "haxey";
-	scope = 1;
-	class TransportItems
-	{
-		class _xx_ACE_fieldDressing
-		{
-			count = 30;
-			name = "ACE_fieldDressing";
-		};
-		class _xx_ACE_morphine
-		{
-			count = 15;
-			name = "ACE_morphine";
-		};
-		class _xx_ACE_epinephrine
-		{
-			count = 15;
-			name = "ACE_epinephrine";
-		};
-		class _xx_ACE_bloodIV
-		{
-			count = 5;
-			name = "ACE_bloodIV";
-		};
-	};
 };
 class haxey_VDV_MountainFlora_RHS_UAZ_VDV: rhs_uaz_vdv
 {
@@ -20797,3 +19677,5 @@ class haxey_VDV_MountainFlora_RHS_Ka52_UPK23_vvsc: RHS_Ka52_UPK23_vvsc
 	class TransportWeapons {};
 	class TransportBackpacks {};
 };
+
+# include "RU_backpacks.hpp"
