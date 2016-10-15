@@ -7,15 +7,10 @@ class CfgPatches
 		requiredVersion = 1.00;
 		requiredAddons[] = {};
 		author[] = {"haxey"};
-		authorUrl = "http://www.ofcrav2.org/";
+		authorUrl = "";
 	};
-	class haxey_faction_USArmy_UCP
-	{
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 1.00;
-		requiredAddons[] = {};
-	};
+	//Backward compatibility
+	class haxey_faction_USArmy_UCP: haxey_AllinOne					{};
 	class haxey_faction_USArmy_OCP: haxey_faction_USArmy_UCP		{};
 	class haxey_faction_USArmy_M81: haxey_faction_USArmy_UCP		{};
 	class haxey_faction_MSV_EMR: haxey_faction_USArmy_UCP			{};
@@ -30,23 +25,23 @@ class CfgPatches
 
 class cfgWeapons
 {
-	#include "cfgWeapons_US.hpp"
-	#include "cfgWeapons_RU.hpp"
+	#include "US\cfgWeapons.hpp"
+	#include "RU\cfgWeapons.hpp"
 };
 class CfgVehicles
 {
-	#include "cfgVehicles_US.hpp"
-	#include "cfgVehicles_RU.hpp"
+	#include "US\cfgVehicles.hpp"
+	#include "RU\cfgVehicles.hpp"
 };
 class CfgGroups
 {
 	class West
 	{
-		#include "CfgGroups_West_US.hpp"
+		#include "US\CfgGroups.hpp"
 		
 	};
 	class East
 	{
-		#include "CfgGroups_East_RU.hpp"
+		#include "RU\CfgGroups.hpp"
 	};
 };

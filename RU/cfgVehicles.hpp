@@ -1,3 +1,28 @@
+class O_officer_F;
+class O_Soldier_SL_F;
+class O_Soldier_TL_F;
+class O_helicrew_F;
+class O_crew_F;
+class O_soldier_AR_F;
+class O_soldier_exp_F;
+class O_medic_F;
+class O_Soldier_GL_F;
+class O_soldier_LAT_F;
+class O_soldier_M_F;
+class O_soldier_AT_F;
+class O_spotter_F;
+class O_sniper_F;
+class O_HeavyGunner_F;
+class O_soldier_AAR_F;
+class O_Soldier_A_F;
+class O_soldier_AA_F;
+class O_soldier_AAA_F;
+class O_soldier_F;
+class O_Soldier_lite_F;
+class O_soldier_AAT_F;
+class O_support_Mort_F;
+class O_support_AMort_F;
+
 class rhs_sidor;
 class B_Carryall_oli;
 class rhs_assault_umbts;
@@ -188,3 +213,9 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 		};
 	};
 };
+
+#include "Men_MSV.hpp"
+#include "Vhl_MSV.hpp"
+
+#include "Men_VDV.hpp"
+#include "Vhl_VDV.hpp"
