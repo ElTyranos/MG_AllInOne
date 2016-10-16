@@ -1,5 +1,4 @@
 
-
 // UCP //
 class haxey_US_Army_UCP_Infantry_CompCom: B_officer_F
 {
