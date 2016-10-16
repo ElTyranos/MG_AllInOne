@@ -21,6 +21,27 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
+	class haxey_US_Army_DESERT
+	{
+		displayName = "h. US Army - Vehicles (D)";
+		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
+		priority = 1;
+		side = 1;
+	};
+	class haxey_US_Army_WOODLAND
+	{
+		displayName = "h. US Army - Vehicles (WD)";
+		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
+		priority = 1;
+		side = 1;
+	};
+	class haxey_US_Army_AIR
+	{
+		displayName = "h. US Army - Vehicles (Air)";
+		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
+		priority = 1;
+		side = 1;
+	};
 	class haxey_faction_MSV_EMR
 	{
 		displayName = "h. MSV - EMR";
