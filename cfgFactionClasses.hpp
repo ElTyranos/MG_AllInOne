@@ -63,6 +63,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 0;
 	};
+	class haxey_faction_MSV_Vehicles
+	{
+		displayName = "h. MSV - Vehicles";
+		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";
+		priority = 1;
+		side = 0;
+	};
 	class haxey_faction_VDV_EMR
 	{
 		displayName = "h. VDV - EMR";
@@ -84,4 +91,18 @@ class cfgFactionClasses
 		priority = 1;
 		side = 0;
 	};	
+	class haxey_faction_VDV_Vehicles
+	{
+		displayName = "h. VDV - Vehicles";
+		icon = "\rhsafrf\addons\rhs_main\data\icons\vdv.paa";
+		priority = 1;
+		side = 0;
+	};
+	class haxey_faction_VVS_Vehicles
+	{
+		displayName = "h. VDV - Vehicles";
+		icon = "\rhsafrf\addons\rhs_main\data\icons\vdv.paa";
+		priority = 1;
+		side = 0;
+	};
 };

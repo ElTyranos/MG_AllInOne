@@ -97,7 +97,7 @@
 				};
 				class haxey_US_Army_UCP_RS2
 				{
-					name = "2. RifleSquad";
+					name = "2. RifleSquad (DMR)";
 					faction = "haxey_US_Army_UCP";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -165,149 +165,9 @@
 						position[] = {-9,-6,0};
 					};
 				};
-				class haxey_US_Army_UCP_RS3
-				{
-					name = "3. RifleSquad";
-					faction = "haxey_US_Army_UCP";
-					side = 1;
-					aliveCategory = "Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_SL";
-						rank = "Lieutenant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_AR";
-						rank = "Private";
-						position[] = {5,-2,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_exp";
-						rank = "Corporal";
-						position[] = {7,-4,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_ASAT";
-						rank = "Corporal";
-						position[] = {9,-6,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {-3,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_AR";
-						rank = "Private";
-						position[] = {-5,-2,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_GL";
-						rank = "Private";
-						position[] = {-7,-4,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_SAT";
-						rank = "Corporal";
-						position[] = {-9,-6,0};
-					};
-				};
-				class haxey_US_Army_UCP_RS4
-				{
-					name = "4. RifleSquad";
-					faction = "haxey_US_Army_UCP";
-					side = 1;
-					aliveCategory = "Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_SL";
-						rank = "Lieutenant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_AR";
-						rank = "Private";
-						position[] = {5,-2,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_exp";
-						rank = "Corporal";
-						position[] = {7,-4,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_ASAA";
-						rank = "Corporal";
-						position[] = {9,-6,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {-3,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_AR";
-						rank = "Private";
-						position[] = {-5,-2,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_GL";
-						rank = "Private";
-						position[] = {-7,-4,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_UCP_Infantry_SAA";
-						rank = "Corporal";
-						position[] = {-9,-6,0};
-					};
-				};
 				class haxey_US_Army_UCP_WpnsSquad
 				{
-					name = "5. Weapons Squad";
+					name = "3. Weapons Squad (MG)";
 					faction = "haxey_US_Army_UCP";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -363,7 +223,7 @@
 				};
 				class haxey_US_Army_UCP_WpnsSquadv2
 				{
-					name = "6. Weapons Squad v2";
+					name = "4. Weapons Squad (MG+AT)";
 					faction = "haxey_US_Army_UCP";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -529,7 +389,7 @@
 			};
 			class Armored
 			{
-				name = "Crew";
+				name = "3. Crew";
 				class haxey_US_Army_UCP_GroundCrew
 				{
 					name = "Ground Crew";
@@ -762,149 +622,9 @@
 						position[] = {-9,-6,0};
 					};
 				};
-				class haxey_US_Army_OCP_RS3
-				{
-					name = "3. RifleSquad";
-					faction = "haxey_US_Army_OCP";
-					side = 1;
-					aliveCategory = "Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_SL";
-						rank = "Lieutenant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_AR";
-						rank = "Private";
-						position[] = {5,-2,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_exp";
-						rank = "Corporal";
-						position[] = {7,-4,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_ASAT";
-						rank = "Corporal";
-						position[] = {9,-6,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {-3,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_AR";
-						rank = "Private";
-						position[] = {-5,-2,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_GL";
-						rank = "Private";
-						position[] = {-7,-4,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_SAT";
-						rank = "Corporal";
-						position[] = {-9,-6,0};
-					};
-				};
-				class haxey_US_Army_OCP_RS4
-				{
-					name = "4. RifleSquad";
-					faction = "haxey_US_Army_OCP";
-					side = 1;
-					aliveCategory = "Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_SL";
-						rank = "Lieutenant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_AR";
-						rank = "Private";
-						position[] = {5,-2,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_exp";
-						rank = "Corporal";
-						position[] = {7,-4,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_ASAA";
-						rank = "Corporal";
-						position[] = {9,-6,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {-3,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_AR";
-						rank = "Private";
-						position[] = {-5,-2,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_GL";
-						rank = "Private";
-						position[] = {-7,-4,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_OCP_Infantry_SAA";
-						rank = "Corporal";
-						position[] = {-9,-6,0};
-					};
-				};
 				class haxey_US_Army_OCP_WpnsSquad
 				{
-					name = "5. Weapons Squad";
+					name = "3. Weapons Squad (MG)";
 					faction = "haxey_US_Army_OCP";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -960,7 +680,7 @@
 				};
 				class haxey_US_Army_OCP_WpnsSquadv2
 				{
-					name = "6. Weapons Squad v2";
+					name = "4. Weapons Squad (MG+AT)";
 					faction = "haxey_US_Army_OCP";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -1126,7 +846,7 @@
 			};
 			class Armored
 			{
-				name = "Crew";
+				name = "3. Crew";
 				class haxey_US_Army_OCP_GroundCrew
 				{
 					name = "Ground Crew";
@@ -1359,149 +1079,9 @@
 						position[] = {-9,-6,0};
 					};
 				};
-				class haxey_US_Army_M81_RS3
-				{
-					name = "3. RifleSquad";
-					faction = "haxey_US_Army_M81";
-					side = 1;
-					aliveCategory = "Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_SL";
-						rank = "Lieutenant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_AR";
-						rank = "Private";
-						position[] = {5,-2,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_exp";
-						rank = "Corporal";
-						position[] = {7,-4,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_ASAT";
-						rank = "Corporal";
-						position[] = {9,-6,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {-3,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_AR";
-						rank = "Private";
-						position[] = {-5,-2,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_GL";
-						rank = "Private";
-						position[] = {-7,-4,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_SAT";
-						rank = "Corporal";
-						position[] = {-9,-6,0};
-					};
-				};
-				class haxey_US_Army_M81_RS4
-				{
-					name = "4. RifleSquad";
-					faction = "haxey_US_Army_M81";
-					side = 1;
-					aliveCategory = "Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_SL";
-						rank = "Lieutenant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_AR";
-						rank = "Private";
-						position[] = {5,-2,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_exp";
-						rank = "Corporal";
-						position[] = {7,-4,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_ASAA";
-						rank = "Corporal";
-						position[] = {9,-6,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_TL";
-						rank = "Sergeant";
-						position[] = {-3,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_AR";
-						rank = "Private";
-						position[] = {-5,-2,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_GL";
-						rank = "Private";
-						position[] = {-7,-4,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "haxey_US_Army_M81_Infantry_SAA";
-						rank = "Corporal";
-						position[] = {-9,-6,0};
-					};
-				};
 				class haxey_US_Army_M81_WpnsSquad
 				{
-					name = "5. Weapons Squad";
+					name = "3. Weapons Squad (MG)";
 					faction = "haxey_US_Army_M81";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -1557,7 +1137,7 @@
 				};
 				class haxey_US_Army_M81_WpnsSquadv2
 				{
-					name = "6. Weapons Squad v2";
+					name = "4. Weapons Squad (MG+AT)";
 					faction = "haxey_US_Army_M81";
 					side = 1;
 					aliveCategory = "Infantry";
@@ -1723,7 +1303,7 @@
 			};
 			class Armored
 			{
-				name = "Crew";
+				name = "3. Crew";
 				class haxey_US_Army_M81_GroundCrew
 				{
 					name = "Ground Crew";

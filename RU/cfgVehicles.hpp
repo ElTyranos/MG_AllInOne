@@ -219,3 +219,5 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 
 #include "Men_VDV.hpp"
 #include "Vhl_VDV.hpp"
+
+#include "Vhl_VVS.hpp"
