@@ -15,14 +15,14 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_PL";
 						rank = "Colonel";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_rflm";
 						rank = "Major";
-						position[] = {5,-2,0};
+						position[] = {1,-1,0};
 					};
 				};
 				class haxey_US_Army_UCP_RS1
@@ -36,63 +36,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AR";
 						rank = "Private";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_exp";
 						rank = "Corporal";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_rflm";
 						rank = "Corporal";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AR";
 						rank = "Private";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_GL";
 						rank = "Private";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AT";
 						rank = "Corporal";
-						position[] = {-9,-6,0};
+						position[] = {-4,-4,0};
 					};
 				};
 				class haxey_US_Army_UCP_RS2
@@ -106,63 +106,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AR";
 						rank = "Private";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_exp";
 						rank = "Corporal";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_rflm";
 						rank = "Corporal";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AR";
 						rank = "Private";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_M";
 						rank = "Corporal";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AT";
 						rank = "Corporal";
-						position[] = {-9,-6,0};
+						position[] = {-4,-4,0};
 					};
 				};
 				class haxey_US_Army_UCP_WpnsSquad
@@ -176,49 +176,49 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AB";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AB";
 						rank = "Private";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 				};
 				class haxey_US_Army_UCP_WpnsSquadv2
@@ -232,63 +232,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_HG";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AHG";
 						rank = "Sergeant";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SAT";
 						rank = "Corporal";
-						position[] = {1,-2,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_ASAT";
 						rank = "Private";
-						position[] = {-1,-4,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SAT";
 						rank = "Corporal";
-						position[] = {-3,-6,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_ASAT";
 						rank = "Private";
-						position[] = {-5,-8,0};
+						position[] = {-4,-4,0};
 					};
 				};
 			};
@@ -306,21 +306,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_CompCom";
 						rank = "Colonel";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_ExecOff";
 						rank = "Major";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_1stSerg";
 						rank = "Sergeant";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 				};
 				class haxey_US_Army_UCP_SniperTeam
@@ -334,21 +334,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_Spotter";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_Sniper";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_GL";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 				};
 				class haxey_US_Army_UCP_MortarSquad
@@ -362,28 +362,28 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_SL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_Mort";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_AMort";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_lite_rflm";
 						rank = "Private";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 				};
 			};
@@ -401,21 +401,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_crew";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_crew";
 						rank = "Corporal";
-						position[] = {4,-2,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_crew";
 						rank = "Private";
-						position[] = {0,3,0};
+						position[] = {2,-2,0};
 					};
 				};
 				class haxey_US_Army_UCP_AirCrew
@@ -429,28 +429,28 @@
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_heli";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_heli";
 						rank = "Corporal";
-						position[] = {4,-2,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_heli";
 						rank = "Private";
-						position[] = {0,3,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_UCP_Infantry_heli";
 						rank = "Private";
-						position[] = {0,0,0};
+						position[] = {3,-3,0};
 					};
 				};
 			};
@@ -472,14 +472,14 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_PL";
 						rank = "Colonel";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_rflm";
 						rank = "Major";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 				};
 				class haxey_US_Army_OCP_RS1
@@ -493,35 +493,35 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AR";
 						rank = "Private";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_exp";
 						rank = "Corporal";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_rflm";
 						rank = "Corporal";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
@@ -563,63 +563,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AR";
 						rank = "Private";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_exp";
 						rank = "Corporal";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_rflm";
 						rank = "Corporal";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AR";
 						rank = "Private";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_M";
 						rank = "Corporal";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AT";
 						rank = "Corporal";
-						position[] = {-9,-6,0};
+						position[] = {-4,-4,0};
 					};
 				};
 				class haxey_US_Army_OCP_WpnsSquad
@@ -633,49 +633,49 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AB";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AB";
 						rank = "Private";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 				};
 				class haxey_US_Army_OCP_WpnsSquadv2
@@ -689,63 +689,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_HG";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AHG";
 						rank = "Sergeant";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SAT";
 						rank = "Corporal";
-						position[] = {1,-2,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_ASAT";
 						rank = "Private";
-						position[] = {-1,-4,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SAT";
 						rank = "Corporal";
-						position[] = {-3,-6,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_ASAT";
 						rank = "Private";
-						position[] = {-5,-8,0};
+						position[] = {-4,-4,0};
 					};
 				};
 			};
@@ -763,21 +763,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_CompCom";
 						rank = "Colonel";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_ExecOff";
 						rank = "Major";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_1stSerg";
 						rank = "Sergeant";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 				};
 				class haxey_US_Army_OCP_SniperTeam
@@ -791,21 +791,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_Spotter";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_Sniper";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_GL";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 				};
 				class haxey_US_Army_OCP_MortarSquad
@@ -819,28 +819,28 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_SL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_Mort";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_AMort";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_lite_rflm";
 						rank = "Private";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 				};
 			};
@@ -858,21 +858,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_crew";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_crew";
 						rank = "Corporal";
-						position[] = {4,-2,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_crew";
 						rank = "Private";
-						position[] = {0,3,0};
+						position[] = {2,-2,0};
 					};
 				};
 				class haxey_US_Army_OCP_AirCrew
@@ -886,28 +886,28 @@
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_heli";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_heli";
 						rank = "Corporal";
-						position[] = {4,-2,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_heli";
 						rank = "Private";
-						position[] = {0,3,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_OCP_Infantry_heli";
 						rank = "Private";
-						position[] = {0,0,0};
+						position[] = {3,-3,0};
 					};
 				};
 			};
@@ -929,14 +929,14 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_PL";
 						rank = "Colonel";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_rflm";
 						rank = "Major";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 				};
 				class haxey_US_Army_M81_RS1
@@ -950,63 +950,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AR";
 						rank = "Private";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_exp";
 						rank = "Corporal";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_rflm";
 						rank = "Corporal";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AR";
 						rank = "Private";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_GL";
 						rank = "Private";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AT";
 						rank = "Corporal";
-						position[] = {-9,-6,0};
+						position[] = {-4,-4,0};
 					};
 				};
 				class haxey_US_Army_M81_RS2
@@ -1020,63 +1020,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AR";
 						rank = "Private";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_exp";
 						rank = "Corporal";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_rflm";
 						rank = "Corporal";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_TL";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AR";
 						rank = "Private";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_M";
 						rank = "Corporal";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AT";
 						rank = "Corporal";
-						position[] = {-9,-6,0};
+						position[] = {-4,-4,0};
 					};
 				};
 				class haxey_US_Army_M81_WpnsSquad
@@ -1090,49 +1090,49 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AB";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {-3,0,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {-5,-2,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AB";
 						rank = "Private";
-						position[] = {-7,-4,0};
+						position[] = {-3,-3,0};
 					};
 				};
 				class haxey_US_Army_M81_WpnsSquadv2
@@ -1146,63 +1146,63 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SL";
 						rank = "Lieutenant";
-						position[] = {0,5,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_HG";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AHG";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_HG";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AHG";
 						rank = "Sergeant";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SAT";
 						rank = "Corporal";
-						position[] = {1,-2,0};
+						position[] = {-1,-1,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_ASAT";
 						rank = "Private";
-						position[] = {-1,-4,0};
+						position[] = {-2,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SAT";
 						rank = "Corporal";
-						position[] = {-3,-6,0};
+						position[] = {-3,-3,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_ASAT";
 						rank = "Private";
-						position[] = {-5,-8,0};
+						position[] = {-4,-4,0};
 					};
 				};
 			};
@@ -1220,21 +1220,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_CompCom";
 						rank = "Colonel";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_ExecOff";
 						rank = "Major";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_1stSerg";
 						rank = "Sergeant";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 				};
 				class haxey_US_Army_M81_SniperTeam
@@ -1248,21 +1248,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_Spotter";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_Sniper";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_GL";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 				};
 				class haxey_US_Army_M81_MortarSquad
@@ -1276,28 +1276,28 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_SL";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {1,-1,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_Mort";
 						rank = "Corporal";
-						position[] = {5,-2,0};
+						position[] = {2,-2,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_AMort";
 						rank = "Private";
-						position[] = {7,-4,0};
+						position[] = {3,-3,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_lite_rflm";
 						rank = "Private";
-						position[] = {9,-6,0};
+						position[] = {4,-4,0};
 					};
 				};
 			};
@@ -1315,21 +1315,21 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_crew";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_crew";
 						rank = "Corporal";
-						position[] = {4,-2,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_crew";
 						rank = "Private";
-						position[] = {0,3,0};
+						position[] = {2,-2,0};
 					};
 				};
 				class haxey_US_Army_M81_AirCrew
@@ -1343,28 +1343,28 @@
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_heli";
 						rank = "Sergeant";
-						position[] = {3,0,0};
+						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_heli";
 						rank = "Corporal";
-						position[] = {4,-2,0};
+						position[] = {1,-1,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_heli";
 						rank = "Private";
-						position[] = {0,3,0};
+						position[] = {2,-2,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "haxey_US_Army_M81_Infantry_heli";
 						rank = "Private";
-						position[] = {0,0,0};
+						position[] = {3,-3,0};
 					};
 				};
 			};
