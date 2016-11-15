@@ -1,9 +1,9 @@
 #define MACRO_US_TRANSPORTITEMS \
 	class TransportItems \
 	{ \
-		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag \
+		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red \
 		{ \
-			name = "rhs_mag_30Rnd_556x45_M855A1_Stanag"; \
+			name = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"; \
 			count = 20; \
 		}; \
 		class _xx_rhsusf_100Rnd_556x45_soft_pouch \
@@ -11,9 +11,9 @@
 			name = "rhsusf_100Rnd_556x45_soft_pouch"; \
 			count = 5; \
 		}; \
-		class _xx_rhsusf_100Rnd_762x51 \
+		class _xx_rhsusf_100Rnd_762x51_m62_tracer \
 		{ \
-			name = "rhsusf_100Rnd_762x51"; \
+			name = "rhsusf_100Rnd_762x51_m62_tracer"; \
 			count = 5; \
 		}; \
 		class _xx_rhsusf_20Rnd_762x51_m118_special_Mag \
@@ -89,9 +89,9 @@
 #define MACRO_US_TRANSPORTITEMS_AIR \
 	class TransportItems \
 	{ \
-		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag \
+		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red \
 		{ \
-			name = "rhs_mag_30Rnd_556x45_M855A1_Stanag"; \
+			name = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"; \
 			count = 20; \
 		}; \
 		class _xx_rhsusf_100Rnd_556x45_soft_pouch \
@@ -99,9 +99,9 @@
 			name = "rhsusf_100Rnd_556x45_soft_pouch"; \
 			count = 5; \
 		}; \
-		class _xx_rhsusf_100Rnd_762x51 \
+		class _xx_rhsusf_100Rnd_762x51_m62_tracer \
 		{ \
-			name = "rhsusf_100Rnd_762x51"; \
+			name = "rhsusf_100Rnd_762x51_m62_tracer"; \
 			count = 5; \
 		}; \
 		class _xx_rhsusf_20Rnd_762x51_m118_special_Mag \

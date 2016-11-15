@@ -217,19 +217,19 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 #define MACRO_RU_TRANSPORTITEMS \
 	class TransportItems \
 	{ \
-		class _xx_rhs_30Rnd_545x39_AK \
+		class _xx_rhs_30Rnd_545x39_AK_green \
 		{ \
-			name = "rhs_30Rnd_545x39_AK"; \
+			name = "rhs_30Rnd_545x39_AK_green"; \
 			count = 10; \
 		}; \
-		class _xx_rhs_45Rnd_545X39_AK \
+		class _xx_rhs_45Rnd_545X39_AK_Green \
 		{ \
-			name = "rhs_45Rnd_545X39_AK"; \
+			name = "rhs_45Rnd_545X39_AK_Green"; \
 			count = 5; \
 		}; \
-		class _xx_rhs_100Rnd_762x54mmR \
+		class _xx_rhs_100Rnd_762x54mmR_green \
 		{ \
-			name = "rhs_100Rnd_762x54mmR"; \
+			name = "rhs_100Rnd_762x54mmR_green"; \
 			count = 5; \
 		}; \
 		class _xx_CUP_10Rnd_762x54_SVD_M \
@@ -305,19 +305,19 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 #define MACRO_RU_TRANSPORTITEMS_AIR \
 	class TransportItems \
 	{ \
-		class _xx_rhs_30Rnd_545x39_AK \
+		class _xx_rhs_30Rnd_545x39_AK_green \
 		{ \
-			name = "rhs_30Rnd_545x39_AK"; \
+			name = "rhs_30Rnd_545x39_AK_green"; \
 			count = 10; \
 		}; \
-		class _xx_rhs_45Rnd_545X39_AK \
+		class _xx_rhs_45Rnd_545X39_AK_Green \
 		{ \
-			name = "rhs_45Rnd_545X39_AK"; \
+			name = "rhs_45Rnd_545X39_AK_Green"; \
 			count = 5; \
 		}; \
-		class _xx_rhs_100Rnd_762x54mmR \
+		class _xx_rhs_100Rnd_762x54mmR_green \
 		{ \
-			name = "rhs_100Rnd_762x54mmR"; \
+			name = "rhs_100Rnd_762x54mmR_green"; \
 			count = 5; \
 		}; \
 		class _xx_CUP_10Rnd_762x54_SVD_M \
