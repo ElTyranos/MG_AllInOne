@@ -177,7 +177,7 @@
 		class _xx_B_Parachute \
 		{ \
 			name = "B_Parachute"; \
-			count = 16; \
+			count = 8; \
 		}; \
 	};
 
@@ -503,9 +503,6 @@ class rhsusf_M1083A1P2_B_wd_fmtv_usarmy;
 class rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy;
 class rhsusf_m998_w_s_4dr_halftop;
 class rhsusf_m998_w_s_4dr_fulltop;
-class M1126_ICV_M2NEST_DG1_NOSLATWOOD;
-class M1126_ICV_M2_DG1_NOSLATWOOD;
-class M1126_ICV_M134_DG1_NOSLATWOOD;
 class haxey_US_Army_WOODLAND_rhsusf_m1025_w: rhsusf_m1025_w
 {
 	_generalMacro = "haxey_US_Army_WOODLAND_rhsusf_m1025_w";
@@ -587,42 +584,6 @@ class haxey_US_Army_WOODLAND_rhsusf_m998_w_s_4dr_fulltop: rhsusf_m998_w_s_4dr_fu
 	faction = "haxey_US_Army_WOODLAND";
 	vehicleClass = "H_Motorized";
 	displayName = "M998 FT";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
-class haxey_US_Army_WOODLAND_M1126_ICV_M2NEST_DG1_NOSLATWOOD: M1126_ICV_M2NEST_DG1_NOSLATWOOD
-{
-	_generalMacro = "haxey_US_Army_WOODLAND_M1126_ICV_M2NEST_DG1_NOSLATWOOD";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_WOODLAND";
-	vehicleClass = "H_Motorized";
-	displayName = "M1126 M2";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
-class haxey_US_Army_WOODLAND_M1126_ICV_M2_DG1_NOSLATWOOD: M1126_ICV_M2_DG1_NOSLATWOOD
-{
-	_generalMacro = "haxey_US_Army_WOODLAND_M1126_ICV_M2_DG1_NOSLATWOOD";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_WOODLAND";
-	vehicleClass = "H_Motorized";
-	displayName = "M1126 CROWS M2";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
-class haxey_US_Army_WOODLAND_M1126_ICV_M134_DG1_NOSLATWOOD: M1126_ICV_M134_DG1_NOSLATWOOD
-{
-	_generalMacro = "haxey_US_Army_WOODLAND_M1126_ICV_M134_DG1_NOSLATWOOD";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_WOODLAND";
-	vehicleClass = "H_Motorized";
-	displayName = "M1126 M134";
 	crew = "";
 	MACRO_US_TRANSPORTITEMS
 };
@@ -826,7 +787,7 @@ class haxey_US_Army_AIR_MH9: B_Heli_Light_01_F
 	vehicleClass = "H_Air";
 	displayName = "MH-9";
 	crew = "";
-	MACRO_US_TRANSPORTITEMS
+	MACRO_US_TRANSPORTITEMS_AIR
 };
 class haxey_US_Army_AIR_B_Heli_Light_01_armed_F: B_Heli_Light_01_armed_F
 {
@@ -838,7 +799,7 @@ class haxey_US_Army_AIR_B_Heli_Light_01_armed_F: B_Heli_Light_01_armed_F
 	vehicleClass = "H_Air";
 	displayName = "AH-6";
 	crew = "";
-	MACRO_US_TRANSPORTITEMS
+	MACRO_US_TRANSPORTITEMS_AIR
 };
 class haxey_US_Army_AIR_RHS_UH60M: RHS_UH60M
 {
@@ -874,7 +835,7 @@ class haxey_US_Army_AIR_RHS_AH64D_wd_GS: RHS_AH64D_wd_GS
 	vehicleClass = "H_Air";
 	displayName = "AH-64D";
 	crew = "";
-	MACRO_US_TRANSPORTITEMS
+	MACRO_US_TRANSPORTITEMS_AIR
 };
 class haxey_US_Army_AIR_RHS_C130J: RHS_C130J
 {

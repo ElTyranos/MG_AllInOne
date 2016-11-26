@@ -117,7 +117,7 @@
 		{
 			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				count = 4;
+				count = 1;
 				name = "rhsusf_100Rnd_556x45_soft_pouch";
 			};
 		};
@@ -129,10 +129,10 @@
 		scope = 1;
 		class TransportItems
 		{
-			class _xx_rhsusf_100Rnd_762x51
+			class _xx_rhsusf_100Rnd_762x51_m62_tracer
 			{
-				count = 3;
-				name = "rhsusf_100Rnd_762x51";
+				count = 1;
+				name = "rhsusf_100Rnd_762x51_m62_tracer";
 			};
 		};
 	};
@@ -271,7 +271,7 @@
 		{
 			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				count = 4;
+				count = 1;
 				name = "rhsusf_100Rnd_556x45_soft_pouch";
 			};
 		};
@@ -444,7 +444,7 @@
 		{
 			class _xx_rhsusf_100Rnd_556x45_soft_pouch
 			{
-				count = 4;
+				count = 1;
 				name = "rhsusf_100Rnd_556x45_soft_pouch";
 			};
 		};
@@ -458,7 +458,7 @@
 		{
 			class _xx_rhsusf_100Rnd_762x51
 			{
-				count = 3;
+				count = 2;
 				name = "rhsusf_100Rnd_762x51";
 			};
 		};

@@ -100,7 +100,7 @@ class cfgFactionClasses
 	};
 	class haxey_faction_VVS_Vehicles
 	{
-		displayName = "h. VDV - Vehicles";
+		displayName = "h. VVS - Vehicles";
 		icon = "\rhsafrf\addons\rhs_main\data\icons\vdv.paa";
 		priority = 1;
 		side = 0;

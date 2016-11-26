@@ -67,7 +67,7 @@ class haxey_O_rhs_rpg_AT: rhs_rpg_empty
 			count = 3;
 			name = "rhs_rpg7_PG7VL_mag";
 		};
-		class _xx_tf47_m3maaws_HEDP
+		class _xx_rhs_rpg7_OG7V_mag
 		{
 			count = 1;
 			name = "rhs_rpg7_OG7V_mag";
@@ -112,12 +112,12 @@ class haxey_O_sidor_Rflm: rhs_sidor
 	{
 		class _xx_rhs_45Rnd_545X39_AK
 		{
-			count = 5;
+			count = 3;
 			name = "rhs_45Rnd_545X39_AK";
 		};
 		class _xx_rhs_30Rnd_545x39_AK
 		{
-			count = 4;
+			count = 1;
 			name = "rhs_30Rnd_545x39_AK";
 		};
 	};
@@ -131,7 +131,7 @@ class haxey_O_sidor_AR: rhs_sidor
 	{
 		class _xx_rhs_45Rnd_545X39_AK
 		{
-			count = 7;
+			count = 3;
 			name = "rhs_45Rnd_545X39_AK";
 		};
 	};
@@ -145,7 +145,7 @@ class haxey_O_sidor_HG: rhs_sidor
 	{
 		class _xx_rhs_100Rnd_762x54mmR
 		{
-			count = 3;
+			count = 1;
 			name = "rhs_100Rnd_762x54mmR";
 		};
 	};
@@ -176,11 +176,6 @@ class haxey_O_sidor_GL: rhs_sidor
 		{
 			count = 5;
 			name = "rhs_GRD40_Red";
-		};
-		class _xx_rhs_30Rnd_545x39_AK
-		{
-			count = 3;
-			name = "rhs_30Rnd_545x39_AK";
 		};
 	};
 };
@@ -232,9 +227,9 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 			name = "rhs_100Rnd_762x54mmR_green"; \
 			count = 5; \
 		}; \
-		class _xx_CUP_10Rnd_762x54_SVD_M \
+		class _xx_rhs_10Rnd_762x54mmR_7N1 \
 		{ \
-			name = "CUP_10Rnd_762x54_SVD_M"; \
+			name = "rhs_10Rnd_762x54mmR_7N1"; \
 			count = 5; \
 		}; \
 		class _xx_rhs_mag_rdg2_white \
@@ -320,9 +315,9 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 			name = "rhs_100Rnd_762x54mmR_green"; \
 			count = 5; \
 		}; \
-		class _xx_CUP_10Rnd_762x54_SVD_M \
+		class _xx_rhs_10Rnd_762x54mmR_7N1 \
 		{ \
-			name = "CUP_10Rnd_762x54_SVD_M"; \
+			name = "rhs_10Rnd_762x54mmR_7N1"; \
 			count = 5; \
 		}; \
 		class _xx_rhs_mag_rdg2_white \

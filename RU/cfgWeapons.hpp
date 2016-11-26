@@ -2,7 +2,6 @@
 	class rhs_weap_ak74m_gp25;
 	class hlc_rifle_rpk74n;
 	class rhs_weap_svdp;
-	class CUP_srifle_ksvk;
 	class rhs_weap_rpg7;
 	class haxey_ak74m: rhs_weap_ak74m
     {
@@ -61,7 +60,7 @@
             class LinkedItemsOptic
          {
             slot = "CowsSlot";
-            item = "CUP_optic_Kobra";
+            item = "hlc_optic_kobra";
          };
             class LinkedItemsMuzzle
          {
@@ -86,30 +85,6 @@
          {
             slot = "CowsSlot";
             item = "rhs_acc_pso1m2";
-         };
-            class LinkedItemsMuzzle
-         {
-            slot = "MuzzleSlot";
-            item = "";
-         };
-
-            class LinkedItemsAcc
-         {
-            slot = "PointerSlot";
-            item = "";
-         };
-        };
-    };
-	class haxey_KSVK: CUP_srifle_ksvk
-    {
-        scope = 2;
-        displayName = "KSVK";
-		class LinkedItems
-        {
-            class LinkedItemsOptic
-         {
-            slot = "CowsSlot";
-            item = "CUP_optic_PSO_1";
          };
             class LinkedItemsMuzzle
          {
