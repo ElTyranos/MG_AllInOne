@@ -31,7 +31,7 @@
 
 #define DOT_US_762HMG_0 "rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51"
 
-#define DOT_US_762SNP_0 "rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_72x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag"
+#define DOT_US_762SNP_0 "rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag","rhsusf_5Rnd_762x51_m118_special_Mag"
 
 #define DOT_US_50BMG_0 "rhsusf_mag_10Rnd_STD_50BMG_M33","rhsusf_mag_10Rnd_STD_50BMG_M33","rhsusf_mag_10Rnd_STD_50BMG_M33","rhsusf_mag_10Rnd_STD_50BMG_M33","rhsusf_mag_10Rnd_STD_50BMG_M33","rhsusf_mag_10Rnd_STD_50BMG_M33","rhsusf_mag_10Rnd_STD_50BMG_M33"
 

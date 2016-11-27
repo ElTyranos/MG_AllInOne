@@ -189,9 +189,6 @@ class rhsusf_M1083A1P2_B_d_fmtv_usarmy;
 class rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy;
 class rhsusf_m998_d_s_4dr_halftop;
 class rhsusf_m998_d_s_4dr_fulltop;
-class M1126_ICV_M2NEST_DG1_NOSLATDES;
-class M1126_ICV_M2_DG1_NOSLATDES;
-class M1126_ICV_M134_DG1_NOSLATDES;
 class haxey_US_Army_DESERT_rhsusf_m1025_d: rhsusf_m1025_d
 {
 	_generalMacro = "haxey_US_Army_DESERT_rhsusf_m1025_d";
@@ -273,42 +270,6 @@ class haxey_US_Army_DESERT_rhsusf_m998_d_s_4dr_fulltop: rhsusf_m998_d_s_4dr_full
 	faction = "haxey_US_Army_DESERT";
 	vehicleClass = "H_Motorized";
 	displayName = "M998 FT";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
-class haxey_US_Army_DESERT_M1126_ICV_M2NEST_DG1_NOSLATDES: M1126_ICV_M2NEST_DG1_NOSLATDES
-{
-	_generalMacro = "haxey_US_Army_DESERT_M1126_ICV_M2NEST_DG1_NOSLATDES";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_DESERT";
-	vehicleClass = "H_Motorized";
-	displayName = "M1126 M2";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
-class haxey_US_Army_DESERT_M1126_ICV_M2_DG1_NOSLATDES: M1126_ICV_M2_DG1_NOSLATDES
-{
-	_generalMacro = "haxey_US_Army_DESERT_M1126_ICV_M2_DG1_NOSLATDES";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_DESERT";
-	vehicleClass = "H_Motorized";
-	displayName = "M1126 CROWS M2";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
-class haxey_US_Army_DESERT_M1126_ICV_M134_DG1_NOSLATDES: M1126_ICV_M134_DG1_NOSLATDES
-{
-	_generalMacro = "haxey_US_Army_DESERT_M1126_ICV_M134_DG1_NOSLATDES";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_DESERT";
-	vehicleClass = "H_Motorized";
-	displayName = "M1126 M134";
 	crew = "";
 	MACRO_US_TRANSPORTITEMS
 };
@@ -421,19 +382,6 @@ class rhsusf_m1a1aim_tuski_d;
 class rhsusf_m1a2sep1d_usarmy;
 class rhsusf_m1a2sep1tuskid_usarmy;
 class rhsusf_m1a2sep1tuskiid_usarmy;
-class M1128_MGS_DG1_NOSLATDES;
-class haxey_US_Army_DESERT_M1128_MGS_DG1_NOSLATDES: M1128_MGS_DG1_NOSLATDES
-{
-	_generalMacro = "haxey_US_Army_DESERT_M1128_MGS_DG1_NOSLATDES";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_DESERT";
-	vehicleClass = "H_Armored";
-	displayName = "M1128 MGS";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
 class haxey_US_Army_DESERT_rhsusf_m1a1aimd_usarmy: rhsusf_m1a1aimd_usarmy
 {
 	_generalMacro = "haxey_US_Army_DESERT_rhsusf_m1a1aimd_usarmy";
@@ -696,19 +644,6 @@ class rhsusf_m1a1aim_tuski_wd;
 class rhsusf_m1a2sep1wd_usarmy;
 class rhsusf_m1a2sep1tuskiwd_usarmy;
 class rhsusf_m1a2sep1tuskiiwd_usarmy;
-class M1128_MGS_DG1_NOSLATWOOD;
-class haxey_US_Army_WOODLAND_M1128_MGS_DG1_NOSLATWOOD: M1128_MGS_DG1_NOSLATWOOD
-{
-	_generalMacro = "haxey_US_Army_WOODLAND_M1128_MGS_DG1_NOSLATWOOD";
-	author = "haxey";
-	scope = 2;
-	side = 1;
-	faction = "haxey_US_Army_WOODLAND";
-	vehicleClass = "H_Armored";
-	displayName = "M1128 MGS";
-	crew = "";
-	MACRO_US_TRANSPORTITEMS
-};
 class haxey_US_Army_WOODLAND_rhsusf_m1a1aimwd_usarmy: rhsusf_m1a1aimwd_usarmy
 {
 	_generalMacro = "haxey_US_Army_WOODLAND_rhsusf_m1a1aimwd_usarmy";

@@ -131,7 +131,7 @@
 		{
 			class _xx_rhsusf_100Rnd_762x51_m62_tracer
 			{
-				count = 1;
+				count = 2;
 				name = "rhsusf_100Rnd_762x51_m62_tracer";
 			};
 		};
@@ -285,8 +285,8 @@
 		{
 			class _xx_rhsusf_100Rnd_762x51
 			{
-				count = 3;
-				name = "rhsusf_100Rnd_762x51";
+				count = 2;
+				name = "rhsusf_100Rnd_762x51_m62_tracer";
 			};
 		};
 	};
@@ -353,7 +353,6 @@
 			};
 		};
 	};
-
 	class haxey_US_Army_M81_Carryall_cbr_SAT: B_Carryall_cbr
 	{
 		_generalMacro = "haxey_US_Army_M81_Carryall_cbr_SAT";
@@ -459,7 +458,7 @@
 			class _xx_rhsusf_100Rnd_762x51
 			{
 				count = 2;
-				name = "rhsusf_100Rnd_762x51";
+				name = "rhsusf_100Rnd_762x51_m62_tracer";
 			};
 		};
 	};

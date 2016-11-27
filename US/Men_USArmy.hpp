@@ -232,8 +232,8 @@ class haxey_US_Army_UCP_Infantry_exp: B_soldier_exp_F
 	faceType = "Man_A3";
 	Items[] = {ITEMS_ACE_0};
 	RespawnItems[] = {ITEMS_ACE_0};
-	weapons[] = {"haxey_M16A4","rhs_weap_M136","Throw","Put"};
-	respawnWeapons[] = {"haxey_M16A4","rhs_weap_M136","Throw","Put"};
+	weapons[] = {"haxey_M16A4","Throw","Put"};
+	respawnWeapons[] = {"haxey_M16A4","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0};
 	respawnMagazines[] = {DOT_US_556LMG_0,GRE_US_0};
 	linkedItems[] = {"rhsusf_iotv_ucp_Repair","rhsusf_ach_helmet_ESS_ucp",LINKED_ITEMS_UNI};
