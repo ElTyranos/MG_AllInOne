@@ -176,7 +176,7 @@
 	{ \
 		class _xx_B_Parachute \
 		{ \
-			name = "B_Parachute"; \
+			backpack = "B_Parachute"; \
 			count = 8; \
 		}; \
 	};
