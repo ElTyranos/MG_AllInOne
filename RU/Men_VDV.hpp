@@ -139,7 +139,6 @@ class haxey_VDV_EMR_Infantry_SL: O_Soldier_SL_F
 	respawnWeapons[] = {"haxey_ak74m","Binocular","Throw","Put"};
 	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
 	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
-	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset_mapcase","rhs_6b27m_digi_ess",LINKED_ITEMS_UNI};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset_mapcase","rhs_6b27m_digi_ess",LINKED_ITEMS_UNI};
 	backpack = "tf_mr3000_rhs";
