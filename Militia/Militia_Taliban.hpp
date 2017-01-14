@@ -150,7 +150,7 @@ class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 	engineer = 1;
 	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_SuppMen";
-	displayName = "Villager";
+	displayName = "Villager HG";
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
@@ -258,7 +258,7 @@ class haxey_Milice_Taliban_Infantry_lite_rflm: O_Soldier_lite_F
 	engineer = 1;
 	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
-	displayName = "Villager";
+	displayName = "Villager lite";
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
