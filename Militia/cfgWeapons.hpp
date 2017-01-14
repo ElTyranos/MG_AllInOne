@@ -3,4 +3,4 @@
 	class rhs_weap_m21a;
 	class rhs_weap_akm;
 	class rhs_weap_aks74u;
-	class hlc_rifle_rpk;
+	class hlc_rifle_rpk;class hlc_rifle_rpk;
