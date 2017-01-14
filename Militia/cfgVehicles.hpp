@@ -66,5 +66,3 @@ class I_Soldier_lite_F;
 
 
 #include "Militia_Taliban.hpp"
-
-
