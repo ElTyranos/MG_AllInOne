@@ -20,10 +20,11 @@ class CfgPatches
 	class haxey_faction_VDV_Flora: haxey_faction_USArmy_UCP			{};
 	class haxey_faction_VDV_MountainFlora: haxey_faction_USArmy_UCP	{};
 };
+
+#include "CfgMacros.hpp"
 #include "CfgFunctions.hpp"
 #include "cfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
-#include "CfgMacros.hpp"
 
 class cfgWeapons
 {
