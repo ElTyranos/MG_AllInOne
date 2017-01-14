@@ -16,7 +16,6 @@ class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
@@ -49,7 +48,6 @@ class haxey_Milice_Taliban_Infantry_RH: O_Soldier_TL_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_akm","rhs_weap_rshg2","Binocular","Throw","Put"};
@@ -77,7 +75,6 @@ class haxey_Milice_Taliban_Infantry_AR: O_soldier_AR_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"hlc_rifle_rpk","Throw","Put"};
@@ -105,7 +102,6 @@ class haxey_Milice_Taliban_Infantry_exp: O_soldier_exp_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Throw","Put"};
@@ -133,7 +129,6 @@ class haxey_Milice_Taliban_Infantry_AT: O_soldier_LAT_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","rhs_weap_rpg26","Throw","Put"};
@@ -161,7 +156,6 @@ class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Throw","Put"};
@@ -189,7 +183,6 @@ class haxey_Milice_Taliban_Infantry_AHG: O_soldier_AAR_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Binocular","Throw","Put"};
@@ -217,7 +210,6 @@ class haxey_Milice_Taliban_Infantry_AB: O_Soldier_A_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_m38","Throw","Put"};
@@ -245,7 +237,6 @@ class haxey_Milice_Taliban_Infantry_rflm: O_soldier_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_m38","rhs_weap_rpg26","Throw","Put"};
@@ -273,7 +264,6 @@ class haxey_Milice_Taliban_Infantry_lite_rflm: O_Soldier_lite_F
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	faceType = "PersianHead_A3_02";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_m38","Throw","Put"};
