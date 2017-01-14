@@ -1,16 +1,3 @@
-class I_officer_F;
-class I_Soldier_SL_F;
-class I_Soldier_TL_F;
-class I_soldier_AR_F;
-class I_soldier_exp_F;
-class I_Soldier_GL_F;
-class I_soldier_LAT_F;
-class I_HeavyGunner_F;
-class I_soldier_AAR_F;
-class I_Soldier_A_F;
-class I_soldier_F;
-class I_Soldier_lite_F;
-
 #define MACRO_MIL_TRANSPORTITEMS \
 	class TransportItems \
 	{ \
