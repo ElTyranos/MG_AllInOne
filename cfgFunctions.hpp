@@ -1,9 +1,9 @@
 class CfgFunctions
 {
-	class BG21_IFA3_Functions
+	class BG21_MG_Functions
 	{
-		tag = "BG21_IFA3";
-		class BG21_IFA3_Functions
+		tag = "BG21_MG";
+		class BG21_MG_Functions
 		{
 			file = "MG_AllInOne\fnc";
 			class random_gear
