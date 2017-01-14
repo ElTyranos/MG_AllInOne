@@ -14,7 +14,7 @@ class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -46,7 +46,7 @@ class haxey_Milice_Taliban_Infantry_RH: O_Soldier_TL_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -73,7 +73,7 @@ class haxey_Milice_Taliban_Infantry_AR: O_soldier_AR_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -100,7 +100,7 @@ class haxey_Milice_Taliban_Infantry_exp: O_soldier_exp_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -127,7 +127,7 @@ class haxey_Milice_Taliban_Infantry_AT: O_soldier_LAT_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -154,7 +154,7 @@ class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -181,7 +181,7 @@ class haxey_Milice_Taliban_Infantry_AHG: O_soldier_AAR_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -208,7 +208,7 @@ class haxey_Milice_Taliban_Infantry_AB: O_Soldier_A_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -235,7 +235,7 @@ class haxey_Milice_Taliban_Infantry_rflm: O_soldier_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
@@ -262,7 +262,7 @@ class haxey_Milice_Taliban_Infantry_lite_rflm: O_Soldier_lite_F
 	uniformClass = "LOP_U_AM_Fatigue_01_2";
 	class EventHandlers: EventHandlers
 	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_IFA3_fnc_random_gear;};";
+		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
