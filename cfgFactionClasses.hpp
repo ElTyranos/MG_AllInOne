@@ -105,4 +105,18 @@ class cfgFactionClasses
 		priority = 1;
 		side = 0;
 	};
+	class haxey_faction_Milice_Taliban
+	{
+		displayName = "h. Milice Taliban";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
+	class haxey_faction_Milice_EE
+	{
+		displayName = "h. Milice Eastern-Europe";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
 };

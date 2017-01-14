@@ -3,11 +3,15 @@
 #define LINKED_ITEMS_UNI "ItemRadio","ItemMap","ItemCompass","tf_microdagr"
 #define LINKED_ITEMS_CREW "ItemRadio","ItemMap","ItemCompass","rhsusf_ANPVS_15","tf_microdagr"
 
+#define LINKED_ITEMS_MIL "ItemMap","ItemCompass"
+
 // Items_ace
 
 #define ITEMS_ACE_0 "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_MapTools","ACE_epinephrine","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_CableTie"
 #define ITEMS_ACE_1 "ACE_microDAGR","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_MapTools","ACE_epinephrine","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_CableTie"
 #define ITEMS_ACE_2 "ACE_microDAGR","ACE_RangeCard","ACE_Kestrel4500","ACE_ATragMX"
+
+#define ITEMS_ACE_3 "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_epinephrine","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_EarPlugs"
 
 // Grenades
 
@@ -18,6 +22,9 @@
 #define GRE_RU_0 "rhs_mag_rdg2_white","rhs_mag_rgd5","rhs_mag_rgd5"
 #define GRE_RU_1 "rhs_mag_rdg2_white","SmokeShellGreen","SmokeShellGreen"
 #define GRE_RU_2 "rhs_mag_fakel"
+
+#define GRE_Mil_0 "rhs_mag_rgd5"
+#define GRE_Mil_1 "rhs_mag_rdg2_white"
 
 // Dotation US
 
@@ -47,3 +54,24 @@
 #define DOT_RU_762DMR_0 "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"
 
 #define DOT_RU_762HMG_0 "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"
+
+// Dotation Milice
+
+#define DOT_MIL_792R_0 "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k"
+
+#define DOT_MIL_762R_0 "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38"
+
+#define DOT_MIL_762LMG_0 "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak"
+
+#define DOT_MIL_545LMG_0 "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green"
+
+#define DOT_MIL_762MG_0 "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk"
+
+
+
+
+
+
+
+
+

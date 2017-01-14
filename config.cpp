@@ -20,6 +20,7 @@ class CfgPatches
 	class haxey_faction_VDV_Flora: haxey_faction_USArmy_UCP			{};
 	class haxey_faction_VDV_MountainFlora: haxey_faction_USArmy_UCP	{};
 };
+#include "CfgFunctions.hpp"
 #include "cfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
 #include "macros.hpp"
@@ -28,11 +29,13 @@ class cfgWeapons
 {
 	#include "US\cfgWeapons.hpp"
 	#include "RU\cfgWeapons.hpp"
+	#include "Militia\cfgWeapons.hpp"
 };
 class CfgVehicles
 {
 	#include "US\cfgVehicles.hpp"
 	#include "RU\cfgVehicles.hpp"
+	#include "Militia\cfgVehicles.hpp"
 };
 class CfgGroups
 {
@@ -44,5 +47,9 @@ class CfgGroups
 	class East
 	{
 		#include "RU\CfgGroups.hpp"
+	};
+	class Indep
+	{
+		#include "Militia\CfgGroups.hpp"
 	};
 };
