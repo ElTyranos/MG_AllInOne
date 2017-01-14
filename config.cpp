@@ -23,7 +23,7 @@ class CfgPatches
 #include "CfgFunctions.hpp"
 #include "cfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
-#include "macros.hpp"
+#include "CfgMacros.hpp"
 
 class cfgWeapons
 {
