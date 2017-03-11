@@ -23,8 +23,8 @@
 #define GRE_RU_1 "rhs_mag_rdg2_white","SmokeShellGreen","SmokeShellGreen"
 #define GRE_RU_2 "rhs_mag_fakel"
 
-#define GRE_Mil_0 "rhs_mag_rgd5"
-#define GRE_Mil_1 "rhs_mag_rdg2_white"
+#define GRE_MIL_0 "rhs_mag_rgd5"
+#define GRE_MIL_1 "rhs_mag_rdg2_white"
 
 // Dotation US
 
