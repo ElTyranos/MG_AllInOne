@@ -104,7 +104,7 @@ class haxey_MIL_TAL
 			class Unit3
 			{
 				side = 2;
-				vehicle = "haxey_Milice_Taliban_Infantry_AT";
+				vehicle = "haxey_Milice_Taliban_Infantry_lite_rflm";
 				rank = "Private";
 				position[] = {3,-3,0};
 			};
