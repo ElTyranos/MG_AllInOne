@@ -435,7 +435,7 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 	}; \
 	class TransportMagazines {}; \
 	class TransportWeapons {}; \
-		class TransportBackpacks \
+	class TransportBackpacks \
 	{ \
 		class _xx_B_Parachute \
 		{ \
