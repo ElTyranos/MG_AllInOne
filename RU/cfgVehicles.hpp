@@ -439,7 +439,7 @@ class haxey_O_umbts_Med: rhs_assault_umbts
 	{ \
 		class _xx_B_Parachute \
 		{ \
-			name = "B_Parachute"; \
+			backpack = "B_Parachute"; \
 			count = 28; \
 		}; \
 	};
