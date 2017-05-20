@@ -21,6 +21,7 @@ class CfgPatches
 	class haxey_faction_VDV_MountainFlora: haxey_faction_USArmy_UCP	{};
 };
 
+#include "CfgRagdolls.hpp"
 #include "CfgMacros.hpp"
 #include "CfgFunctions.hpp"
 #include "cfgFactionClasses.hpp"
