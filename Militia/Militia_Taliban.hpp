@@ -1,4 +1,4 @@
-class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
+class haxey_Taliban_base: O_soldier_F
 {
 	author = "haxey";
 	scope = 2;
@@ -7,13 +7,16 @@ class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
 	canDeactivateMines = 1;
 	engineer = 1;
 	faction = "haxey_faction_Milice_Taliban";
-	vehicleClass = "H_HQMen";
-	displayName = "Warlord";
 	uniformClass = "btc_h_afghan_01";
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
+};
+class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
+{
+	vehicleClass = "H_HQMen";
+	displayName = "Warlord";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
@@ -30,20 +33,8 @@ class haxey_Milice_Taliban_Infantry_VC: haxey_Milice_Taliban_Infantry_Warlord
 };
 class haxey_Milice_Taliban_Infantry_RH: O_Soldier_TL_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Right-hand man";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_akm","rhs_weap_rshg2","Binocular","Throw","Put"};
@@ -56,20 +47,8 @@ class haxey_Milice_Taliban_Infantry_RH: O_Soldier_TL_F
 };
 class haxey_Milice_Taliban_Infantry_AR: O_soldier_AR_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Merchant";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"hlc_rifle_rpk","Throw","Put"};
@@ -82,20 +61,8 @@ class haxey_Milice_Taliban_Infantry_AR: O_soldier_AR_F
 };
 class haxey_Milice_Taliban_Infantry_exp: O_soldier_exp_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Mechanic (exp)";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Throw","Put"};
@@ -108,20 +75,8 @@ class haxey_Milice_Taliban_Infantry_exp: O_soldier_exp_F
 };
 class haxey_Milice_Taliban_Infantry_LAT: O_soldier_LAT_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Villager Light-AT";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","rhs_weap_rpg26","Throw","Put"};
@@ -134,20 +89,8 @@ class haxey_Milice_Taliban_Infantry_LAT: O_soldier_LAT_F
 };
 class haxey_Milice_Taliban_Infantry_AT: O_soldier_AT_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Villager AT";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","rhs_weap_rpg7","Throw","Put"};
@@ -160,20 +103,8 @@ class haxey_Milice_Taliban_Infantry_AT: O_soldier_AT_F
 };
 class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_SuppMen";
 	displayName = "Villager HG";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Throw","Put"};
@@ -186,20 +117,8 @@ class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 };
 class haxey_Milice_Taliban_Infantry_AHG: O_soldier_AAR_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_SuppMen";
 	displayName = "Villager AHG";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Binocular","Throw","Put"};
@@ -212,20 +131,8 @@ class haxey_Milice_Taliban_Infantry_AHG: O_soldier_AAR_F
 };
 class haxey_Milice_Taliban_Infantry_AB: O_Soldier_A_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_SuppMen";
 	displayName = "Carrier Villager";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_m38","Throw","Put"};
@@ -238,20 +145,8 @@ class haxey_Milice_Taliban_Infantry_AB: O_Soldier_A_F
 };
 class haxey_Milice_Taliban_Infantry_rflm: O_soldier_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Villager";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_m38","rhs_weap_rpg26","Throw","Put"};
@@ -264,20 +159,8 @@ class haxey_Milice_Taliban_Infantry_rflm: O_soldier_F
 };
 class haxey_Milice_Taliban_Infantry_lite_rflm: O_Soldier_lite_F
 {
-	author = "haxey";
-	scope = 2;
-	side = 2;
-	attendant = 1;
-	canDeactivateMines = 1;
-	engineer = 1;
-	faction = "haxey_faction_Milice_Taliban";
 	vehicleClass = "H_Men";
 	displayName = "Villager lite";
-	uniformClass = "btc_h_afghan_01";
-	class EventHandlers: EventHandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
-	};
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_m38","Throw","Put"};
