@@ -1,4 +1,3 @@
-
 class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
 {
 	author = "haxey";

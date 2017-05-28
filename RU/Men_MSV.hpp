@@ -1,4 +1,3 @@
-
 class haxey_MSV_EMR_Infantry_CompCom: O_officer_F
 {
 	author = "haxey";
@@ -1023,4 +1022,3 @@ class haxey_MSV_M88_Infantry_AMort: haxey_MSV_EMR_Infantry_AMort
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	backpack = "O_Mortar_01_support_F";
 };
-
