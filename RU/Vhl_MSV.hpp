@@ -5,8 +5,7 @@ class rhs_gaz66_msv;
 class rhs_uaz_open_MSV_01;
 class rhs_btr80_msv;
 class rhs_btr80a_msv;
-class haxey_MSV_Vehicles_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
-{
+class haxey_MSV_Vehicles_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01 {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -16,8 +15,7 @@ class haxey_MSV_Vehicles_RHS_UAZ_MSV_01: RHS_UAZ_MSV_01
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_tigr_msv: rhs_tigr_msv
-{
+class haxey_MSV_Vehicles_RHS_tigr_msv: rhs_tigr_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -27,8 +25,7 @@ class haxey_MSV_Vehicles_RHS_tigr_msv: rhs_tigr_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_gaz66_msv: rhs_gaz66_msv
-{
+class haxey_MSV_Vehicles_RHS_gaz66_msv: rhs_gaz66_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -38,8 +35,7 @@ class haxey_MSV_Vehicles_RHS_gaz66_msv: rhs_gaz66_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_uaz_open_MSV_01: rhs_uaz_open_MSV_01
-{
+class haxey_MSV_Vehicles_RHS_uaz_open_MSV_01: rhs_uaz_open_MSV_01 {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -49,8 +45,7 @@ class haxey_MSV_Vehicles_RHS_uaz_open_MSV_01: rhs_uaz_open_MSV_01
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_btr80_msv: rhs_btr80_msv
-{
+class haxey_MSV_Vehicles_RHS_btr80_msv: rhs_btr80_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -60,8 +55,7 @@ class haxey_MSV_Vehicles_RHS_btr80_msv: rhs_btr80_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_btr80a_msv: rhs_btr80a_msv
-{
+class haxey_MSV_Vehicles_RHS_btr80a_msv: rhs_btr80a_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -82,8 +76,7 @@ class rhs_bmp2d_msv;
 class rhs_bmp3_late_msv;
 class rhs_bmp3m_msv;
 class rhs_bmp3mera_msv;
-class haxey_MSV_Vehicles_RHS_bmp1k_msv: rhs_bmp1k_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp1k_msv: rhs_bmp1k_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -93,8 +86,7 @@ class haxey_MSV_Vehicles_RHS_bmp1k_msv: rhs_bmp1k_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp2k_msv: rhs_bmp2k_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp2k_msv: rhs_bmp2k_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -104,8 +96,7 @@ class haxey_MSV_Vehicles_RHS_bmp2k_msv: rhs_bmp2k_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_brm1k_msv: rhs_brm1k_msv
-{
+class haxey_MSV_Vehicles_RHS_brm1k_msv: rhs_brm1k_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -115,8 +106,7 @@ class haxey_MSV_Vehicles_RHS_brm1k_msv: rhs_brm1k_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_prp3_msv: rhs_prp3_msv
-{
+class haxey_MSV_Vehicles_RHS_prp3_msv: rhs_prp3_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -126,8 +116,7 @@ class haxey_MSV_Vehicles_RHS_prp3_msv: rhs_prp3_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp1d_msv: rhs_bmp1d_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp1d_msv: rhs_bmp1d_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -137,8 +126,7 @@ class haxey_MSV_Vehicles_RHS_bmp1d_msv: rhs_bmp1d_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp1p_msv: rhs_bmp1p_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp1p_msv: rhs_bmp1p_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -148,8 +136,7 @@ class haxey_MSV_Vehicles_RHS_bmp1p_msv: rhs_bmp1p_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp2_msv: rhs_bmp2_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp2_msv: rhs_bmp2_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -159,8 +146,7 @@ class haxey_MSV_Vehicles_RHS_bmp2_msv: rhs_bmp2_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp2d_msv: rhs_bmp2d_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp2d_msv: rhs_bmp2d_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -170,8 +156,7 @@ class haxey_MSV_Vehicles_RHS_bmp2d_msv: rhs_bmp2d_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp3_late_msv: rhs_bmp3_late_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp3_late_msv: rhs_bmp3_late_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -181,8 +166,7 @@ class haxey_MSV_Vehicles_RHS_bmp3_late_msv: rhs_bmp3_late_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp3m_msv: rhs_bmp3m_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp3m_msv: rhs_bmp3m_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -192,8 +176,7 @@ class haxey_MSV_Vehicles_RHS_bmp3m_msv: rhs_bmp3m_msv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_bmp3mera_msv: rhs_bmp3mera_msv
-{
+class haxey_MSV_Vehicles_RHS_bmp3mera_msv: rhs_bmp3mera_msv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -212,8 +195,7 @@ class rhs_t80u;
 class rhs_t80uk;
 class rhs_t90a_tv;
 class rhs_zsu234_aa;
-class haxey_MSV_Vehicles_RHS_zsu234_aa: rhs_zsu234_aa
-{
+class haxey_MSV_Vehicles_RHS_zsu234_aa: rhs_zsu234_aa {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -223,8 +205,7 @@ class haxey_MSV_Vehicles_RHS_zsu234_aa: rhs_zsu234_aa
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t72bc_tv: rhs_t72bc_tv
-{
+class haxey_MSV_Vehicles_RHS_t72bc_tv: rhs_t72bc_tv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -234,8 +215,7 @@ class haxey_MSV_Vehicles_RHS_t72bc_tv: rhs_t72bc_tv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t72bd_tv: rhs_t72bd_tv
-{
+class haxey_MSV_Vehicles_RHS_t72bd_tv: rhs_t72bd_tv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -245,8 +225,7 @@ class haxey_MSV_Vehicles_RHS_t72bd_tv: rhs_t72bd_tv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t80a: rhs_t80a
-{
+class haxey_MSV_Vehicles_RHS_t80a: rhs_t80a {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -256,8 +235,7 @@ class haxey_MSV_Vehicles_RHS_t80a: rhs_t80a
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t80bv: rhs_t80bv
-{
+class haxey_MSV_Vehicles_RHS_t80bv: rhs_t80bv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -267,8 +245,7 @@ class haxey_MSV_Vehicles_RHS_t80bv: rhs_t80bv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t80bvk: rhs_t80bvk
-{
+class haxey_MSV_Vehicles_RHS_t80bvk: rhs_t80bvk {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -278,8 +255,7 @@ class haxey_MSV_Vehicles_RHS_t80bvk: rhs_t80bvk
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t80u: rhs_t80u
-{
+class haxey_MSV_Vehicles_RHS_t80u: rhs_t80u {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -289,8 +265,7 @@ class haxey_MSV_Vehicles_RHS_t80u: rhs_t80u
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t80uk: rhs_t80uk
-{
+class haxey_MSV_Vehicles_RHS_t80uk: rhs_t80uk {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -300,8 +275,7 @@ class haxey_MSV_Vehicles_RHS_t80uk: rhs_t80uk
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_MSV_Vehicles_RHS_t90a_tv: rhs_t90a_tv
-{
+class haxey_MSV_Vehicles_RHS_t90a_tv: rhs_t90a_tv {
 	author = "haxey";
 	scope = 2;
 	side = 0;

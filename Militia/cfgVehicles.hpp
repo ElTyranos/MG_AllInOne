@@ -1,6 +1,5 @@
 class B_FieldPack_cbr;
-class haxey_B_FieldPack_cbr: B_FieldPack_cbr
-{
+class haxey_B_FieldPack_cbr: B_FieldPack_cbr {
 	author = "haxey";
 	scope = 1;
 	class TransportItems

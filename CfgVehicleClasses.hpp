@@ -1,5 +1,4 @@
-class CfgVehicleClasses
-{
+class CfgVehicleClasses {
 	class H_Men
 	{
 		displayName = "Infantry";

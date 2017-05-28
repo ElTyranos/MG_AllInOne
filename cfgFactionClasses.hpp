@@ -1,5 +1,4 @@
-class cfgFactionClasses
-{
+class cfgFactionClasses {
 	class haxey_US_Army_UCP
 	{
 		displayName = "h. US Army - UCP";

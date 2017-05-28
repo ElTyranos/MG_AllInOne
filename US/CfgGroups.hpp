@@ -1,5 +1,4 @@
-class haxey_US_Army_UCP
-{
+class haxey_US_Army_UCP {
 	name = "h. US Army UCP";
 	class Infantry
 	{
@@ -455,8 +454,7 @@ class haxey_US_Army_UCP
 		};
 	};
 };
-class haxey_US_Army_OCP
-{
+class haxey_US_Army_OCP {
 	name = "h. US Army OCP";
 	class Infantry
 	{
@@ -912,8 +910,7 @@ class haxey_US_Army_OCP
 		};
 	};
 };
-class haxey_US_Army_M81
-{
+class haxey_US_Army_M81 {
 	name = "h. US Army M81";
 	class Infantry
 	{

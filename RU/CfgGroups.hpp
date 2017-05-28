@@ -1,5 +1,4 @@
-class haxey_MSV_EMR
-{
+class haxey_MSV_EMR {
 	name = "h. MSV - EMR";
 	class Infantry
 	{
@@ -512,8 +511,7 @@ class haxey_MSV_EMR
 		};
 	};
 };
-class haxey_MSV_Flora
-{
+class haxey_MSV_Flora {
 	name = "h. MSV - Flora";
 	class Infantry
 	{
@@ -1025,8 +1023,7 @@ class haxey_MSV_Flora
 		};
 	};
 };
-class haxey_MSV_M88
-{
+class haxey_MSV_M88 {
 	name = "h. MSV - M88";
 	class Infantry
 	{
@@ -1539,8 +1536,7 @@ class haxey_MSV_M88
 		};
 	};
 };
-class haxey_VDV_EMR
-{
+class haxey_VDV_EMR {
 	name = "h. VDV - EMR";
 	class Infantry
 	{
@@ -1961,8 +1957,7 @@ class haxey_VDV_EMR
 		};
 	};
 };
-class haxey_VDV_Flora
-{
+class haxey_VDV_Flora {
 	name = "h. VDV - Flora";
 	class Infantry
 	{
@@ -2383,8 +2378,7 @@ class haxey_VDV_Flora
 		};
 	};
 };
-class haxey_VDV_MountainFlora
-{
+class haxey_VDV_MountainFlora {
 	name = "h. VDV - MountainFlora";
 	class Infantry
 	{

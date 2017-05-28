@@ -4,8 +4,7 @@ class rhs_gaz66_vdv;
 class rhs_uaz_open_vdv;
 class rhs_btr80_vdv;
 class rhs_btr80a_vdv;
-class haxey_VDV_Vehicles_RHS_UAZ_VDV: rhs_uaz_vdv
-{
+class haxey_VDV_Vehicles_RHS_UAZ_VDV: rhs_uaz_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -15,8 +14,7 @@ class haxey_VDV_Vehicles_RHS_UAZ_VDV: rhs_uaz_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_RHS_tigr_vdv: rhs_tigr_vdv
-{
+class haxey_VDV_Vehicles_RHS_tigr_vdv: rhs_tigr_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -26,8 +24,7 @@ class haxey_VDV_Vehicles_RHS_tigr_vdv: rhs_tigr_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_RHS_gaz66_vdv: rhs_gaz66_vdv
-{
+class haxey_VDV_Vehicles_RHS_gaz66_vdv: rhs_gaz66_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -37,8 +34,7 @@ class haxey_VDV_Vehicles_RHS_gaz66_vdv: rhs_gaz66_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_RHS_uaz_open_VDV: rhs_uaz_open_vdv
-{
+class haxey_VDV_Vehicles_RHS_uaz_open_VDV: rhs_uaz_open_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -48,8 +44,7 @@ class haxey_VDV_Vehicles_RHS_uaz_open_VDV: rhs_uaz_open_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_RHS_btr80_vdv: rhs_btr80_vdv
-{
+class haxey_VDV_Vehicles_RHS_btr80_vdv: rhs_btr80_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -59,8 +54,7 @@ class haxey_VDV_Vehicles_RHS_btr80_vdv: rhs_btr80_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_RHS_btr80a_vdv: rhs_btr80a_vdv
-{
+class haxey_VDV_Vehicles_RHS_btr80a_vdv: rhs_btr80a_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -80,8 +74,7 @@ class rhs_bmd2m;
 class rhs_bmd4_vdv;
 class rhs_bmd4m_vdv;
 class rhs_bmd4ma_vdv;
-class haxey_VDV_Vehicles_rhs_bmd1: rhs_bmd1
-{
+class haxey_VDV_Vehicles_rhs_bmd1: rhs_bmd1 {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -91,8 +84,7 @@ class haxey_VDV_Vehicles_rhs_bmd1: rhs_bmd1
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd1k: rhs_bmd1k
-{
+class haxey_VDV_Vehicles_rhs_bmd1k: rhs_bmd1k {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -102,8 +94,7 @@ class haxey_VDV_Vehicles_rhs_bmd1k: rhs_bmd1k
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd1p: rhs_bmd1p
-{
+class haxey_VDV_Vehicles_rhs_bmd1p: rhs_bmd1p {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -113,8 +104,7 @@ class haxey_VDV_Vehicles_rhs_bmd1p: rhs_bmd1p
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd1pk: rhs_bmd1pk
-{
+class haxey_VDV_Vehicles_rhs_bmd1pk: rhs_bmd1pk {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -124,8 +114,7 @@ class haxey_VDV_Vehicles_rhs_bmd1pk: rhs_bmd1pk
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd2: rhs_bmd2
-{
+class haxey_VDV_Vehicles_rhs_bmd2: rhs_bmd2 {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -135,8 +124,7 @@ class haxey_VDV_Vehicles_rhs_bmd2: rhs_bmd2
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd2k: rhs_bmd2k
-{
+class haxey_VDV_Vehicles_rhs_bmd2k: rhs_bmd2k {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -146,8 +134,7 @@ class haxey_VDV_Vehicles_rhs_bmd2k: rhs_bmd2k
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd2m: rhs_bmd2m
-{
+class haxey_VDV_Vehicles_rhs_bmd2m: rhs_bmd2m {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -157,8 +144,7 @@ class haxey_VDV_Vehicles_rhs_bmd2m: rhs_bmd2m
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd4_vdv: rhs_bmd4_vdv
-{
+class haxey_VDV_Vehicles_rhs_bmd4_vdv: rhs_bmd4_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -168,8 +154,7 @@ class haxey_VDV_Vehicles_rhs_bmd4_vdv: rhs_bmd4_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd4m_vdv: rhs_bmd4m_vdv
-{
+class haxey_VDV_Vehicles_rhs_bmd4m_vdv: rhs_bmd4m_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -179,8 +164,7 @@ class haxey_VDV_Vehicles_rhs_bmd4m_vdv: rhs_bmd4m_vdv
 	crew = "";
 	MACRO_RU_TRANSPORTITEMS
 };
-class haxey_VDV_Vehicles_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
-{
+class haxey_VDV_Vehicles_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -191,8 +175,7 @@ class haxey_VDV_Vehicles_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
 	MACRO_RU_TRANSPORTITEMS
 };
 class rhs_sprut_vdv;
-class haxey_VDV_Vehicles_rhs_sprut_vdv: rhs_sprut_vdv
-{
+class haxey_VDV_Vehicles_rhs_sprut_vdv: rhs_sprut_vdv {
 	author = "haxey";
 	scope = 2;
 	side = 0;

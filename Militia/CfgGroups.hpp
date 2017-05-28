@@ -1,5 +1,4 @@
-class haxey_MIL_TAL
-{
+class haxey_MIL_TAL {
 	name = "h. Milice - Taliban";
 	class Infantry
 	{

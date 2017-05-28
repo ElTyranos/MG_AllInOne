@@ -1,5 +1,4 @@
-class CfgFunctions
-{
+class CfgFunctions {
 	class BG21_MG_Functions
 	{
 		tag = "BG21_MG";
