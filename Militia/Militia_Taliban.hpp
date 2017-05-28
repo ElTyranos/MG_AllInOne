@@ -6,7 +6,7 @@ class haxey_Taliban_base: O_soldier_F {
 	canDeactivateMines = 1;
 	engineer = 1;
 	faction = "haxey_faction_Milice_Taliban";
-	uniformClass = "btc_h_afghan_01";
+	uniformClass = "btc_u_afghan_01";
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
