@@ -1,8 +1,10 @@
+// EMR
 class haxey_VDV_Base: haxey_RU_Base {
 	faction = "haxey_faction_VDV_EMR";
 	uniformClass = "rhs_uniform_vdv_emr";
 };
 class haxey_VDV_EMR_Infantry_CompCom: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
 	Items[] = {ITEMS_ACE_1};
@@ -16,6 +18,7 @@ class haxey_VDV_EMR_Infantry_CompCom: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_DeputyOff: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "Deputy officer";
 	Items[] = {ITEMS_ACE_1};
@@ -29,6 +32,7 @@ class haxey_VDV_EMR_Infantry_DeputyOff: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_1stSerg: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
 	Items[] = {ITEMS_ACE_1};
@@ -42,6 +46,7 @@ class haxey_VDV_EMR_Infantry_1stSerg: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_PL: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
 	Items[] = {ITEMS_ACE_1};
@@ -55,6 +60,7 @@ class haxey_VDV_EMR_Infantry_PL: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_APL: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Assistant Platoon Leader";
 	Items[] = {ITEMS_ACE_1};
@@ -68,6 +74,7 @@ class haxey_VDV_EMR_Infantry_APL: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_SL: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
 	Items[] = {ITEMS_ACE_1};
@@ -81,6 +88,7 @@ class haxey_VDV_EMR_Infantry_SL: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_TL: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Team Leader";
 	Items[] = {ITEMS_ACE_0};
@@ -94,6 +102,7 @@ class haxey_VDV_EMR_Infantry_TL: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_EMR_Infantry_heli: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Air crew";
 	Items[] = {ITEMS_ACE_1};
@@ -107,6 +116,7 @@ class haxey_VDV_EMR_Infantry_heli: haxey_VDV_Base {
 	backpack = "";
 };
 class haxey_VDV_EMR_Infantry_crew: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Crew";
 	Items[] = {ITEMS_ACE_1};
@@ -120,6 +130,7 @@ class haxey_VDV_EMR_Infantry_crew: haxey_VDV_Base {
 	backpack = "";
 };
 class haxey_VDV_EMR_Infantry_AR: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Autorifleman";
 	Items[] = {ITEMS_ACE_0};
@@ -133,6 +144,7 @@ class haxey_VDV_EMR_Infantry_AR: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_EMR_Infantry_exp: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Explosive specialist";
 	Items[] = {ITEMS_ACE_0};
@@ -146,6 +158,7 @@ class haxey_VDV_EMR_Infantry_exp: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_exp";
 };
 class haxey_VDV_EMR_Infantry_medic: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Combat Life Saver";
 	Items[] = {ITEMS_ACE_0};
@@ -159,6 +172,7 @@ class haxey_VDV_EMR_Infantry_medic: haxey_VDV_Base {
 	backpack = "haxey_O_umbts_Med";
 };
 class haxey_VDV_EMR_Infantry_GL: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Grenadier";
 	Items[] = {ITEMS_ACE_0};
@@ -172,6 +186,7 @@ class haxey_VDV_EMR_Infantry_GL: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_GL";
 };
 class haxey_VDV_EMR_Infantry_AT: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Anti-tank";
 	Items[] = {ITEMS_ACE_0};
@@ -185,6 +200,7 @@ class haxey_VDV_EMR_Infantry_AT: haxey_VDV_Base {
 	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_VDV_EMR_Infantry_M: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Marksman";
 	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2};
@@ -198,6 +214,7 @@ class haxey_VDV_EMR_Infantry_M: haxey_VDV_Base {
 	backpack = "";
 };
 class haxey_VDV_EMR_Infantry_SAT: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Anti-tank specialist";
 	Items[] = {ITEMS_ACE_0};
@@ -211,6 +228,7 @@ class haxey_VDV_EMR_Infantry_SAT: haxey_VDV_Base {
 	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_EMR_Infantry_ASAT: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Assistant anti-tank specialist";
 	Items[] = {ITEMS_ACE_0};
@@ -224,6 +242,7 @@ class haxey_VDV_EMR_Infantry_ASAT: haxey_VDV_Base {
 	backpack = "haxey_B_Carryall_SAT";
 };
 class haxey_VDV_EMR_Infantry_Spotter: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Spotter";
 	Items[] = {ITEMS_ACE_2,ITEMS_ACE_0};
@@ -237,6 +256,7 @@ class haxey_VDV_EMR_Infantry_Spotter: haxey_VDV_Base {
 	backpack = "tf_mr3000_rhs";
 };
 class haxey_VDV_EMR_Infantry_Sniper: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Sniper";
 	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2};
@@ -250,6 +270,7 @@ class haxey_VDV_EMR_Infantry_Sniper: haxey_VDV_Base {
 	backpack = "";
 };
 class haxey_VDV_EMR_Infantry_HG: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Gunner";
 	Items[] = {ITEMS_ACE_0};
@@ -263,6 +284,7 @@ class haxey_VDV_EMR_Infantry_HG: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_EMR_Infantry_AHG: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Gunner assistant";
 	Items[] = {ITEMS_ACE_0};
@@ -276,6 +298,7 @@ class haxey_VDV_EMR_Infantry_AHG: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_HG";
 };
 class haxey_VDV_EMR_Infantry_AB: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Ammo Bearer";
 	Items[] = {ITEMS_ACE_0};
@@ -289,6 +312,7 @@ class haxey_VDV_EMR_Infantry_AB: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_AR";
 };
 class haxey_VDV_EMR_Infantry_SAA: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Anti-Air specialist";
 	Items[] = {ITEMS_ACE_0};
@@ -302,6 +326,7 @@ class haxey_VDV_EMR_Infantry_SAA: haxey_VDV_Base {
 	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_EMR_Infantry_ASAA: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Motorized";
 	displayName = "Anti-Air specialist";
 	Items[] = {ITEMS_ACE_0};
@@ -315,6 +340,7 @@ class haxey_VDV_EMR_Infantry_ASAA: haxey_VDV_Base {
 	backpack = "haxey_O_umbts_SAA";
 };
 class haxey_VDV_EMR_Infantry_rflm: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	Items[] = {ITEMS_ACE_0};
@@ -328,6 +354,7 @@ class haxey_VDV_EMR_Infantry_rflm: haxey_VDV_Base {
 	backpack = "haxey_O_sidor_Rflm";
 };
 class haxey_VDV_EMR_Infantry_lite_rflm: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Rifleman";
 	Items[] = {ITEMS_ACE_0};
@@ -341,6 +368,7 @@ class haxey_VDV_EMR_Infantry_lite_rflm: haxey_VDV_Base {
 	backpack = "";
 };
 class haxey_VDV_EMR_Infantry_Mort: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Mortar Gunner";
 	Items[] = {ITEMS_ACE_0};
@@ -354,6 +382,7 @@ class haxey_VDV_EMR_Infantry_Mort: haxey_VDV_Base {
 	backpack = "O_Mortar_01_weapon_F";
 };
 class haxey_VDV_EMR_Infantry_AMort: haxey_VDV_Base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Mortar Assistant";
 	Items[] = {ITEMS_ACE_0};

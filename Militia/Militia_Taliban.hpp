@@ -1,6 +1,6 @@
 class haxey_Taliban_base: O_soldier_F {
 	author = "haxey";
-	scope = 2;
+	scope = 1;
 	side = 2;
 	attendant = 1;
 	canDeactivateMines = 1;
@@ -13,6 +13,7 @@ class haxey_Taliban_base: O_soldier_F {
 	};
 };
 class haxey_Milice_Taliban_Infantry_Warlord: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "Warlord";
 	Items[] = {ITEMS_ACE_3};
@@ -26,9 +27,11 @@ class haxey_Milice_Taliban_Infantry_Warlord: haxey_Taliban_base {
 	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_VC: haxey_Milice_Taliban_Infantry_Warlord {
+	scope = 2;
 	displayName = "Village chief";
 };
 class haxey_Milice_Taliban_Infantry_RH: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Right-hand man";
 	Items[] = {ITEMS_ACE_3};
@@ -42,6 +45,7 @@ class haxey_Milice_Taliban_Infantry_RH: haxey_Taliban_base {
 	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_AR: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Merchant";
 	Items[] = {ITEMS_ACE_3};
@@ -55,6 +59,7 @@ class haxey_Milice_Taliban_Infantry_AR: haxey_Taliban_base {
 	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_exp: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Mechanic (exp)";
 	Items[] = {ITEMS_ACE_3};
@@ -68,6 +73,7 @@ class haxey_Milice_Taliban_Infantry_exp: haxey_Taliban_base {
 	backpack = "haxey_B_FieldPack_cbr";
 };
 class haxey_Milice_Taliban_Infantry_LAT: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Villager Light-AT";
 	Items[] = {ITEMS_ACE_3};
@@ -81,6 +87,7 @@ class haxey_Milice_Taliban_Infantry_LAT: haxey_Taliban_base {
 	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_AT: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Villager AT";
 	Items[] = {ITEMS_ACE_3};
@@ -94,6 +101,7 @@ class haxey_Milice_Taliban_Infantry_AT: haxey_Taliban_base {
 	backpack = "haxey_O_rhs_rpg_AT";
 };
 class haxey_Milice_Taliban_Infantry_HG: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_SuppMen";
 	displayName = "Villager HG";
 	Items[] = {ITEMS_ACE_3};
@@ -107,6 +115,7 @@ class haxey_Milice_Taliban_Infantry_HG: haxey_Taliban_base {
 	backpack = "RHS_DShkM_Gun_Bag";
 };
 class haxey_Milice_Taliban_Infantry_AHG: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_SuppMen";
 	displayName = "Villager AHG";
 	Items[] = {ITEMS_ACE_3};
@@ -120,6 +129,7 @@ class haxey_Milice_Taliban_Infantry_AHG: haxey_Taliban_base {
 	backpack = "RHS_DShkM_TripodHigh_Bag";
 };
 class haxey_Milice_Taliban_Infantry_AB: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_SuppMen";
 	displayName = "Carrier Villager";
 	Items[] = {ITEMS_ACE_3};
@@ -133,6 +143,7 @@ class haxey_Milice_Taliban_Infantry_AB: haxey_Taliban_base {
 	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_rflm: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Villager";
 	Items[] = {ITEMS_ACE_3};
@@ -146,6 +157,7 @@ class haxey_Milice_Taliban_Infantry_rflm: haxey_Taliban_base {
 	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_lite_rflm: haxey_Taliban_base {
+	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Villager lite";
 	Items[] = {ITEMS_ACE_3};
