@@ -6,8 +6,8 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.00;
 		requiredAddons[] = {};
-		author[] = {"haxey"};
-		authorUrl = "";
+		authors[] = {"ElTyranos","haxey"};
+		authorUrl = "www.battlegroup21.com";
 	};
 	//Backward compatibility
 	class haxey_faction_USArmy_UCP: haxey_AllinOne					{};
