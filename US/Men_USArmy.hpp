@@ -1,4 +1,5 @@
 // UCP //
+class B_soldier_F;
 class haxey_US_Army_Base: B_soldier_F {
 	author = "haxey";
 	scope = 2;

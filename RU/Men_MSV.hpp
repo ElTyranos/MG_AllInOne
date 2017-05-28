@@ -1,3 +1,7 @@
+class O_Soldier_base_F;
+class O_soldier_F: O_Soldier_base_F {
+	class EventHandlers;
+};
 class haxey_RU_Base: O_soldier_F {
 	author = "haxey";
 	scope = 2;
