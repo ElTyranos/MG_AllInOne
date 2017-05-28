@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.00;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Data_F","rhs_main","rhsusf_main"};
 		authors[] = {"ElTyranos","haxey"};
 		authorUrl = "www.battlegroup21.com";
 	};
