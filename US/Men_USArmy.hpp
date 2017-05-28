@@ -9,7 +9,7 @@ class haxey_US_Army_Base: B_soldier_F {
 	engineer = 1;
 	faceType = "Man_A3";
 	uniformClass = "rhs_uniform_cu_ucp";
-}
+};
 class haxey_US_Army_UCP_Infantry_CompCom: haxey_US_Army_Base {
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_HQMen";
