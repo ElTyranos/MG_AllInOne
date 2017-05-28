@@ -5,7 +5,7 @@ class rhs_weap_svdp;
 class rhs_weap_rpg7;
 class haxey_ak74m: rhs_weap_ak74m
 {
-	scope = 2;
+	scope = 1;
 	displayName = "AK74M";
 		class LinkedItems
 	{
@@ -29,7 +29,7 @@ class haxey_ak74m: rhs_weap_ak74m
 };
 class haxey_ak74m_gp25: rhs_weap_ak74m_gp25
 {
-	scope = 2;
+	scope = 1;
 	displayName = "AK74M - GP25";
 	class LinkedItems
 	{
@@ -53,7 +53,7 @@ class haxey_ak74m_gp25: rhs_weap_ak74m_gp25
 };
 class haxey_RPK74M: hlc_rifle_rpk74n
 {
-	scope = 2;
+	scope = 1;
 	displayName = "RPK74M";
 	class LinkedItems
 	{
@@ -77,7 +77,7 @@ class haxey_RPK74M: hlc_rifle_rpk74n
 };
 class haxey_SVD: rhs_weap_svdp
 {
-	scope = 2;
+	scope = 1;
 	displayName = "SVD";
 	class LinkedItems
 	{
@@ -101,7 +101,7 @@ class haxey_SVD: rhs_weap_svdp
 };
 class haxey_RPG7: rhs_weap_rpg7
 {
-	scope = 2;
+	scope = 1;
 	displayName = "RPG7";
 	class LinkedItems
 	{

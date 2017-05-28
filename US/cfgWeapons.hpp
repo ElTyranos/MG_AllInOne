@@ -9,7 +9,7 @@ class rhs_weap_m24sws_ghillie;
 class rhs_weap_M107_w;
 class haxey_M4A1: rhs_weap_m4a1_carryhandle_grip
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M4A1";
 		class LinkedItems
 	{
@@ -33,7 +33,7 @@ class haxey_M4A1: rhs_weap_m4a1_carryhandle_grip
 };
 class haxey_M16A4: rhs_weap_m16a4_carryhandle_grip
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M16A4";
 	class LinkedItems
 	{
@@ -57,7 +57,7 @@ class haxey_M16A4: rhs_weap_m16a4_carryhandle_grip
 };
 class haxey_M16A4M203: rhs_weap_m16a4_carryhandle_M203
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M16A4M203";
 	class LinkedItems
 	{
@@ -81,7 +81,7 @@ class haxey_M16A4M203: rhs_weap_m16a4_carryhandle_M203
 };
 class haxey_M249: rhs_weap_m249_pip_L_vfg
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M249";
 	class LinkedItems
 	{
@@ -105,7 +105,7 @@ class haxey_M249: rhs_weap_m249_pip_L_vfg
 };
 class haxey_M240B: rhs_weap_m240B_CAP
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M240B";
 	class LinkedItems
 	{
@@ -129,7 +129,7 @@ class haxey_M240B: rhs_weap_m240B_CAP
 };
 class haxey_M14: rhs_weap_m14ebrri
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M14";
 	class LinkedItems
 	{
@@ -153,7 +153,7 @@ class haxey_M14: rhs_weap_m14ebrri
 };
 class haxey_MAAWS: rhs_weap_smaw_green
 {
-	scope = 2;
+	scope = 1;
 	displayName = "SMAW";
 	class LinkedItems
 	{
@@ -177,7 +177,7 @@ class haxey_MAAWS: rhs_weap_smaw_green
 };
 class haxey_M24: rhs_weap_m24sws_ghillie
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M24";
 	class LinkedItems
 	{
@@ -201,7 +201,7 @@ class haxey_M24: rhs_weap_m24sws_ghillie
 };
 class haxey_M107: rhs_weap_M107_w
 {
-	scope = 2;
+	scope = 1;
 	displayName = "M107";
 	class LinkedItems
 	{
