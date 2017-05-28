@@ -1511,7 +1511,7 @@ class haxey_MSV_M88
 			class Unit0
 			{
 				side = 0;
-				vehicle = "haxey_VDV_M88_Infantry_heli";
+				vehicle = "haxey_MSV_M88_Infantry_heli";
 				rank = "Sergeant";
 				position[] = {0,0,0};
 			};

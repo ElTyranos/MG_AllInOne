@@ -81,7 +81,6 @@ class rhs_assault_umbts;
 class rhs_rpg_empty;
 class haxey_O_Carryall_SAT: B_Carryall_oli
 {
-	_generalMacro = "haxey_O_Carryall_SAT";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -95,7 +94,6 @@ class haxey_O_Carryall_SAT: B_Carryall_oli
 };
 class haxey_O_umbts_SAA: rhs_assault_umbts
 {
-	_generalMacro = "haxey_O_umbts_SAA";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -109,7 +107,6 @@ class haxey_O_umbts_SAA: rhs_assault_umbts
 };
 class haxey_O_rhs_rpg_AT: rhs_rpg_empty
 {
-	_generalMacro = "haxey_O_rhs_rpg_AT";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -128,7 +125,6 @@ class haxey_O_rhs_rpg_AT: rhs_rpg_empty
 };
 class haxey_O_sidor_exp: rhs_sidor
 {
-	_generalMacro = "haxey_O_sidor_exp";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -157,7 +153,6 @@ class haxey_O_sidor_exp: rhs_sidor
 };
 class haxey_O_sidor_Rflm: rhs_sidor
 {
-	_generalMacro = "haxey_O_sidor_AR";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -176,7 +171,6 @@ class haxey_O_sidor_Rflm: rhs_sidor
 };
 class haxey_O_sidor_AR: rhs_sidor
 {
-	_generalMacro = "haxey_O_sidor_AR";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -190,7 +184,6 @@ class haxey_O_sidor_AR: rhs_sidor
 };
 class haxey_O_sidor_HG: rhs_sidor
 {
-	_generalMacro = "haxey_O_sidor_HG";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -204,7 +197,6 @@ class haxey_O_sidor_HG: rhs_sidor
 };
 class haxey_O_sidor_GL: rhs_sidor
 {
-	_generalMacro = "haxey_O_sidor_GL";
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -233,7 +225,6 @@ class haxey_O_sidor_GL: rhs_sidor
 };
 class haxey_O_umbts_Med: rhs_assault_umbts
 {
-	_generalMacro = "haxey_O_umbts_Med";
 	author = "haxey";
 	scope = 1;
 	class TransportItems

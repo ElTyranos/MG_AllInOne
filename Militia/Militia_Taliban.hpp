@@ -1,7 +1,6 @@
 
 class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_Warlord";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -28,12 +27,10 @@ class haxey_Milice_Taliban_Infantry_Warlord: O_officer_F
 };
 class haxey_Milice_Taliban_Infantry_VC: haxey_Milice_Taliban_Infantry_Warlord
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_VC";
 	displayName = "Village chief";
 };
 class haxey_Milice_Taliban_Infantry_RH: O_Soldier_TL_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_RH";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -60,7 +57,6 @@ class haxey_Milice_Taliban_Infantry_RH: O_Soldier_TL_F
 };
 class haxey_Milice_Taliban_Infantry_AR: O_soldier_AR_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_AR";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -87,7 +83,6 @@ class haxey_Milice_Taliban_Infantry_AR: O_soldier_AR_F
 };
 class haxey_Milice_Taliban_Infantry_exp: O_soldier_exp_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_exp";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -114,7 +109,6 @@ class haxey_Milice_Taliban_Infantry_exp: O_soldier_exp_F
 };
 class haxey_Milice_Taliban_Infantry_LAT: O_soldier_LAT_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_LAT";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -141,7 +135,6 @@ class haxey_Milice_Taliban_Infantry_LAT: O_soldier_LAT_F
 };
 class haxey_Milice_Taliban_Infantry_AT: O_soldier_AT_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_AT";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -168,7 +161,6 @@ class haxey_Milice_Taliban_Infantry_AT: O_soldier_AT_F
 };
 class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_HG";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -195,7 +187,6 @@ class haxey_Milice_Taliban_Infantry_HG: O_HeavyGunner_F
 };
 class haxey_Milice_Taliban_Infantry_AHG: O_soldier_AAR_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_AHG";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -222,7 +213,6 @@ class haxey_Milice_Taliban_Infantry_AHG: O_soldier_AAR_F
 };
 class haxey_Milice_Taliban_Infantry_AB: O_Soldier_A_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_AB";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -249,7 +239,6 @@ class haxey_Milice_Taliban_Infantry_AB: O_Soldier_A_F
 };
 class haxey_Milice_Taliban_Infantry_rflm: O_soldier_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_rflm";
 	author = "haxey";
 	scope = 2;
 	side = 2;
@@ -276,7 +265,6 @@ class haxey_Milice_Taliban_Infantry_rflm: O_soldier_F
 };
 class haxey_Milice_Taliban_Infantry_lite_rflm: O_Soldier_lite_F
 {
-	_generalMacro = "haxey_Milice_Taliban_Infantry_rflm";
 	author = "haxey";
 	scope = 2;
 	side = 2;

@@ -6,7 +6,6 @@ class rhs_btr80_vdv;
 class rhs_btr80a_vdv;
 class haxey_VDV_Vehicles_RHS_UAZ_VDV: rhs_uaz_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_RHS_UAZ_VDV";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -18,7 +17,6 @@ class haxey_VDV_Vehicles_RHS_UAZ_VDV: rhs_uaz_vdv
 };
 class haxey_VDV_Vehicles_RHS_tigr_vdv: rhs_tigr_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_RHS_tigr_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -30,7 +28,6 @@ class haxey_VDV_Vehicles_RHS_tigr_vdv: rhs_tigr_vdv
 };
 class haxey_VDV_Vehicles_RHS_gaz66_vdv: rhs_gaz66_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_RHS_gaz66_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -42,7 +39,6 @@ class haxey_VDV_Vehicles_RHS_gaz66_vdv: rhs_gaz66_vdv
 };
 class haxey_VDV_Vehicles_RHS_uaz_open_VDV: rhs_uaz_open_vdv
 {
-	_generalMacro = "haxe_rhs_uaz_open_VDV";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -54,7 +50,6 @@ class haxey_VDV_Vehicles_RHS_uaz_open_VDV: rhs_uaz_open_vdv
 };
 class haxey_VDV_Vehicles_RHS_btr80_vdv: rhs_btr80_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_RHS_btr80_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -66,7 +61,6 @@ class haxey_VDV_Vehicles_RHS_btr80_vdv: rhs_btr80_vdv
 };
 class haxey_VDV_Vehicles_RHS_btr80a_vdv: rhs_btr80a_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_RHS_btr80a_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -88,7 +82,6 @@ class rhs_bmd4m_vdv;
 class rhs_bmd4ma_vdv;
 class haxey_VDV_Vehicles_rhs_bmd1: rhs_bmd1
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd1";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -100,7 +93,6 @@ class haxey_VDV_Vehicles_rhs_bmd1: rhs_bmd1
 };
 class haxey_VDV_Vehicles_rhs_bmd1k: rhs_bmd1k
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd1k";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -112,7 +104,6 @@ class haxey_VDV_Vehicles_rhs_bmd1k: rhs_bmd1k
 };
 class haxey_VDV_Vehicles_rhs_bmd1p: rhs_bmd1p
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd1p";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -124,7 +115,6 @@ class haxey_VDV_Vehicles_rhs_bmd1p: rhs_bmd1p
 };
 class haxey_VDV_Vehicles_rhs_bmd1pk: rhs_bmd1pk
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd1pk";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -136,7 +126,6 @@ class haxey_VDV_Vehicles_rhs_bmd1pk: rhs_bmd1pk
 };
 class haxey_VDV_Vehicles_rhs_bmd2: rhs_bmd2
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd2";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -148,7 +137,6 @@ class haxey_VDV_Vehicles_rhs_bmd2: rhs_bmd2
 };
 class haxey_VDV_Vehicles_rhs_bmd2k: rhs_bmd2k
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd2k";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -160,7 +148,6 @@ class haxey_VDV_Vehicles_rhs_bmd2k: rhs_bmd2k
 };
 class haxey_VDV_Vehicles_rhs_bmd2m: rhs_bmd2m
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd2m";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -172,7 +159,6 @@ class haxey_VDV_Vehicles_rhs_bmd2m: rhs_bmd2m
 };
 class haxey_VDV_Vehicles_rhs_bmd4_vdv: rhs_bmd4_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd4_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -184,7 +170,6 @@ class haxey_VDV_Vehicles_rhs_bmd4_vdv: rhs_bmd4_vdv
 };
 class haxey_VDV_Vehicles_rhs_bmd4m_vdv: rhs_bmd4m_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd4m_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -196,7 +181,6 @@ class haxey_VDV_Vehicles_rhs_bmd4m_vdv: rhs_bmd4m_vdv
 };
 class haxey_VDV_Vehicles_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_bmd4ma_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;
@@ -209,7 +193,6 @@ class haxey_VDV_Vehicles_rhs_bmd4ma_vdv: rhs_bmd4ma_vdv
 class rhs_sprut_vdv;
 class haxey_VDV_Vehicles_rhs_sprut_vdv: rhs_sprut_vdv
 {
-	_generalMacro = "haxey_VDV_Vehicles_rhs_sprut_vdv";
 	author = "haxey";
 	scope = 2;
 	side = 0;

@@ -1,7 +1,6 @@
 class rhsgref_nat_uaz_open;
 class haxey_Taliban_rhsgref_ins_uaz_open: rhsgref_nat_uaz_open
 {
-	_generalMacro = "haxey_Taliban_rhsgref_ins_uaz_open";
 	author = "haxey";
 	scope = 2;
 	side = 2;
