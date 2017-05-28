@@ -66,3 +66,426 @@
 #define DOT_MIL_545LMG_0 "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green"
 
 #define DOT_MIL_762MG_0 "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk"
+
+
+
+
+
+#define MACRO_US_TRANSPORTITEMS \
+	class TransportItems \
+	{ \
+		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red \
+		{ \
+			name = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"; \
+			count = 20; \
+		}; \
+		class _xx_rhsusf_100Rnd_556x45_soft_pouch \
+		{ \
+			name = "rhsusf_100Rnd_556x45_soft_pouch"; \
+			count = 5; \
+		}; \
+		class _xx_rhsusf_100Rnd_762x51_m62_tracer \
+		{ \
+			name = "rhsusf_100Rnd_762x51_m62_tracer"; \
+			count = 5; \
+		}; \
+		class _xx_rhsusf_20Rnd_762x51_m118_special_Mag \
+		{ \
+			name = "rhsusf_20Rnd_762x51_m118_special_Mag"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_mag_an_m8hc \
+		{ \
+			name = "rhs_mag_an_m8hc"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_m18_green \
+		{ \
+			name = "rhs_mag_m18_green"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_White \
+		{ \
+			name = "ACE_HandFlare_White"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_Green \
+		{ \
+			name = "ACE_HandFlare_Green"; \
+			count = 10; \
+		}; \
+		class _xx_Chemlight_green \
+		{ \
+			name = "Chemlight_green"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_M585_white \
+		{ \
+			name = "rhs_mag_M585_white"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_m714_White \
+		{ \
+			name = "rhs_mag_m714_White"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_m715_Green \
+		{ \
+			name = "rhs_mag_m715_Green"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_fieldDressing \
+		{ \
+			count = 20; \
+			name = "ACE_fieldDressing"; \
+		}; \
+		class _xx_ACE_morphine \
+		{ \
+			count = 5; \
+			name = "ACE_morphine"; \
+		}; \
+		class _xx_ACE_epinephrine \
+		{ \
+			count = 2; \
+			name = "ACE_epinephrine"; \
+		}; \
+		class _xx_ACE_bloodIV \
+		{ \
+			count = 5; \
+			name = "ACE_bloodIV"; \
+		}; \
+	 }; \
+	class TransportMagazines {}; \
+	class TransportWeapons {}; \
+	class TransportBackpacks {};
+	
+#define MACRO_US_TRANSPORTITEMS_AIR \
+	class TransportItems \
+	{ \
+		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red \
+		{ \
+			name = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red"; \
+			count = 20; \
+		}; \
+		class _xx_rhsusf_100Rnd_556x45_soft_pouch \
+		{ \
+			name = "rhsusf_100Rnd_556x45_soft_pouch"; \
+			count = 5; \
+		}; \
+		class _xx_rhsusf_100Rnd_762x51_m62_tracer \
+		{ \
+			name = "rhsusf_100Rnd_762x51_m62_tracer"; \
+			count = 5; \
+		}; \
+		class _xx_rhsusf_20Rnd_762x51_m118_special_Mag \
+		{ \
+			name = "rhsusf_20Rnd_762x51_m118_special_Mag"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_mag_an_m8hc \
+		{ \
+			name = "rhs_mag_an_m8hc"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_m18_green \
+		{ \
+			name = "rhs_mag_m18_green"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_White \
+		{ \
+			name = "ACE_HandFlare_White"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_Green \
+		{ \
+			name = "ACE_HandFlare_Green"; \
+			count = 10; \
+		}; \
+		class _xx_Chemlight_green \
+		{ \
+			name = "Chemlight_green"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_M585_white \
+		{ \
+			name = "rhs_mag_M585_white"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_m714_White \
+		{ \
+			name = "rhs_mag_m714_White"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_m715_Green \
+		{ \
+			name = "rhs_mag_m715_Green"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_fieldDressing \
+		{ \
+			count = 20; \
+			name = "ACE_fieldDressing"; \
+		}; \
+		class _xx_ACE_morphine \
+		{ \
+			count = 5; \
+			name = "ACE_morphine"; \
+		}; \
+		class _xx_ACE_epinephrine \
+		{ \
+			count = 2; \
+			name = "ACE_epinephrine"; \
+		}; \
+		class _xx_ACE_bloodIV \
+		{ \
+			count = 5; \
+			name = "ACE_bloodIV"; \
+		}; \
+	 }; \
+	class TransportMagazines {}; \
+	class TransportWeapons {}; \
+	class TransportBackpacks \
+	{ \
+		class _xx_B_Parachute \
+		{ \
+			backpack = "B_Parachute"; \
+			count = 8; \
+		}; \
+	};
+
+#define MACRO_RU_TRANSPORTITEMS \
+	class TransportItems \
+	{ \
+		class _xx_rhs_30Rnd_545x39_AK_green \
+		{ \
+			name = "rhs_30Rnd_545x39_AK_green"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_45Rnd_545X39_AK_Green \
+		{ \
+			name = "rhs_45Rnd_545X39_AK_Green"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_100Rnd_762x54mmR_green \
+		{ \
+			name = "rhs_100Rnd_762x54mmR_green"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_10Rnd_762x54mmR_7N1 \
+		{ \
+			name = "rhs_10Rnd_762x54mmR_7N1"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_mag_rdg2_white \
+		{ \
+			name = "rhs_mag_rdg2_white"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_nspd \
+		{ \
+			name = "rhs_mag_nspd"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_White \
+		{ \
+			name = "ACE_HandFlare_White"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_Green \
+		{ \
+			name = "ACE_HandFlare_Green"; \
+			count = 10; \
+		}; \
+		class _xx_Chemlight_green \
+		{ \
+			name = "Chemlight_green"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_VG40OP_white \
+		{ \
+			name = "rhs_VG40OP_white"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_GRD40_White \
+		{ \
+			name = "rhs_GRD40_White"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_GRD40_Red \
+		{ \
+			name = "rhs_GRD40_Red"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_fieldDressing \
+		{ \
+			count = 20; \
+			name = "ACE_fieldDressing"; \
+		}; \
+		class _xx_ACE_morphine \
+		{ \
+			count = 5; \
+			name = "ACE_morphine"; \
+		}; \
+		class _xx_ACE_epinephrine \
+		{ \
+			count = 2; \
+			name = "ACE_epinephrine"; \
+		}; \
+		class _xx_ACE_bloodIV \
+		{ \
+			count = 5; \
+			name = "ACE_bloodIV"; \
+		}; \
+	}; \
+	class TransportMagazines {}; \
+	class TransportWeapons {}; \
+	class TransportBackpacks {};
+
+#define MACRO_RU_TRANSPORTITEMS_AIR \
+	class TransportItems \
+	{ \
+		class _xx_rhs_30Rnd_545x39_AK_green \
+		{ \
+			name = "rhs_30Rnd_545x39_AK_green"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_45Rnd_545X39_AK_Green \
+		{ \
+			name = "rhs_45Rnd_545X39_AK_Green"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_100Rnd_762x54mmR_green \
+		{ \
+			name = "rhs_100Rnd_762x54mmR_green"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_10Rnd_762x54mmR_7N1 \
+		{ \
+			name = "rhs_10Rnd_762x54mmR_7N1"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_mag_rdg2_white \
+		{ \
+			name = "rhs_mag_rdg2_white"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_mag_nspd \
+		{ \
+			name = "rhs_mag_nspd"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_White \
+		{ \
+			name = "ACE_HandFlare_White"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_HandFlare_Green \
+		{ \
+			name = "ACE_HandFlare_Green"; \
+			count = 10; \
+		}; \
+		class _xx_Chemlight_green \
+		{ \
+			name = "Chemlight_green"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_VG40OP_white \
+		{ \
+			name = "rhs_VG40OP_white"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_GRD40_White \
+		{ \
+			name = "rhs_GRD40_White"; \
+			count = 10; \
+		}; \
+		class _xx_rhs_GRD40_Red \
+		{ \
+			name = "rhs_GRD40_Red"; \
+			count = 10; \
+		}; \
+		class _xx_ACE_fieldDressing \
+		{ \
+			count = 20; \
+			name = "ACE_fieldDressing"; \
+		}; \
+		class _xx_ACE_morphine \
+		{ \
+			count = 5; \
+			name = "ACE_morphine"; \
+		}; \
+		class _xx_ACE_epinephrine \
+		{ \
+			count = 2; \
+			name = "ACE_epinephrine"; \
+		}; \
+		class _xx_ACE_bloodIV \
+		{ \
+			count = 5; \
+			name = "ACE_bloodIV"; \
+		}; \
+	}; \
+	class TransportMagazines {}; \
+	class TransportWeapons {}; \
+	class TransportBackpacks \
+	{ \
+		class _xx_B_Parachute \
+		{ \
+			backpack = "B_Parachute"; \
+			count = 28; \
+		}; \
+	};
+
+#define MACRO_MIL_TRANSPORTITEMS \
+	class TransportItems \
+	{ \
+		class _xx_rhsgref_5Rnd_792x57_kar98k \
+		{ \
+			name = "rhsgref_5Rnd_792x57_kar98k"; \
+			count = 5; \
+		}; \
+		class _xx_rhsgref_5Rnd_762x54_m38 \
+		{ \
+			name = "rhsgref_5Rnd_762x54_m38"; \
+			count = 5; \
+		}; \
+		class _xx_hlc_30Rnd_762x39_t_ak \
+		{ \
+			name = "hlc_30Rnd_762x39_t_ak"; \
+			count = 5; \
+		}; \
+		class _xx_rhs_30Rnd_545x39_AK_green \
+		{ \
+			name = "rhs_30Rnd_545x39_AK_green"; \
+			count = 5; \
+		}; \
+		class _xx_hlc_45Rnd_762x39_t_rpk \
+		{ \
+			name = "hlc_45Rnd_762x39_t_rpk"; \
+			count = 5; \
+		}; \
+		class _xx_ACE_fieldDressing \
+		{ \
+			count = 20; \
+			name = "ACE_fieldDressing"; \
+		}; \
+		class _xx_ACE_morphine \
+		{ \
+			count = 5; \
+			name = "ACE_morphine"; \
+		}; \
+		class _xx_ACE_epinephrine \
+		{ \
+			count = 2; \
+			name = "ACE_epinephrine"; \
+		}; \
+		class _xx_ACE_bloodIV \
+		{ \
+			count = 5; \
+			name = "ACE_bloodIV"; \
+		}; \
+	}; \
+	class TransportMagazines {}; \
+	class TransportWeapons {}; \
+	class TransportBackpacks {};
