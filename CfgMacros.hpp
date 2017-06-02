@@ -57,17 +57,19 @@
 #define DOT_RU_762HMG_0 "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"
 
 // Dotation Milice
-#define DOT_MIL_792R_0 "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k"
-
-#define DOT_MIL_762R_0 "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38"
-
-#define DOT_MIL_762LMG_0 "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak", "hlc_30Rnd_762x39_t_ak"
+#define DOT_MIL_762LMG_0 "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer"
 
 #define DOT_MIL_545LMG_0 "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_AK_green"
 
 #define DOT_MIL_762MG_0 "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_t_rpk"
 
+#define DOT_MIL_762HMG_0 "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"
 
+#define DOT_MIL_762DMR_0 "rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76","rhsgref_10Rnd_792x57_m76"
+
+#define DOT_MIL_792R_0 "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k", "rhsgref_5Rnd_792x57_kar98k"
+
+#define DOT_MIL_762R_0 "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38", "rhsgref_5Rnd_762x54_m38"
 
 
 
