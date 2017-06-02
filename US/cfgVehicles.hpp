@@ -482,6 +482,18 @@ class haxey_US_UCP_ACRE_PRC117F: rhsusf_assault_eagleaiii_ucp {
 		};
 	};
 };
+class haxey_US_M81_ACRE_PRC117F: rhsusf_assault_eagleaiii_coy {
+	author = "El Tyranos";
+	scope = 1;
+	class TransportItems
+	{
+		class _xx_ACRE_PRC117F
+		{
+			count = 1;
+			name = "ACRE_PRC117F";
+		};
+	};
+};
 
 #include "Men_USArmy.hpp"
 #include "Vhl_USArmy.hpp"
