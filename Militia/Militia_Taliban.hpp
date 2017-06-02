@@ -11,43 +11,47 @@ class haxey_Taliban_base: O_soldier_F {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'MIL_TAL'] call BG21_MG_fnc_random_gear;};";
 	};
+	backpack = "";
 };
-class haxey_Milice_Taliban_Infantry_Warlord: haxey_Taliban_base {
+class haxey_Milice_Taliban_Infantry_PL: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "Warlord";
-	Items[] = {ITEMS_ACE_3};
-	RespawnItems[] = {ITEMS_ACE_3};
+	Items[] = {ITEMS_ACE_3,PRC343};
+	RespawnItems[] = {ITEMS_ACE_3,PRC343};
 	weapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
 	respawnWeapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
 	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
 	linkedItems[] = {LINKED_ITEMS_MIL};
 	respawnLinkedItems[] = {LINKED_ITEMS_MIL};
-	backpack = "";
 };
-class haxey_Milice_Taliban_Infantry_VC: haxey_Milice_Taliban_Infantry_Warlord {
+class haxey_Milice_Taliban_Infantry_SL: haxey_Milice_Taliban_Infantry_PL {
 	scope = 2;
-	displayName = "Village chief";
+	displayName = "Moudjahid Party Leader";
+	weapons[] = {"rhs_weap_aks74_2","Binocular","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_aks74_2","Binocular","Throw","Put"};
+	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
+	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};	
 };
-class haxey_Milice_Taliban_Infantry_RH: haxey_Taliban_base {
+class haxey_Milice_Taliban_Infantry_TL: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_Men";
-	displayName = "Right-hand man";
+	displayName = "Moudjahid Team Leader";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_akm","rhs_weap_rshg2","Binocular","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_akm","rhs_weap_rshg2","Binocular","Throw","Put"};
+	weapons[] = {"rhs_weap_akms","Binocular","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_akms","Binocular","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
 	linkedItems[] = {LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
-	backpack = "";
 };
+
 class haxey_Milice_Taliban_Infantry_AR: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_Men";
-	displayName = "Merchant";
+	displayName = "Moudjahid (RPK 47)";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"hlc_rifle_rpk","Throw","Put"};
@@ -56,54 +60,116 @@ class haxey_Milice_Taliban_Infantry_AR: haxey_Taliban_base {
 	respawnMagazines[] = {DOT_MIL_762MG_0,GRE_MIL_0};
 	linkedItems[] = {LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
-	backpack = "";
+};
+class haxey_Milice_Taliban_Infantry_M: haxey_Taliban_base {
+	scope = 2;
+	vehicleClass = "H_Men";
+	displayName = "Moudjahid (Marksman)";
+	Items[] = {ITEMS_ACE_3};
+	RespawnItems[] = {ITEMS_ACE_3};
+	weapons[] = {"haxey_m76","Throw","Put"};
+	respawnWeapons[] = {"haxey_m76","Throw","Put"};
+	magazines[] = {DOT_MIL_762DMR_0,GRE_MIL_0};
+	respawnMagazines[] = {DOT_MIL_762DMR_0,GRE_MIL_0};
+	linkedItems[] = {LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
 };
 class haxey_Milice_Taliban_Infantry_exp: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_Men";
-	displayName = "Mechanic (exp)";
+	displayName = "Martyr (Explosives specialist)";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_aks74u","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_aks74u","Throw","Put"};
+	weapons[] = {"rhs_weap_ak74_2","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_ak74_2","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	linkedItems[] = {LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
-	backpack = "haxey_B_FieldPack_cbr";
+	backpack = "haxey_B_FieldPack_cbr_IED";
 };
 class haxey_Milice_Taliban_Infantry_LAT: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_Men";
-	displayName = "Villager Light-AT";
+	displayName = "Moudjahid (RPG-26)";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_aks74u","rhs_weap_rpg26","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_aks74u","rhs_weap_rpg26","Throw","Put"};
+	weapons[] = {"rhs_weap_ak74_2","rhs_weap_rpg26","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_ak74_2","rhs_weap_rpg26","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	linkedItems[] = {LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
-	backpack = "";
 };
 class haxey_Milice_Taliban_Infantry_AT: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_Men";
-	displayName = "Villager AT";
+	displayName = "Moudjahid (AT)";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_aks74u","rhs_weap_rpg7","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_aks74u","rhs_weap_rpg7","Throw","Put"};
+	weapons[] = {"rhs_weap_aks74_2","rhs_weap_rpg7","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_aks74_2","rhs_weap_rpg7","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	linkedItems[] = {LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
 	backpack = "haxey_O_rhs_rpg_AT";
 };
+
+class haxey_Milice_Taliban_Infantry_rflm_1: haxey_Taliban_base {
+	scope = 2;
+	vehicleClass = "H_Men";
+	displayName = "Moudjahid";
+	Items[] = {ITEMS_ACE_3};
+	RespawnItems[] = {ITEMS_ACE_3};
+	weapons[] = {"rhs_weap_akms","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_akms","Throw","Put"};
+	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
+	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
+	linkedItems[] = {LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+};
+class haxey_Milice_Taliban_Infantry_rflm_2: haxey_Milice_Taliban_Infantry_rflm_1 {
+	weapons[] = {"rhs_weap_akm","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_akm","Throw","Put"};
+};
+class haxey_Milice_Taliban_Infantry_rflm_3: haxey_Milice_Taliban_Infantry_rflm_1 {
+	weapons[] = {"rhs_weap_aks74_2","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_aks74_2","Throw","Put"};
+	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
+	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};	
+};
+class haxey_Milice_Taliban_Infantry_rflm_4: haxey_Milice_Taliban_Infantry_rflm_3 {
+	weapons[] = {"rhs_weap_ak74_2","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_ak74_2","Throw","Put"};
+};
+
 class haxey_Milice_Taliban_Infantry_HG: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_SuppMen";
-	displayName = "Villager HG";
+	displayName = "Moudjahid (PKM)";
+	Items[] = {ITEMS_ACE_3};
+	RespawnItems[] = {ITEMS_ACE_3};
+	weapons[] = {"rhs_weap_pkm","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
+	magazines[] = {DOT_MIL_762HMG_0,GRE_MIL_0};
+	respawnMagazines[] = {DOT_MIL_762HMG_0,GRE_MIL_0};
+	linkedItems[] = {LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	backpack = "haxey_O_sidor_HG";
+};
+class haxey_Milice_Taliban_Infantry_AHG: haxey_Milice_Taliban_Infantry_HG {
+	displayName = "Moudjahid (Assist. PKM)";
+	weapons[] = {"rhs_weap_aks74u","Binocular","Throw","Put"};
+	respawnWeapons[] = {"rhs_weap_aks74u","Binocular","Throw","Put"};
+	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
+	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
+};
+
+class haxey_Milice_Taliban_Infantry_DShKM: haxey_Taliban_base {
+	scope = 2;
+	vehicleClass = "H_SuppMen";
+	displayName = "Moudjahid (DShKM)";
 	Items[] = {ITEMS_ACE_3};
 	RespawnItems[] = {ITEMS_ACE_3};
 	weapons[] = {"rhs_weap_aks74u","Throw","Put"};
@@ -114,59 +180,9 @@ class haxey_Milice_Taliban_Infantry_HG: haxey_Taliban_base {
 	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
 	backpack = "RHS_DShkM_Gun_Bag";
 };
-class haxey_Milice_Taliban_Infantry_AHG: haxey_Taliban_base {
-	scope = 2;
-	vehicleClass = "H_SuppMen";
-	displayName = "Villager AHG";
-	Items[] = {ITEMS_ACE_3};
-	RespawnItems[] = {ITEMS_ACE_3};
+class haxey_Milice_Taliban_Infantry_ADShKM: haxey_Milice_Taliban_Infantry_DShKM {
+	displayName = "Moudjahid (Assist. DShKM)";
 	weapons[] = {"rhs_weap_aks74u","Binocular","Throw","Put"};
 	respawnWeapons[] = {"rhs_weap_aks74u","Binocular","Throw","Put"};
-	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
-	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
 	backpack = "RHS_DShkM_TripodHigh_Bag";
-};
-class haxey_Milice_Taliban_Infantry_AB: haxey_Taliban_base {
-	scope = 2;
-	vehicleClass = "H_SuppMen";
-	displayName = "Carrier Villager";
-	Items[] = {ITEMS_ACE_3};
-	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_m38","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_m38","Throw","Put"};
-	magazines[] = {DOT_MIL_762R_0,GRE_MIL_0};
-	respawnmagazines[] = {DOT_MIL_762R_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
-	backpack = "";
-};
-class haxey_Milice_Taliban_Infantry_rflm: haxey_Taliban_base {
-	scope = 2;
-	vehicleClass = "H_Men";
-	displayName = "Villager";
-	Items[] = {ITEMS_ACE_3};
-	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_m38","rhs_weap_rpg26","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_m38","rhs_weap_rpg26","Throw","Put"};
-	magazines[] = {DOT_MIL_762R_0,GRE_MIL_0};
-	respawnmagazines[] = {DOT_MIL_762R_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
-	backpack = "";
-};
-class haxey_Milice_Taliban_Infantry_lite_rflm: haxey_Taliban_base {
-	scope = 2;
-	vehicleClass = "H_Men";
-	displayName = "Villager lite";
-	Items[] = {ITEMS_ACE_3};
-	RespawnItems[] = {ITEMS_ACE_3};
-	weapons[] = {"rhs_weap_m38","Throw","Put"};
-	respawnWeapons[] = {"rhs_weap_m38","Throw","Put"};
-	magazines[] = {DOT_MIL_762R_0,GRE_MIL_0};
-	respawnmagazines[] = {DOT_MIL_762R_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
-	backpack = "";
 };
