@@ -6,7 +6,7 @@ class haxey_m76: rhs_weap_m76 {
 		class LinkedItemsOptic
 		{
 		slot = "CowsSlot";
-		item = "rhsusf_acc_compm4";
+		item = "rhs_acc_pso1m21";
 		};
 	};
 };
