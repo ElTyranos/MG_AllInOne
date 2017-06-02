@@ -17,8 +17,8 @@ class haxey_Milice_Taliban_Infantry_PL: haxey_Taliban_base {
 	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "Warlord";
-	Items[] = {ITEMS_ACE_3,PRC343};
-	RespawnItems[] = {ITEMS_ACE_3,PRC343};
+	Items[] = {ITEMS_ACE_3,ACRE_PRC343};
+	RespawnItems[] = {ITEMS_ACE_3,ACRE_PRC343};
 	weapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
 	respawnWeapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
