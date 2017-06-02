@@ -1,5 +1,6 @@
 class rhsusf_assault_eagleaiii_ucp;
 class rhsusf_assault_eagleaiii_ocp;
+class rhsusf_assault_eagleaiii_coy;
 class B_Carryall_cbr;
 class B_Kitbag_cbr;
 class haxey_US_Army_UCP_Carryall_cbr_SAT: B_Carryall_cbr {
@@ -298,6 +299,7 @@ class haxey_US_Army_OCP_eagleaiii_Med: rhsusf_assault_eagleaiii_ocp {
 		};
 	};
 };
+
 class haxey_US_Army_M81_Carryall_cbr_SAT: B_Carryall_cbr {
 	author = "haxey";
 	scope = 1;
@@ -315,7 +317,7 @@ class haxey_US_Army_M81_Carryall_cbr_SAT: B_Carryall_cbr {
 		};
 	};
 };
-class haxey_US_Army_M81_eagleaiii_SAA: rhsusf_assault_eagleaiii_ocp {
+class haxey_US_Army_M81_eagleaiii_SAA: rhsusf_assault_eagleaiii_coy	 {
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -344,7 +346,7 @@ class haxey_US_Army_M81_B_Kitbag_cbr_AT: B_Kitbag_cbr {
 		};
 	};
 };
-class haxey_US_Army_M81_eagleaiii_exp: rhsusf_assault_eagleaiii_ocp {
+class haxey_US_Army_M81_eagleaiii_exp: rhsusf_assault_eagleaiii_coy	 {
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -371,7 +373,7 @@ class haxey_US_Army_M81_eagleaiii_exp: rhsusf_assault_eagleaiii_ocp {
 		};
 	};
 };
-class haxey_US_Army_M81_eagleaiii_AR: rhsusf_assault_eagleaiii_ocp {
+class haxey_US_Army_M81_eagleaiii_AR: rhsusf_assault_eagleaiii_coy	 {
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -383,7 +385,7 @@ class haxey_US_Army_M81_eagleaiii_AR: rhsusf_assault_eagleaiii_ocp {
 		};
 	};
 };
-class haxey_US_Army_M81_eagleaiii_HG: rhsusf_assault_eagleaiii_ocp {
+class haxey_US_Army_M81_eagleaiii_HG: rhsusf_assault_eagleaiii_coy	 {
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -395,7 +397,7 @@ class haxey_US_Army_M81_eagleaiii_HG: rhsusf_assault_eagleaiii_ocp {
 		};
 	};
 };
-class haxey_US_Army_M81_eagleaiii_GL: rhsusf_assault_eagleaiii_ocp {
+class haxey_US_Army_M81_eagleaiii_GL: rhsusf_assault_eagleaiii_coy	 {
 	author = "haxey";
 	scope = 1;
 	class TransportItems
@@ -422,7 +424,7 @@ class haxey_US_Army_M81_eagleaiii_GL: rhsusf_assault_eagleaiii_ocp {
 		};
 	};
 };
-class haxey_US_Army_M81_eagleaiii_Med: rhsusf_assault_eagleaiii_ocp {
+class haxey_US_Army_M81_eagleaiii_Med: rhsusf_assault_eagleaiii_coy	 {
 	author = "haxey";
 	scope = 1;
 	class TransportItems
