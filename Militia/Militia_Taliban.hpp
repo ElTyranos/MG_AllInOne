@@ -23,8 +23,8 @@ class haxey_Milice_Taliban_Infantry_PL: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
 	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
-	linkedItems[] = {LINKED_ITEMS_MIL};
-	respawnLinkedItems[] = {LINKED_ITEMS_MIL};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_MIL};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_MIL};
 };
 class haxey_Milice_Taliban_Infantry_SL: haxey_Milice_Taliban_Infantry_PL {
 	scope = 2;
@@ -44,8 +44,8 @@ class haxey_Milice_Taliban_Infantry_TL: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_akms","Binocular","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest","haxey_invisible_vest",LINKED_ITEMS_BASE};
 };
 
 class haxey_Milice_Taliban_Infantry_AR: haxey_Taliban_base {
@@ -58,8 +58,8 @@ class haxey_Milice_Taliban_Infantry_AR: haxey_Taliban_base {
 	respawnWeapons[] = {"hlc_rifle_rpk","Throw","Put"};
 	magazines[] = {DOT_MIL_762MG_0,GRE_MIL_0};
 	respawnMagazines[] = {DOT_MIL_762MG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 };
 class haxey_Milice_Taliban_Infantry_M: haxey_Taliban_base {
 	scope = 2;
@@ -71,8 +71,8 @@ class haxey_Milice_Taliban_Infantry_M: haxey_Taliban_base {
 	respawnWeapons[] = {"haxey_m76","Throw","Put"};
 	magazines[] = {DOT_MIL_762DMR_0,GRE_MIL_0};
 	respawnMagazines[] = {DOT_MIL_762DMR_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 };
 class haxey_Milice_Taliban_Infantry_exp: haxey_Taliban_base {
 	scope = 2;
@@ -84,8 +84,8 @@ class haxey_Milice_Taliban_Infantry_exp: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_ak74_2","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 	backpack = "haxey_B_FieldPack_cbr_IED";
 };
 class haxey_Milice_Taliban_Infantry_LAT: haxey_Taliban_base {
@@ -98,8 +98,8 @@ class haxey_Milice_Taliban_Infantry_LAT: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_ak74_2","rhs_weap_rpg26","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 };
 class haxey_Milice_Taliban_Infantry_AT: haxey_Taliban_base {
 	scope = 2;
@@ -111,8 +111,8 @@ class haxey_Milice_Taliban_Infantry_AT: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_aks74_2","rhs_weap_rpg7","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 	backpack = "haxey_O_rhs_rpg_AT";
 };
 
@@ -126,8 +126,8 @@ class haxey_Milice_Taliban_Infantry_rflm_1: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_akms","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
 	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 };
 class haxey_Milice_Taliban_Infantry_rflm_2: haxey_Milice_Taliban_Infantry_rflm_1 {
 	weapons[] = {"rhs_weap_akm","Throw","Put"};
@@ -154,8 +154,8 @@ class haxey_Milice_Taliban_Infantry_HG: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
 	magazines[] = {DOT_MIL_762HMG_0,GRE_MIL_0};
 	respawnMagazines[] = {DOT_MIL_762HMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 	backpack = "haxey_O_sidor_HG";
 };
 class haxey_Milice_Taliban_Infantry_AHG: haxey_Milice_Taliban_Infantry_HG {
@@ -176,8 +176,8 @@ class haxey_Milice_Taliban_Infantry_DShKM: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_aks74u","Throw","Put"};
 	magazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
 	respawnMagazines[] = {DOT_MIL_545LMG_0,GRE_MIL_0};
-	linkedItems[] = {LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {LINKED_ITEMS_BASE};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 	backpack = "RHS_DShkM_Gun_Bag";
 };
 class haxey_Milice_Taliban_Infantry_ADShKM: haxey_Milice_Taliban_Infantry_DShKM {
