@@ -15,83 +15,83 @@ class haxey_US_Army_UCP_Infantry_CompCom: haxey_US_Army_Base {
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_PRC152};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_PRC152};
 	weapons[] = {"haxey_M4A1","Leupold_Mk4","Throw","Put"};
 	respawnWeapons[] = {"haxey_M4A1","Leupold_Mk4","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	respawnMagazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	linkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_UCP_ACRE_PRC117F";
 };
 class haxey_US_Army_UCP_Infantry_ExecOff: haxey_US_Army_Base {
 	scope = 2;
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_HQMen";
 	displayName = "Executive officer";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_PRC152};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_PRC152};
 	weapons[] = {"haxey_M4A1","Leupold_Mk4","Throw","Put"};
 	respawnWeapons[] = {"haxey_M4A1","Leupold_Mk4","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	respawnMagazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	linkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_UCP_ACRE_PRC117F";
 };
 class haxey_US_Army_UCP_Infantry_1stSerg: haxey_US_Army_Base {
 	scope = 2;
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_PRC152};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_PRC152};
 	weapons[] = {"haxey_M4A1","Binocular","Throw","Put"};
 	respawnWeapons[] = {"haxey_M4A1","Binocular","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	respawnMagazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	linkedItems[] = {"rhsusf_iotv_ucp_Teamleader","rhsusf_ach_helmet_ESS_ucp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ucp_Teamleader","rhsusf_ach_helmet_ESS_ucp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_UCP_ACRE_PRC117F";
 };
 class haxey_US_Army_UCP_Infantry_PL: haxey_US_Army_Base {
 	scope = 2;
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_PRC152};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_PRC152};
 	weapons[] = {"haxey_M4A1","lerca_1200_black","Throw","Put"};
 	respawnWeapons[] = {"haxey_M4A1","lerca_1200_black","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	respawnMagazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	linkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_UCP_ACRE_PRC117F";
 };
 class haxey_US_Army_UCP_Infantry_SL: haxey_US_Army_Base {
 	scope = 2;
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_Men";
 	displayName = "Squad Leader";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_PRC343,ACRE_PRC152};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_PRC343,ACRE_PRC152};
 	weapons[] = {"haxey_M4A1","lerca_1200_black","Throw","Put"};
 	respawnWeapons[] = {"haxey_M4A1","lerca_1200_black","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	respawnMagazines[] = {DOT_US_556LMG_0,GRE_US_0,GRE_US_1};
 	linkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ucp_Squadleader","rhsusf_ach_helmet_headset_ucp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "rhsusf_assault_eagleaiii_ucp";
 };
 class haxey_US_Army_UCP_Infantry_TL: haxey_US_Army_Base {
 	scope = 2;
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_Men";
 	displayName = "Team Leader";
-	Items[] = {ITEMS_ACE_0};
-	RespawnItems[] = {ITEMS_ACE_0};
+	Items[] = {ITEMS_ACE_0,ACRE_PRC343};
+	RespawnItems[] = {ITEMS_ACE_0,ACRE_PRC343};
 	weapons[] = {"haxey_M16A4M203","Binocular","Throw","Put"};
 	respawnWeapons[] = {"haxey_M16A4M203","Binocular","Throw","Put"};
 	magazines[] = {DOT_US_556LMG_0,GRE_US_0};
@@ -210,8 +210,8 @@ class haxey_US_Army_UCP_Infantry_M: haxey_US_Army_Base {
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_Men";
 	displayName = "Marksman";
-	Items[] = {ITEMS_ACE_0};
-	RespawnItems[] = {ITEMS_ACE_0};
+	Items[] = {ITEMS_ACE_0,ACRE_PRC343};
+	RespawnItems[] = {ITEMS_ACE_0,ACRE_PRC343};
 	weapons[] = {"haxey_M14","Throw","Put"};
 	respawnWeapons[] = {"haxey_M14","Throw","Put"};
 	magazines[] = {DOT_US_762DMR_0,GRE_US_0};
@@ -255,15 +255,15 @@ class haxey_US_Army_UCP_Infantry_Spotter: haxey_US_Army_Base {
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
-	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2};
-	RespawnItems[] = {ITEMS_ACE_0,ITEMS_ACE_2};
+	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2,ACRE_PRC152};
+	RespawnItems[] = {ITEMS_ACE_0,ITEMS_ACE_2,ACRE_PRC152};
 	weapons[] = {"haxey_M24","ACE_Vector","Throw","Put"};
 	respawnWeapons[] = {"haxey_M24","ACE_Vector","Throw","Put"};
 	magazines[] = {DOT_US_762SNP_0,GRE_US_0,GRE_US_1};
 	respawnMagazines[] = {DOT_US_762SNP_0,GRE_US_0,GRE_US_1};
 	linkedItems[] = {"rhsusf_iotv_ucp_Rifleman","rhsusf_ach_helmet_ESS_ucp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ucp_Rifleman","rhsusf_ach_helmet_ESS_ucp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "rhsusf_assault_eagleaiii_ucp";
 };
 class haxey_US_Army_UCP_Infantry_Sniper: haxey_US_Army_Base {
 	scope = 2;
@@ -359,7 +359,7 @@ class haxey_US_Army_UCP_Infantry_rflm: haxey_US_Army_Base {
 	scope = 2;
 	faction = "haxey_US_Army_UCP";
 	vehicleClass = "H_Men";
-	displayName = "Rifleman";
+	displayName = "Rifleman (AT-4)";
 	Items[] = {ITEMS_ACE_0};
 	RespawnItems[] = {ITEMS_ACE_0};
 	weapons[] = {"haxey_M16A4","rhs_weap_M136","Throw","Put"};
@@ -422,30 +422,35 @@ class haxey_US_Army_OCP_Infantry_CompCom: haxey_US_Army_UCP_Infantry_CompCom {
 	uniformClass = "rhs_uniform_cu_ocp";
 	linkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_OCP_Infantry_ExecOff: haxey_US_Army_UCP_Infantry_ExecOff {
 	faction = "haxey_US_Army_OCP";
 	uniformClass = "rhs_uniform_cu_ocp";
 	linkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_OCP_Infantry_1stSerg: haxey_US_Army_UCP_Infantry_1stSerg {
 	faction = "haxey_US_Army_OCP";
 	uniformClass = "rhs_uniform_cu_ocp";
 	linkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_ESS_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ocp_Teamleader","rhsusf_ach_helmet_ESS_ocp",LINKED_ITEMS_BASE};
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_OCP_Infantry_PL: haxey_US_Army_UCP_Infantry_PL {
 	faction = "haxey_US_Army_OCP";
 	uniformClass = "rhs_uniform_cu_ocp";
 	linkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_OCP_Infantry_SL: haxey_US_Army_UCP_Infantry_SL {
 	faction = "haxey_US_Army_OCP";
 	uniformClass = "rhs_uniform_cu_ocp";
 	linkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ocp_Squadleader","rhsusf_ach_helmet_headset_ocp",LINKED_ITEMS_BASE};
+	backpack = "rhsusf_assault_eagleaiii_ocp";
 };
 class haxey_US_Army_OCP_Infantry_TL: haxey_US_Army_UCP_Infantry_TL {
 	faction = "haxey_US_Army_OCP";
@@ -525,6 +530,7 @@ class haxey_US_Army_OCP_Infantry_Spotter: haxey_US_Army_UCP_Infantry_Spotter {
 	uniformClass = "rhs_uniform_cu_ocp";
 	linkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_camo_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_iotv_ocp_Rifleman","rhsusf_ach_helmet_camo_ocp",LINKED_ITEMS_BASE};
+	backpack = "rhsusf_assault_eagleaiii_ocp";
 };
 class haxey_US_Army_OCP_Infantry_Sniper: haxey_US_Army_UCP_Infantry_Sniper {
 	faction = "haxey_US_Army_OCP";
@@ -601,35 +607,35 @@ class haxey_US_Army_M81_Infantry_CompCom: haxey_US_Army_UCP_Infantry_CompCom {
 	uniformClass = "rhs_uniform_FROG01_m81";
 	linkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_M81_Infantry_ExecOff: haxey_US_Army_UCP_Infantry_ExecOff {
 	faction = "haxey_US_Army_M81";
 	uniformClass = "rhs_uniform_FROG01_m81";
 	linkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_M81_Infantry_1stSerg: haxey_US_Army_UCP_Infantry_1stSerg {
 	faction = "haxey_US_Army_M81";
 	uniformClass = "rhs_uniform_FROG01_m81";
 	linkedItems[] = {"rhsusf_spc_teamleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_spc_teamleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_M81_Infantry_PL: haxey_US_Army_UCP_Infantry_PL {
 	faction = "haxey_US_Army_M81";
 	uniformClass = "rhs_uniform_FROG01_m81";
 	linkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "haxey_US_OCP_ACRE_PRC117F";
 };
 class haxey_US_Army_M81_Infantry_SL: haxey_US_Army_UCP_Infantry_SL {
 	faction = "haxey_US_Army_M81";
 	uniformClass = "rhs_uniform_FROG01_m81";
 	linkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_spc_squadleader","rhsusf_ach_helmet_M81",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "rhsusf_assault_eagleaiii_coy";
 };
 class haxey_US_Army_M81_Infantry_TL: haxey_US_Army_UCP_Infantry_TL {
 	faction = "haxey_US_Army_M81";
@@ -713,7 +719,7 @@ class haxey_US_Army_M81_Infantry_Spotter: haxey_US_Army_UCP_Infantry_Spotter {
 	uniformClass = "rhs_uniform_FROG01_m81";
 	linkedItems[] = {"rhsusf_spc_rifleman","rhsusf_ach_helmet_camo_ocp",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhsusf_spc_rifleman","rhsusf_ach_helmet_camo_ocp",LINKED_ITEMS_BASE};
-	backpack = "tf_rt1523g_rhs";
+	backpack = "rhsusf_assault_eagleaiii_coy";
 };
 class haxey_US_Army_M81_Infantry_Sniper: haxey_US_Army_UCP_Infantry_Sniper {
 	faction = "haxey_US_Army_M81";

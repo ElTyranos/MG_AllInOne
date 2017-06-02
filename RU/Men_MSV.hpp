@@ -20,57 +20,61 @@ class haxey_MSV_EMR_Infantry_CompCom: haxey_MSV_Base {
 	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "Company commander";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_SEM52SL};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_SEM52SL};
 	weapons[] = {"haxey_ak74m","Binocular","Throw","Put"};
 	respawnWeapons[] = {"haxey_ak74m","Binocular","Throw","Put"};
 	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
 	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset_mapcase","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset_mapcase","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_EMR_Infantry_DeputyOff: haxey_MSV_EMR_Infantry_CompCom {
 	scope = 2;
 	displayName = "Deputy officer";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
-class haxey_MSV_EMR_Infantry_1stSerg: haxey_MSV_Base {
+class haxey_MSV_EMR_Infantry_1stSerg: haxey_MSV_EMR_Infantry_CompCom {
 	scope = 2;
 	vehicleClass = "H_HQMen";
 	displayName = "1st Sergeant";
-	Items[] = {ITEMS_ACE_1};
-	RespawnItems[] = {ITEMS_ACE_1};
+	Items[] = {ITEMS_ACE_1,ACRE_SEM52SL};
+	RespawnItems[] = {ITEMS_ACE_1,ACRE_SEM52SL};
 	weapons[] = {"haxey_ak74m","Binocular","Throw","Put"};
 	respawnWeapons[] = {"haxey_ak74m","Binocular","Throw","Put"};
 	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
 	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
-class haxey_MSV_EMR_Infantry_PL: haxey_MSV_Base {
+class haxey_MSV_EMR_Infantry_PL: haxey_MSV_EMR_Infantry_CompCom {
 	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Platoon Leader";
-	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
-	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1};
+	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1,ACRE_SEM52SL};
+	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0,GRE_RU_1,ACRE_SEM52SL};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset_mapcase","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset_mapcase","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
-class haxey_MSV_EMR_Infantry_APL: haxey_MSV_Base {
+class haxey_MSV_EMR_Infantry_APL: haxey_MSV_EMR_Infantry_PL {
 	scope = 2;
 	displayName = "Assistant Platoon Leader";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
-class haxey_MSV_EMR_Infantry_SL: haxey_MSV_Base {
+class haxey_MSV_EMR_Infantry_SL: haxey_MSV_EMR_Infantry_PL {
 	scope = 2;
 	displayName = "Squad Leader";
+	backpack = "rhs_sidor";
 };
 class haxey_MSV_EMR_Infantry_TL: haxey_MSV_Base {
 	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Team Leader";
-	Items[] = {ITEMS_ACE_0};
-	RespawnItems[] = {ITEMS_ACE_0};
+	Items[] = {ITEMS_ACE_0,ACRE_PRC343};
+	RespawnItems[] = {ITEMS_ACE_0,ACRE_PRC343};
 	weapons[] = {"haxey_ak74m_gp25","rhs_weap_rshg2","Binocular","Throw","Put"};
 	respawnWeapons[] = {"haxey_ak74m_gp25","rhs_weap_rshg2","Binocular","Throw","Put"};
 	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0};
@@ -181,8 +185,8 @@ class haxey_MSV_EMR_Infantry_M: haxey_MSV_Base {
 	scope = 2;
 	vehicleClass = "H_Men";
 	displayName = "Marksman";
-	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2};
-	RespawnItems[] = {ITEMS_ACE_0,ITEMS_ACE_2};
+	Items[] = {ITEMS_ACE_0,ACRE_PRC343,ITEMS_ACE_2};
+	RespawnItems[] = {ITEMS_ACE_0,ACRE_PRC343,ITEMS_ACE_2};
 	weapons[] = {"haxey_SVD","Throw","Put"};
 	respawnWeapons[] = {"haxey_SVD","Throw","Put"};
 	magazines[] = {DOT_RU_762DMR_0,GRE_RU_0};
@@ -223,15 +227,15 @@ class haxey_MSV_EMR_Infantry_Spotter: haxey_MSV_Base {
 	scope = 2;
 	vehicleClass = "H_SuppMen";
 	displayName = "Spotter";
-	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2};
-	RespawnItems[] = {ITEMS_ACE_0,ITEMS_ACE_2};
+	Items[] = {ITEMS_ACE_0,ITEMS_ACE_2,ACRE_SEM52SL};
+	RespawnItems[] = {ITEMS_ACE_0,ITEMS_ACE_2,ACRE_SEM52SL};
 	weapons[] = {"haxey_ak74m","ACE_Yardage450","Throw","Put"};
 	respawnWeapons[] = {"haxey_ak74m","ACE_Yardage450","Throw","Put"};
 	magazines[] = {DOT_RU_545LMG_0,GRE_RU_0};
 	respawnmagazines[] = {DOT_RU_545LMG_0,GRE_RU_0};
 	linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b27m_digi_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "rhs_sidor";
 };
 class haxey_MSV_EMR_Infantry_Sniper: haxey_MSV_Base {
 	scope = 2;
@@ -320,7 +324,7 @@ class haxey_MSV_EMR_Infantry_ASAA: haxey_MSV_Base {
 class haxey_MSV_EMR_Infantry_rflm: haxey_MSV_Base {
 	scope = 2;
 	vehicleClass = "H_Men";
-	displayName = "Rifleman";
+	displayName = "Rifleman (RPG-26)";
 	Items[] = {ITEMS_ACE_0};
 	RespawnItems[] = {ITEMS_ACE_0};
 	weapons[] = {"haxey_ak74m","rhs_weap_rpg26","Throw","Put"};
@@ -380,42 +384,42 @@ class haxey_MSV_Flora_Infantry_CompCom: haxey_MSV_EMR_Infantry_CompCom {
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_Flora_Infantry_DeputyOff: haxey_MSV_EMR_Infantry_DeputyOff {
 	faction = "haxey_faction_MSV_Flora";
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_Flora_Infantry_1stSerg: haxey_MSV_EMR_Infantry_1stSerg {
 	faction = "haxey_faction_MSV_Flora";
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_Flora_Infantry_PL: haxey_MSV_EMR_Infantry_PL {
 	faction = "haxey_faction_MSV_Flora";
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_Flora_Infantry_APL: haxey_MSV_EMR_Infantry_APL {
 	faction = "haxey_faction_MSV_Flora";
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_Flora_Infantry_SL: haxey_MSV_EMR_Infantry_SL {
 	faction = "haxey_faction_MSV_Flora";
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset_mapcase","rhs_6b26",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "rhs_sidor";
 };
 class haxey_MSV_Flora_Infantry_TL: haxey_MSV_EMR_Infantry_TL {
 	faction = "haxey_faction_MSV_Flora";
@@ -499,7 +503,7 @@ class haxey_MSV_Flora_Infantry_Spotter: haxey_MSV_EMR_Infantry_Spotter {
 	uniformClass = "rhs_uniform_flora";
 	linkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_bala",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_6sh92_headset","rhs_6b26_bala",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "rhs_sidor";
 };
 class haxey_MSV_Flora_Infantry_Sniper: haxey_MSV_EMR_Infantry_Sniper {
 	faction = "haxey_faction_MSV_Flora";
@@ -578,42 +582,42 @@ class haxey_MSV_M88_Infantry_CompCom: haxey_MSV_EMR_Infantry_CompCom {
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_M88_Infantry_DeputyOff: haxey_MSV_EMR_Infantry_DeputyOff {
 	faction = "haxey_faction_MSV_M88";
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_M88_Infantry_1stSerg: haxey_MSV_EMR_Infantry_1stSerg {
 	faction = "haxey_faction_MSV_M88";
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_M88_Infantry_PL: haxey_MSV_EMR_Infantry_PL {
 	faction = "haxey_faction_MSV_M88";
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_M88_Infantry_APL: haxey_MSV_EMR_Infantry_APL {
 	faction = "haxey_faction_MSV_M88";
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "haxey_O_umbts_ACRE_SEM70";
 };
 class haxey_MSV_M88_Infantry_SL: haxey_MSV_EMR_Infantry_SL {
 	faction = "haxey_faction_MSV_M88";
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset_mapcase","rhs_6b27m_ml_ess",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "rhs_sidor";
 };
 class haxey_MSV_M88_Infantry_TL: haxey_MSV_EMR_Infantry_TL {
 	faction = "haxey_faction_MSV_M88";
@@ -697,7 +701,7 @@ class haxey_MSV_M88_Infantry_Spotter: haxey_MSV_EMR_Infantry_Spotter {
 	uniformClass = "rhs_uniform_m88_patchless";
 	linkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess_bala",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"rhs_6b23_ML_6sh92_headset","rhs_6b27m_ml_ess_bala",LINKED_ITEMS_BASE};
-	backpack = "tf_mr3000_rhs";
+	backpack = "rhs_sidor";
 };
 class haxey_MSV_M88_Infantry_Sniper: haxey_MSV_EMR_Infantry_Sniper {
 	faction = "haxey_faction_MSV_M88";
