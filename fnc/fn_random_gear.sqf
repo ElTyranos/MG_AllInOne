@@ -16,12 +16,12 @@ switch (_this select 1) do {
 			"btc_h_afghan_06","btc_h_afghan_06_2","btc_h_afghan_06_3","btc_h_afghan_06_4","btc_h_afghan_06_5"
 		];
 		_uniforms = [
-			// "btc_u_afghan_01","btc_u_afghan_01_2","btc_u_afghan_01_3","btc_u_afghan_01_4","btc_u_afghan_01_5",
-			// "btc_u_afghan_02","btc_u_afghan_02_2","btc_u_afghan_02_3","btc_u_afghan_02_4","btc_u_afghan_02_5",
-			// "btc_u_afghan_03","btc_u_afghan_03_2","btc_u_afghan_03_3","btc_u_afghan_03_4","btc_u_afghan_03_5",
-			// "btc_u_afghan_04","btc_u_afghan_04_2","btc_u_afghan_04_3","btc_u_afghan_04_4","btc_u_afghan_04_5",
-			// "btc_u_afghan_05","btc_u_afghan_05_2","btc_u_afghan_05_3","btc_u_afghan_05_4","btc_u_afghan_05_5",
-			// "btc_u_afghan_06","btc_u_afghan_06_2","btc_u_afghan_06_3","btc_u_afghan_06_4","btc_u_afghan_06_5",
+			"btc_u_afghan_01","btc_u_afghan_01_2","btc_u_afghan_01_3","btc_u_afghan_01_4","btc_u_afghan_01_5",
+			"btc_u_afghan_02","btc_u_afghan_02_2","btc_u_afghan_02_3","btc_u_afghan_02_4","btc_u_afghan_02_5",
+			"btc_u_afghan_03","btc_u_afghan_03_2","btc_u_afghan_03_3","btc_u_afghan_03_4","btc_u_afghan_03_5",
+			"btc_u_afghan_04","btc_u_afghan_04_2","btc_u_afghan_04_3","btc_u_afghan_04_4","btc_u_afghan_04_5",
+			"btc_u_afghan_05","btc_u_afghan_05_2","btc_u_afghan_05_3","btc_u_afghan_05_4","btc_u_afghan_05_5",
+			"btc_u_afghan_06","btc_u_afghan_06_2","btc_u_afghan_06_3","btc_u_afghan_06_4","btc_u_afghan_06_5",
 			"btc_u_soldier_01","btc_u_soldier_01_2","btc_u_soldier_01_2",
 			"btc_u_soldier_02","btc_u_soldier_02_2","btc_u_soldier_02_2",
 			"btc_u_soldier_03","btc_u_soldier_03_2","btc_u_soldier_03_2",
