@@ -166,6 +166,20 @@ class haxey_O_umbts_Med: rhs_assault_umbts {
 	};
 };
 
+// ACRE Dorsales
+class haxey_O_umbts_ACRE_SEM70: rhs_assault_umbts {
+	author = "El Tyranos";
+	scope = 1;
+	class TransportItems
+	{
+		class _xx_ACRE_SEM70
+		{
+			count = 1;
+			name = "ACRE_SEM70";
+		};
+	};
+};
+
 #include "Men_MSV.hpp"
 #include "Vhl_MSV.hpp"
 
