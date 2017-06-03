@@ -9,16 +9,21 @@ class haxey_B_FieldPack_cbr_IED: B_FieldPack_cbr {
 			count = 1;
 			name = "ACE_Cellphone";
 		};
+		class _xx_ACE_Clacker
+		{
+			count = 1;
+			name = "ACE_Clacker";
+		};
 		class _xx_IEDUrbanSmall_Remote_Mag
 		{
 			count = 2;
 			name = "IEDUrbanSmall_Remote_Mag";
 		};
-		class _xx_IEDUrbanBig_Remote_Mag
+		class _xx_SatchelCharge_Remote_Mag
 		{
 			count = 1;
-			name = "IEDUrbanBig_Remote_Mag";
-		};
+			name = "SatchelCharge_Remote_Mag";
+		};		
 	};
 };
 
