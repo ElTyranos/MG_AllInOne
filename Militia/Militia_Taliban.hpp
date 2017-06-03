@@ -23,8 +23,8 @@ class haxey_Milice_Taliban_Infantry_PL: haxey_Taliban_base {
 	respawnWeapons[] = {"rhs_weap_akm","Binocular","Throw","Put"};
 	magazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
 	respawnmagazines[] = {DOT_MIL_762LMG_0,GRE_MIL_0,GRE_MIL_1};
-	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_MIL};
-	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_MIL};
+	linkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"haxey_invisible_vest",LINKED_ITEMS_BASE};
 };
 class haxey_Milice_Taliban_Infantry_SL: haxey_Milice_Taliban_Infantry_PL {
 	scope = 2;
