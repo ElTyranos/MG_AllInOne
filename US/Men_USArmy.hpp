@@ -8,7 +8,7 @@ class haxey_US_Army_Base: B_soldier_F {
 	canDeactivateMines = 1;
 	engineer = 1;
 	faceType = "Man_A3";
-	uniformClass = "rhs_uniform_cu_ucp";
+	uniformClass = "rhs_uniform_acu_ucp";
 };
 class haxey_US_Army_UCP_Infantry_CompCom: haxey_US_Army_Base {
 	scope = 2;
