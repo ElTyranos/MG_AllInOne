@@ -7,6 +7,7 @@ class rhs_weap_m14ebrri;
 class rhs_weap_smaw_green;
 class rhs_weap_m24sws_ghillie;
 class rhs_weap_M107_w;
+class rhs_weap_m4a1_carryhandle_m203S;
 class haxey_M4A1: rhs_weap_m4a1_carryhandle_grip {
 	scope = 1;
 	displayName = "M4A1";
@@ -28,6 +29,28 @@ class haxey_M4A1: rhs_weap_m4a1_carryhandle_grip {
 		slot = "PointerSlot";
 		item = "rhsusf_acc_anpeq15_light";
 	 };
+	};
+};
+class haxey_M4A1M203: rhs_weap_m4a1_carryhandle_m203S {
+	scope = 1;
+	displayName = "M4A1 M203";
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = "CowsSlot";
+			item = "rhsusf_acc_compm4";
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = "MuzzleSlot";
+			item = "rhsusf_acc_SF3P556";
+		};
+		class LinkedItemsAcc
+		{
+			slot = "PointerSlot";
+			item = "rhsusf_acc_anpeq15_light";
+		};
 	};
 };
 class haxey_M16A4: rhs_weap_m16a4_carryhandle_grip {
